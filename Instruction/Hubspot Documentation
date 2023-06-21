@@ -10,4 +10,18 @@ npm install @hubspot/cli
 hs create website-theme my-website-theme
 ```
 
-3. Testing
+Optional: Push the new files to Github (check the Github Documentation)
+Optional: Install Tailwind (check the Tailwind Documentation)
+
+3. Authenticate and upload the Hubspot Files. 
+
+Add the script in package.json
+ "hsupload": "hs upload \"_hb_official\" \"_hb_official\" "
+
+
+```
+hs init
+npm run hsupload
+```
+
+
