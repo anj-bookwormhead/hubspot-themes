@@ -1,0 +1,11 @@
+1. Install the HubsPot cli
+
+```
+npm install @hubspot/cli
+```
+
+2. Install the boiler plate 
+
+```
+hs create website-theme my-website-theme
+```

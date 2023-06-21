@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "@hubspot/cli": "^4.1.7"
+  },
+
+  "scripts": {
+    "gitpush": "git add . && git commit -m \"commit\" && git push -u origin main"
   }
+
+
 }
