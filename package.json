@@ -4,8 +4,7 @@
   },
 
   "scripts": {
-    "gitpush": "git add . && git commit -m \"newcommit\" && git push origin main"
+    "gitpush": "git add . && git commit -m \"newcommit\" && git push -u origin main"
   }
-
 
 }
