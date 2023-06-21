@@ -6,7 +6,8 @@
     "gitpush": "git add . && git commit -m \"Your commit message\" && git push origin main",
     "gitpush1": "git pull origin main && git add . && git commit -m \"Your commit message\" && git push origin main",
     "tailrun": "npx tailwindcss -i ./tailwind/css/main.css -o ./_hb_official/css/output.css --watch",
-    "hsupload": "hs upload \"_hb_official\" \"_hb_official\" "
+    "hsupload": "hs upload \"_hb_official\" \"_hb_official\" ",
+    "hswatch": "hs watch \"_hb_official\" \"_hb_official\" "
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"

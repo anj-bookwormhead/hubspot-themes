@@ -1,15 +1,16 @@
 <!--
   templateType: page
   isAvailableForNewContent: true
-  label: Landing page
-  screenshotPath: ../images/template-previews/nothing.png
+  label: Landing page 2023
+  screenshotPath: ../images/template-previews/landing-page.png
 -->
 {% extends "./layouts/base.html" %}
 {{ require_css(get_asset_url('../css/output.css')) }}
 
 {% block header %}
-  {% global_partial path="./partials/header-no-navigation.html" %}
+  {% global_partial path="./partials/_hb-header.html" %}
 {% endblock header %}
+
 
 {% block body %}
 {% dnd_area "dnd_area"
