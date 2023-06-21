@@ -1,5 +1,5 @@
 1. Run the following command to upload your changes in github
 
 ```
-  "gitpush": "git add . && git commit -m \"commit\" && git push -u origin main"
+ npm run gitpush
 ```
