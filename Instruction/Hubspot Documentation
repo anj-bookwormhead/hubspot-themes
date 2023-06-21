@@ -9,3 +9,5 @@ npm install @hubspot/cli
 ```
 hs create website-theme my-website-theme
 ```
+
+3. Testing
