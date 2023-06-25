@@ -1,0 +1,214 @@
+[ {
+  "id" : "ba16e034-5925-8959-63b2-d26bcb60f9c0",
+  "name" : "logo",
+  "display_width" : null,
+  "label" : "Logo",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://blog.hollywoodbranded.com/hubfs/hb-logo.webp",
+    "alt" : "hb-logo",
+    "loading" : "lazy",
+    "width" : 233,
+    "height" : 233,
+    "max_width" : 233,
+    "max_height" : 233
+  }
+}, {
+  "id" : "de03bb10-f696-e31b-a1c5-870f5226bd34",
+  "name" : "cta",
+  "display_width" : null,
+  "label" : "CTA",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "2d3cc7ce-1fc9-f28f-85b4-86a6ca6199d5",
+    "name" : "cta1",
+    "display_width" : null,
+    "label" : "CTA Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://hollywoodbranded.com/contact/",
+        "content_id" : null
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "8cca8181-554c-4d20-77ef-d53c0be09081",
+    "name" : "cta_name",
+    "display_width" : null,
+    "label" : "CTA Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Contact"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "cta1" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://hollywoodbranded.com/contact/",
+        "content_id" : null
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    },
+    "cta_name" : "Contact"
+  }
+}, {
+  "id" : "a58dc16a-b268-5e47-fcd9-59e970c7964b",
+  "name" : "cta_2",
+  "display_width" : null,
+  "label" : "CTA 2",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "9ad693d1-2770-b8c9-3893-370463f65865",
+    "name" : "cta1",
+    "display_width" : null,
+    "label" : "CTA Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://hollywoodbranded.com/services-and-pricing/",
+        "content_id" : null
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "83202dde-bef7-4809-9e9f-264a66aabf63",
+    "name" : "cta_name",
+    "display_width" : null,
+    "label" : "CTA Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "PLAYBOOK"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "cta1" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://hollywoodbranded.com/services-and-pricing/",
+        "content_id" : null
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    },
+    "cta_name" : "PLAYBOOK"
+  }
+}, {
+  "id" : "5a682c03-3403-7989-d413-b3fa97edf9ef",
+  "name" : "menu",
+  "display_width" : null,
+  "label" : "Menu",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "bead5da5-6217-8f5f-eb4b-26a13a25fb62",
+    "name" : "main_menu",
+    "display_width" : null,
+    "label" : "Main Menu",
+    "required" : false,
+    "locked" : false,
+    "type" : "menu"
+  }, {
+    "id" : "7ee4fca0-f757-d195-c4e5-6fe506873f55",
+    "name" : "secondary_menu",
+    "display_width" : null,
+    "label" : "Secondary Menu",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "b2e270a8-f3f5-de2e-3542-0e6a651c19a0",
+      "name" : "secondary_menu",
+      "display_width" : null,
+      "label" : "Secondary Menu",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text"
+    }, {
+      "id" : "9b9beaed-f07c-2e54-5ed0-4ffb3479b686",
+      "name" : "link_field",
+      "display_width" : null,
+      "label" : "Link",
+      "required" : false,
+      "locked" : false,
+      "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION" ],
+      "show_advanced_rel_options" : false,
+      "type" : "link",
+      "default" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "link_field" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "secondary_menu" : {
+      "link_field" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    }
+  }
+} ]

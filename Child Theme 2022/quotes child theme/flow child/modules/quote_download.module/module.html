@@ -1,0 +1,24 @@
+<!-- quote_download.module - commerce-default-modules -->
+
+<span id="hs-download__container">
+  <button class="hs-download__button">{{ module.button_text }}</button>
+
+  <span class="hs-download__alert--error">{{ module.download_error }}</span>
+
+  <template id="hs-download__template">
+    <div class="hs-download__loading-spinner"></div>
+  </template>
+</span>
+
+{# Download a PDF of the quote #} {% from '/Child Theme 2022/quotes child theme/flow child/data/mock_data.html' import
+SAMPLE_TEMPLATE_DATA as mock_data %} {% set QUOTE = template_data.quote ||
+mock_data.quote %} {# DO NOT EDIT - used for download #} {% require_js
+position="head" %}
+<script type="application/json" data-module-instance="download">
+  {
+    "url_key": "{{ QUOTE.hs_public_url_key }}",
+    "api_base_url": "{{ template_data.hubspot_base_url || mock_data.hubspot_base_url }}",
+    "is_preview": {{ template_data.is_preview }}
+  }
+</script>
+{% end_require_js %}

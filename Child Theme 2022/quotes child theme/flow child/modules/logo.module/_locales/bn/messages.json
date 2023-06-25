@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "লোগো",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "লোগো",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "আপনি এই টগল ব্যবহার করে এই টেমপ্লেটে প্রয়োগ করা লোগোটিকে ওভাররাইড করতে বেছে নিতে পারেন।",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "ডিফল্ট লোগো ওভাররাইড করুন",
+    "description" : "",
+    "placeholders" : null
+  }
+}

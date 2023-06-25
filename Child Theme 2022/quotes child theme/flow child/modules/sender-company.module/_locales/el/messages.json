@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Εταιρεία αποστολέα",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Αν επιλέξετε μια εικόνα, θα εμφανίζεται ως το λογότυπο της εταιρείας σας",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Εικόνα εταιρείας αποστολέα",
+    "description" : "",
+    "placeholders" : null
+  }
+}

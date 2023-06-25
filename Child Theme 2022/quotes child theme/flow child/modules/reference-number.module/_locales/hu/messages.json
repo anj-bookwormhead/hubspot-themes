@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Hivatkozási szám",
+    "description" : "",
+    "placeholders" : null
+  },
+  "reference_text.label" : {
+    "message" : "Hivatkozási szöveg",
+    "description" : "",
+    "placeholders" : null
+  }
+}

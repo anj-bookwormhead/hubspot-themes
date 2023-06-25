@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Feladó vállalat",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Ha kiválaszt egy képet, ez jelenik meg a vállalata logójaként",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Feladó vállalat képe",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,32 @@
+<div {% if module.custom_id %}id="{{ module.custom_id }}"{% endif %} class="button-lite relative {% if module.styles.shadow.shadow %}shadow-md{% endif %} {{ module.custom_classes }}">
+	{% if module.content.button_option == 'button' %}
+		<a href="{{ module.content.button_url.href }}" class="relative btn-m btn btn-solid btn-primary text-white">{{ module.content.button_text }}</a>
+	{% else %}
+	  {% cta guid="{{ module.content.cta }}" %}
+	{% endif %}
+</div>
+
+{% require_css %}
+<style>
+	{% scope_css %}
+	.button-lite {
+		{% if module.styles.background.background_option == 'solid' %}
+		background-color: {{ module.styles.background.bg_color.color }};
+		{% elif module.styles.background.background_option == 'image' %}
+		{{ module.styles.background.bg_image.css }}
+		{% endif %}
+		{% if module.styles.border.enable_border %}{{ module.styles.border.border.css }}{% endif %}
+		{{ module.styles.spacing.spacing.css }}
+		{{ module.styles.typography.text_alignment.css }}
+	}
+  {% if module.styles.typography.customize_button_color %}
+		.button-lite a {
+			background-color: {{ module.styles.typography.button_background_color.color }}!important;
+			color: {{ module.styles.typography.button_text_color.color }}!important;
+	  }
+	{% endif %}
+	{% end_scope_css %}
+</style>
+{% end_require_css %} 
+
+

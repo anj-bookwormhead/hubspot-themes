@@ -1,0 +1,135 @@
+/* Direction */
+.menu ul {
+	flex-wrap: nowrap;
+	margin-top: 0;
+}
+
+@media (min-width: 768px) {
+	.menu-vertical .hs-menu-wrapper > ul {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 767px) {
+  .menu-horizontal ul,
+  .menu-vertical ul {
+		white-space: nowrap;
+		overflow-x: scroll;
+  }
+}
+
+/* 
+ * Styles 
+ */
+
+.menu .hs-menu-item a {
+	color: inherit;
+}
+.menu .hs-menu-item.active a {
+	font-weight: bold;
+}
+
+/* Border */
+.menu-border.menu-horizontal ul {
+	text-align: center;
+}
+.menu-border.menu-horizontal ul li {
+	width: 100%;
+}
+.menu-border .hs-menu-item a {
+	border-bottom: 1px solid var(--color-light);
+	padding: 1em;
+}
+.menu-border.menu-horizontal .hs-menu-item.active a {
+	border-bottom-width: 2px;
+}
+@media (min-width: 768px) {
+  .menu-border.menu-vertical .hs-menu-item a {
+		border-bottom: 0;
+    border-left: 1px solid var(--color-light);
+	  padding: .5em 1em;
+	}
+	.menu-border.menu-vertical .hs-menu-item.active a {
+		border-left-width: 2px;
+	}
+}
+.menu-border .hs-menu-item a:hover,
+.menu-border .hs-menu-item.active a {
+	color: {{ primary }};
+	border-color: {{ primary }};
+	font-weight: bold;
+}
+
+/* Box */
+.menu-box ul {
+	margin: -0.35rem;
+}
+.menu-box ul li {
+	padding: .35rem;
+	width: 100%;
+}
+.menu-box .hs-menu-item a {
+	padding: 1em 1.5em;
+	color: var(--color);
+	background: var(--background);
+	transition: all ease 200ms;
+	position: relative;
+	border-radius: {{ component_border_radius }}px;
+	overflow: hidden;
+}
+.menu-box .hs-menu-item a:after {
+	content: "";
+	position: absolute;
+	left: -1px;
+	bottom: -0;
+	width: calc(100% + 2px);
+	height: 0px;
+	background: {{ primary }};
+}
+.menu-box .hs-menu-item a:hover,
+.menu-box .hs-menu-item.active a {
+	border-color: #fff;
+/* 	color: {{ primary }}; */
+}
+.menu-box .hs-menu-item a:hover:after,
+.menu-box .hs-menu-item.active a:after {
+  height: 2px;
+}
+
+/* Card */
+.menu-card ul,
+.menu-card-border ul {
+	margin: -.75rem;
+}
+.menu-card ul li,
+.menu-card-border ul li {
+	padding: .75rem;
+	width: 100%;
+}
+.menu-card .hs-menu-item a,
+.menu-card-border .hs-menu-item a {
+	padding: 1em 2em;
+	color: var(--color);
+	box-shadow: {{ button_shadow }};
+	background: var(--background);
+	transition: all ease 200ms;
+	position: relative;
+	border-radius: {{ component_border_radius }}px;
+	width: 100%;
+}
+	.menu-card-border .hs-menu-item a {
+	  border: 1px solid var(--color-light);
+	}
+.menu-card .hs-menu-item a:hover,
+.menu-card .hs-menu-item.active a,
+.menu-card-border .hs-menu-item a:hover,
+.menu-card-border .hs-menu-item.active a {
+	background: var(--primary-100);
+	color: {{ primary }};
+}
+	.menu-card-border .hs-menu-item a:hover,
+	.menu-card-border .hs-menu-item.active a {
+		border-color: {{ primary }};
+	}
+

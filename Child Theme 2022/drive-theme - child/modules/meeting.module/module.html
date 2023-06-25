@@ -1,0 +1,13 @@
+{% if !module.meeting_url.href %}
+<div class="meeting-placeholder">
+  <div class="meeting-alert">
+    Please enter your Meeting Link URL. You can find this by going to Marketing > Meetings. Hover over the Meeting you want to include, click "Copy Link" and paste in the module field.
+  </div>
+  <img src="{{ get_asset_url('../../images/img-meeting-default.png') }}" alt="meeting-calendar">
+</div>
+{% else %}
+<!-- Start of Meetings Embed Script -->
+  <div class="meetings-iframe-container" data-src="{{ module.meeting_url.href }}?embed=true"></div>
+  <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+<!-- End of Meetings Embed Script -->
+{% endif %}

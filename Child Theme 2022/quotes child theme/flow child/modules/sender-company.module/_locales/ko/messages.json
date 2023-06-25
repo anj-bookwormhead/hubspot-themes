@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "보낸 사람 회사",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "이미지를 선택하면 회사 로고로 표시됩니다.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "보낸 사람 회사 이미지",
+    "description" : "",
+    "placeholders" : null
+  }
+}

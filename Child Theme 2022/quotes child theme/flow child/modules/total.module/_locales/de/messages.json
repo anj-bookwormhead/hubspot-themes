@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Gesamt",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_title.default" : {
+    "message" : "Gesamt",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_title.label" : {
+    "message" : "Text für Summe",
+    "description" : "",
+    "placeholders" : null
+  }
+}

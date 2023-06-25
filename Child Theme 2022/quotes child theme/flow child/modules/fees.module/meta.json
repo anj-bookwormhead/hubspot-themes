@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "dollar-sign",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84089905964,
+  "label" : "Fees",
+  "is_available_for_new_content" : false
+}

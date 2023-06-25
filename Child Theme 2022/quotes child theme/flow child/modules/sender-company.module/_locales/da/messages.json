@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Afsendervirksomhed",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Hvis du vælger et billede, vil det blive vist som dit virksomhedslogo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Afsendervirksomhedens image",
+    "description" : "",
+    "placeholders" : null
+  }
+}

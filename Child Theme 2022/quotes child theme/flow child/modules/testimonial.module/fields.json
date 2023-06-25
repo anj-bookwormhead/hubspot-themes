@@ -1,0 +1,66 @@
+[ {
+  "id" : "testimonial",
+  "name" : "testimonial",
+  "display_width" : null,
+  "label" : "Testimonial",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 0,
+    "max" : 6,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "testimonial.testimonial_image",
+    "name" : "testimonial_image",
+    "display_width" : null,
+    "label" : "Testimonial image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "src" : "https://f.hubspotusercontentqa00.net/hubfs/105234054/testimonial-author-avatar.png",
+      "alt" : null
+    }
+  }, {
+    "id" : "testimonial.testimonial_text",
+    "name" : "testimonial_text",
+    "display_width" : null,
+    "label" : "Testimonial text",
+    "required" : false,
+    "locked" : false,
+    "enabled_features" : [ "fonts", "standard_emphasis", "colors", "personalize" ],
+    "type" : "richtext",
+    "default" : "&#8220;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque faucibus pellentesque justo, eget viverra turpis blandit eget. Maecenas eu leo at nulla convallis viverra. Fusce sit amet erat in massa convallis venenatis.&#8221;"
+  }, {
+    "id" : "testimonial.testimonial_author",
+    "name" : "testimonial_author",
+    "display_width" : null,
+    "label" : "Testimonial author",
+    "required" : false,
+    "locked" : false,
+    "enabled_features" : [ "fonts", "standard_emphasis", "colors", "personalize" ],
+    "type" : "richtext",
+    "default" : "JENNIFER ROBBINS"
+  }, {
+    "id" : "testimonial.testimonial_author_company",
+    "name" : "testimonial_author_company",
+    "display_width" : null,
+    "label" : "Testimonial author company",
+    "required" : false,
+    "locked" : false,
+    "enabled_features" : [ "fonts", "standard_emphasis", "colors", "personalize" ],
+    "type" : "richtext",
+    "default" : "Company name"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : true,
+  "type" : "group",
+  "default" : {
+    "resource_unit_title" : "Testimonial"
+  }
+} ]

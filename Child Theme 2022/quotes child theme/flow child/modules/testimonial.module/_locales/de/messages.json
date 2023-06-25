@@ -1,0 +1,37 @@
+{
+  "name" : {
+    "message" : "Testimonial",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.label" : {
+    "message" : "Testimonial",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author.label" : {
+    "message" : "Testimonial-Autor",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.default" : {
+    "message" : "Unternehmensname",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.label" : {
+    "message" : "Unternehmen des Testimonial-Autors",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_image.label" : {
+    "message" : "Testimonial-Bild",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_text.label" : {
+    "message" : "Testimonial-Text",
+    "description" : "",
+    "placeholders" : null
+  }
+}

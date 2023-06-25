@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "../../../../Child%20Theme%202022/Hatch_Lite%20child/images/module-icons/button.svg",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 83389483948,
+  "label" : "Button LITE",
+  "is_available_for_new_content" : true
+}

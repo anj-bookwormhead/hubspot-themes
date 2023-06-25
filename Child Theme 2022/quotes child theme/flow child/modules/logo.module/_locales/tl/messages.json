@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Maaari mong piliin na sapawan ang logo na inilapat sa template na ito sa pamamagitan ng paggamit sa toggle na ito.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "I-override ang default na logo",
+    "description" : "",
+    "placeholders" : null
+  }
+}

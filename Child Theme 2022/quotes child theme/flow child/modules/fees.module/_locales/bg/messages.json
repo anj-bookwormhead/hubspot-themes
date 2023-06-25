@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Такси",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Други такси",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Текст за други такси",
+    "description" : "",
+    "placeholders" : null
+  }
+}

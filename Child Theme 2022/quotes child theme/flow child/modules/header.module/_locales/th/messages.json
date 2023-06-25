@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>ข้อเสนอของเรา</span>\n",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "กำหนดค่ารูปลักษณ์ส่วนหัวบนใบเสนอราคาที่สร้างโดยใช้เทมเพลตนี้",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "ส่วนหัวที่แสดง",
+    "description" : "",
+    "placeholders" : null
+  }
+}

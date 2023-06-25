@@ -1,0 +1,12 @@
+
+<div class="statistic">
+  <div class="statistic__info" 
+       style="font-size: {{ module.style.font_size}}px; 
+              color: {{ module.style.font_color.color}}; 
+              font-weight: {{ module.style.font_weight}};">
+    {{ module.statistic_number }}{% if module.statistic_unit %}<span class="statistic__unit">{{ module.statistic_unit }}</span>{% endif %}
+  </div>
+  {% if module.statistic_description %}
+    <div class="statistic__description">{{ module.statistic_description }}</div>
+  {% endif %}
+</div>

@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Vores tilbud</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Konfigurer, hvordan overskriften ser ud i tilbud, der er oprettet med denne skabelon.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Vist overskrift",
+    "description" : "",
+    "placeholders" : null
+  }
+}

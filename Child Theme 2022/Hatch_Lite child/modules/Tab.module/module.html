@@ -1,0 +1,19 @@
+<div class="hs-tabs">
+	<ul class="hs-tabs__nav">  
+    {% for item in module.tab -%}
+    <li><a href="#tab-{{ loop.index }}" class="hs-tabs__navitem{% if loop.index == 1 %} hs-tabs__navitem--active{% endif %}">{% inline_text field="tab_label" value="{{ item.tab_label }}" %}</a></li>
+    {%- endfor %}
+	</ul>
+  {% for item in module.tab %}
+		<div id="tab-{{ loop.index }}" class="hs-tabs__item{% if loop.index == 1 %} hs-tabs__item--active{% endif %}">{% inline_rich_text field="content" value="{{ item.content }}" %}</div>  
+  {% endfor %}
+</div>
+
+{% require_css %}
+<style>
+  .hs-tabs__navitem:not(.hs-tabs__navitem--active) {
+    background-color: {{ module.tab_bg_color.color }};
+    color: {{ module.tab_text_color.color }};
+  }
+</style>
+{% end_require_css %}

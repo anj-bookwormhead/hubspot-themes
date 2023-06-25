@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "บริษัทผู้ส่ง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "หากคุณเลือกรูปภาพ รูปภาพนั้นจะแสดงเป็นโลโก้บริษัทของคุณ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "ชื่อบริษัทของผู้ส่ง",
+    "description" : "",
+    "placeholders" : null
+  }
+}

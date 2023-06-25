@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Fees",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Other Fees",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Other fees text",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,13 @@
+.statistic {
+  text-align: center;
+}
+
+.statistic__info {
+  line-height: 1.0;
+  text-align: center;
+  width: 100%;
+}
+
+.statistic__unit {
+  font-size: 0.4em;
+}

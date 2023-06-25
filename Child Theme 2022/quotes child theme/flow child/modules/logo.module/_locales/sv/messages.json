@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logotyp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logotyp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Du kan välja att åsidosätta logotypen som gäller denna mall genom att använda detta vippreglage.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Åsidosätt standard logotyp",
+    "description" : "",
+    "placeholders" : null
+  }
+}

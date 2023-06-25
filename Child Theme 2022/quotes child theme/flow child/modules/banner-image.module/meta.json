@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "image",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84089769088,
+  "label" : "Banner image",
+  "is_available_for_new_content" : true
+}

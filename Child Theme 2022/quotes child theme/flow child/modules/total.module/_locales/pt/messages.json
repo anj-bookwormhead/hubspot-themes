@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Total",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_title.default" : {
+    "message" : "Total",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_title.label" : {
+    "message" : "Texto total",
+    "description" : "",
+    "placeholders" : null
+  }
+}

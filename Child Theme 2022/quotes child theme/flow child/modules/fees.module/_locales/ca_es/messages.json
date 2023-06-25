@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Tarifes",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Altres comissions",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Text d'altres tarifes",
+    "description" : "",
+    "placeholders" : null
+  }
+}

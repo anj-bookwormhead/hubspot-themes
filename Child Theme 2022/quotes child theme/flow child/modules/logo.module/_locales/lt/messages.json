@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logotipas",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logotipas",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Galite pasirinkti perrašyti šiame šablone naudojamą logotipą naudodami šį perjungimo mygtuką.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Perrašyti numatytąjį logotipą",
+    "description" : "",
+    "placeholders" : null
+  }
+}

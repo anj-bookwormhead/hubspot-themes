@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Sender company",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Als je een afbeelding kiest, wordt die weergegeven als het logo van je bedrijf",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Afbeelding van bedrijf afzender",
+    "description" : "",
+    "placeholders" : null
+  }
+}

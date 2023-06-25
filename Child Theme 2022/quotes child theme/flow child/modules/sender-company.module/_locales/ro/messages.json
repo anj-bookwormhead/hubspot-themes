@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Compania expeditorului",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Dacă alegeți o imagine, aceasta va fi afișată sub forma logoului companiei dvs.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Imagine companie expeditor",
+    "description" : "",
+    "placeholders" : null
+  }
+}

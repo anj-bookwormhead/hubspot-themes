@@ -1,0 +1,59 @@
+[ {
+  "id" : "7cb40f07-89dd-b21f-0a84-b13c7f5d3cba",
+  "name" : "background_image",
+  "display_width" : null,
+  "label" : "Background Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "src" : "https://blog.hollywoodbranded.com/hubfs/herobanner.jpeg",
+    "alt" : "herobanner",
+    "width" : 1440,
+    "height" : 1440,
+    "max_width" : 1440,
+    "max_height" : 1440
+  }
+}, {
+  "id" : "b8419170-e8d3-d061-f009-89686014251c",
+  "name" : "headline",
+  "display_width" : null,
+  "label" : "Headline",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "d53074bf-3dce-2784-b10d-bf281dc000be",
+    "name" : "headline_one",
+    "display_width" : null,
+    "label" : "Headline One",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "THERE ARE MILLIONS OF BRANDS, BUT ONLY SOME GET TO BE"
+  }, {
+    "id" : "576c4105-acac-0e33-de6e-a8661a17462d",
+    "name" : "headline_three",
+    "display_width" : null,
+    "label" : "Headline Three",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Proof Your Brand Is The Best"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "headline_one" : "THERE ARE MILLIONS OF BRANDS, BUT ONLY SOME GET TO BE",
+    "headline_three" : "Proof Your Brand Is The Best"
+  }
+} ]

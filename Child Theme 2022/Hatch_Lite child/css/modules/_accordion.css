@@ -1,0 +1,17 @@
+.accordion-lite-title svg {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+/* Toggle */
+.accordion-lite-close {
+	display: none;
+}
+.accordion-lite-item.active .accordion-lite-close {
+	display: block;
+}
+.accordion-lite-item.active .accordion-lite-open {
+  display: none;
+}
+

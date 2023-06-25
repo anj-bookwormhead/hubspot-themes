@@ -1,0 +1,32 @@
+{
+  "name" : {
+    "message" : "文本块",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_description.label" : {
+    "message" : "块文本",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.default" : {
+    "message" : "目标",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.label" : {
+    "message" : "块标题",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_text_unit_color.label" : {
+    "message" : "文本单元背景颜色",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.label" : {
+    "message" : "文本块单元",
+    "description" : "",
+    "placeholders" : null
+  }
+}

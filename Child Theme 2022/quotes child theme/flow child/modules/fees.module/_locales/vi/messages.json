@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Các khoản phí",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Các khoản phí khác",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Văn bản các khoản phí khác",
+    "description" : "",
+    "placeholders" : null
+  }
+}

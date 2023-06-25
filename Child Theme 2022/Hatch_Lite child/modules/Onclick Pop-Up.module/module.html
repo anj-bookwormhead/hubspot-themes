@@ -1,0 +1,46 @@
+
+
+{% for item in module.form %}
+{% for item2 in item.pop_id %}
+<div id="{{ item2 }}" class="modal">
+{% endfor %}
+	{% for item2 in item.pop_up_body %}
+ <div class="modal modal-content">
+            <div class="modal-body">
+            <span class="close">×</span>
+		{% inline_rich_text field="pop_up_body" value="{{ item2 }}" %}
+{% endfor %} 
+ </div>
+</div>
+</div>
+{% endfor %}  
+		
+
+<script>
+
+  
+(function($) {$(document).ready(function() {
+
+    $('.close').click(function(){
+         {% for item in module.form %}
+             {% for item2 in item.pop_id %}
+              $('#{{ item2 }}').hide();
+             {% endfor %}  
+        {% endfor %} 
+    }); 
+});
+  
+  
+        $('#samplepartnerships_button').click(function(){
+        $('#{{ item2 }}').toggle();
+        });         
+     
+    
+})(jQuery)
+
+
+</script>
+
+
+
+

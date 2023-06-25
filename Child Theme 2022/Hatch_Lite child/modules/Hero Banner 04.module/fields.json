@@ -1,0 +1,18 @@
+[ {
+  "id" : "4c4a2745-1028-f8a3-3742-a1221e2ce450",
+  "name" : "hb_image",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+} ]

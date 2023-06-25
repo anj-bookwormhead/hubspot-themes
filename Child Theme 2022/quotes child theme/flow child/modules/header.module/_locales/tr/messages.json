@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Tekliflerimiz</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Bu şablon kullanılarak oluşturulan tekliflerde üst bilginin nasıl görüneceğini yapılandırın.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Görüntülenen başlık",
+    "description" : "",
+    "placeholders" : null
+  }
+}

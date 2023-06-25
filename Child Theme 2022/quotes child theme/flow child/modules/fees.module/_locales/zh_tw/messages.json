@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "費用",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "其他費用",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "其他費用文字",
+    "description" : "",
+    "placeholders" : null
+  }
+}

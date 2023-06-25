@@ -1,0 +1,60 @@
+[ {
+  "id" : "text_block_unit",
+  "name" : "text_block_unit",
+  "display_width" : null,
+  "label" : "Text block unit",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 0,
+    "max" : 6,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "text_block_unit.block_header",
+    "name" : "block_header",
+    "display_width" : null,
+    "label" : "Block header",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "GOAL"
+  }, {
+    "id" : "text_block_unit.block_description",
+    "name" : "block_description",
+    "display_width" : null,
+    "label" : "Block text",
+    "required" : false,
+    "locked" : false,
+    "enabled_features" : [ "fonts", "standard_emphasis", "colors", "personalize" ],
+    "type" : "richtext",
+    "default" : "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce id vulputate felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras quis faucibus eros. Phasellus a velit sed mi vulputate sollicitudin sed pellentesque neque. Curabitur varius porttitor diam, non facilisis purus feugiat eu."
+  }, {
+    "id" : "text_block_unit.block_text_unit_color",
+    "name" : "block_text_unit_color",
+    "display_width" : null,
+    "label" : "Text unit background color",
+    "required" : false,
+    "locked" : false,
+    "inherited_value" : {
+      "property_value_paths" : {
+        "color" : "brandSettings.colors[1]"
+      }
+    },
+    "type" : "color",
+    "default" : {
+      "color" : "#6a73e4",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : true,
+  "type" : "group",
+  "default" : {
+    "resource_title" : "Text block unit"
+  }
+} ]

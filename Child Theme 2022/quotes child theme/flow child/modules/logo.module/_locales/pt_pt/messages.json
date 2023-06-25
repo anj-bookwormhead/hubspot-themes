@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logótipo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logótipo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Pode optar por ignorar o logótipo aplicado neste modelo utilizando este sinalizador.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Ignorar o logótipo predefinido",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Mga Singil",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Iba pang Bayarin",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Text ng iba pang bayarin",
+    "description" : "",
+    "placeholders" : null
+  }
+}

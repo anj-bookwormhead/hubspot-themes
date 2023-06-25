@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "수수료",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "기타 요금",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "기타 요금 텍스트",
+    "description" : "",
+    "placeholders" : null
+  }
+}

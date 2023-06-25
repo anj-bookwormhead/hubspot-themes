@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Poplatky",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Jiné poplatky",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Text k jiným poplatkům",
+    "description" : "",
+    "placeholders" : null
+  }
+}

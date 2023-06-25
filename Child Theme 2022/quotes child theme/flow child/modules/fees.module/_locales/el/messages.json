@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Χρεώσεις",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Άλλες χρεώσεις",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Κείμενο άλλων χρεώσεων",
+    "description" : "",
+    "placeholders" : null
+  }
+}

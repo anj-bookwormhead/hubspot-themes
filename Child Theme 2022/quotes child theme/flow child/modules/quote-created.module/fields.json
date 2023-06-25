@@ -1,0 +1,13 @@
+[ {
+  "id" : "quote_created_text",
+  "name" : "quote_created_text",
+  "display_width" : null,
+  "label" : "Quote created text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Issued"
+} ]

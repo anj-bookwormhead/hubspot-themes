@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "หมายเลขอ้างอิง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "reference_text.label" : {
+    "message" : "ข้อความอ้างอิง",
+    "description" : "",
+    "placeholders" : null
+  }
+}

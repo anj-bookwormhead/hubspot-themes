@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Công ty người gửi",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Nếu bạn chọn một hình ảnh, hình ảnh này sẽ được hiển thị dưới dạng logo công ty của bạn",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Hình ảnh công ty người gửi",
+    "description" : "",
+    "placeholders" : null
+  }
+}

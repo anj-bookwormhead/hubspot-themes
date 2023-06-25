@@ -1,0 +1,78 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+
+/*Typography*/
+h1,h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+body, p, span,select,legend,form .hs-button, form input[type=submit],
+.kl-offer-01__preheader {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.kl-features-02__card h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+span#form {
+    font-family: 'Montserrat';
+}
+
+/*Typography*/
+
+:focus {
+    outline-color: #9B0230;
+}
+
+
+
+a:active, a:focus,  a:hover,.kl-footer__menu a:hover,
+.kl-rich-text__preheader,.kl-offer-01__preheader,.kl-testimonial__author span {
+    color:  #9B0230;
+}
+
+.kl-footer__social a:hover svg,
+.kl-testimonial__quote svg,
+.kl-features-02__image svg{
+  fill:#9B0230;
+}
+
+
+.button, form .hs-button, form input[type=submit]{
+    background-color: #9B0230;
+    border: 1px solid #9B0230;
+}
+
+.button:hover, 
+form .hs-button:hover, 
+form input[type=submit]:hover{
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+
+
+
+/*Logo */
+.kl-logos__item img {
+    object-fit: contain;
+}
+
+/*Temporary Hide */
+.kl-footer__byline {
+    display: none;
+}

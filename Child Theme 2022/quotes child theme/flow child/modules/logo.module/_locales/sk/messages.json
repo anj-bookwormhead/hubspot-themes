@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Môžete sa rozhodnúť prepísať logo použité v tejto šablóne pomocou tohto prepínača.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Prepísať predvolené logo",
+    "description" : "",
+    "placeholders" : null
+  }
+}

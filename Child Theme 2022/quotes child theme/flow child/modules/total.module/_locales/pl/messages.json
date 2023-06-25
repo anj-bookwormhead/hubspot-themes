@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Suma",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_title.default" : {
+    "message" : "Suma",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_title.label" : {
+    "message" : "Tekst sumy",
+    "description" : "",
+    "placeholders" : null
+  }
+}

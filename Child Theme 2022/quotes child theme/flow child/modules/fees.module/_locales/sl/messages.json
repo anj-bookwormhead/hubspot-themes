@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Pristojbine",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Druge pristojbine",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Besedilo drugih pristojbin",
+    "description" : "",
+    "placeholders" : null
+  }
+}

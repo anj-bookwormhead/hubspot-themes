@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Gönderen şirket",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Bir görsel seçtiğinizde, şirket logonuz olarak gösterilecektir.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Gönderen şirket görüntüsü",
+    "description" : "",
+    "placeholders" : null
+  }
+}

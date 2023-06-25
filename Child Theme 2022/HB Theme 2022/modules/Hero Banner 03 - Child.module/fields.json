@@ -1,0 +1,218 @@
+[ {
+  "id" : "0784cdac-da16-cef6-7769-99ad35f93e29",
+  "name" : "image",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "add9399c-1f0c-3747-ffaa-f86ef8dbf847",
+  "name" : "preheader",
+  "display_width" : null,
+  "label" : "Preheader",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+}, {
+  "id" : "4aeea300-7bb7-429d-8d5d-6d9d2a9cfdea",
+  "name" : "content",
+  "display_width" : null,
+  "label" : "Content",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h1>10 marketing metrics that directly correlate with ROI</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>"
+}, {
+  "id" : "79e23c08-3f71-9424-15f3-cf2762431839",
+  "name" : "primary_cta",
+  "display_width" : null,
+  "label" : "Primary CTA",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "6580d381-fdda-2146-ec07-bddd0699fae6",
+    "name" : "type",
+    "display_width" : null,
+    "label" : "Type",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "btn", "Button" ], [ "cta", "HubPot CTA" ], [ "none", "None" ] ],
+    "multiple" : false,
+    "reordering_enabled" : true,
+    "preset" : null,
+    "type" : "choice"
+  }, {
+    "id" : "662ba55e-dbf9-7db7-bf5a-4524d519e5ce",
+    "name" : "style",
+    "display_width" : null,
+    "label" : "Style",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "filled", "Filled" ], [ "outlined", "Outlined" ], [ "arrow", "Arrow" ] ],
+    "multiple" : false,
+    "reordering_enabled" : true,
+    "preset" : null,
+    "type" : "choice"
+  }, {
+    "id" : "ba8f4d37-fb4e-be8b-56ff-a44af4e8b9ec",
+    "name" : "text",
+    "display_width" : null,
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "ba21ba8f-2f9b-b804-776d-b00cd4d5ee87",
+    "name" : "anchor",
+    "display_width" : null,
+    "label" : "Anchor",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "8bb0ca16-001b-b544-2d83-c3e8379f9161",
+      "name" : "type",
+      "display_width" : null,
+      "label" : "Type",
+      "required" : false,
+      "locked" : false,
+      "display" : "select",
+      "choices" : [ [ "href", "Custom Link" ], [ "link", "HubsPot Link" ] ],
+      "multiple" : false,
+      "reordering_enabled" : true,
+      "preset" : null,
+      "type" : "choice"
+    }, {
+      "id" : "0093285c-76e4-8e55-cc8b-2312aef135d5",
+      "name" : "link",
+      "display_width" : null,
+      "label" : "Link",
+      "required" : false,
+      "locked" : false,
+      "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+      "show_advanced_rel_options" : false,
+      "type" : "link",
+      "default" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    }, {
+      "id" : "b1aeb607-1f2c-0648-1044-f20eeea80e1e",
+      "name" : "href",
+      "display_width" : null,
+      "label" : "Href",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text"
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "link" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    }
+  }, {
+    "id" : "7e5c046d-5b32-19d6-d558-85c911515569",
+    "name" : "cta",
+    "display_width" : null,
+    "label" : "CTA",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "anchor" : {
+      "link" : {
+        "url" : {
+          "content_id" : null,
+          "type" : "EXTERNAL",
+          "href" : ""
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    }
+  }
+}, {
+  "id" : "f1cbfefc-9928-8b05-3f4b-a21bf88cfa86",
+  "name" : "form",
+  "display_width" : null,
+  "label" : "Form",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "87ed3414-d328-6e5c-63d7-9ccef11654da",
+    "name" : "enabled",
+    "display_width" : null,
+    "label" : "Enabled",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : true
+  }, {
+    "id" : "e0115e00-38a6-fa9d-d9b6-a09959cf2941",
+    "name" : "selector",
+    "display_width" : null,
+    "label" : "Selector",
+    "required" : false,
+    "locked" : false,
+    "type" : "form",
+    "default" : {
+      "form_id" : "e66bb4ea-13e3-472c-bcfd-3b692f23e64f",
+      "response_type" : "inline",
+      "message" : "Thank You for subscribing",
+      "gotowebinar_webinar_key" : null,
+      "form_type" : "HUBSPOT"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "enabled" : true,
+    "selector" : {
+      "form_id" : "e66bb4ea-13e3-472c-bcfd-3b692f23e64f",
+      "response_type" : "inline",
+      "message" : "Thank You for subscribing",
+      "gotowebinar_webinar_key" : null,
+      "form_type" : "HUBSPOT"
+    }
+  }
+} ]

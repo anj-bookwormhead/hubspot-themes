@@ -1,0 +1,338 @@
+{# Configuration variables #}
+
+{# ====================================================================== #}
+{# ------------------------------- Colors ------------------------------- #}
+{# ====================================================================== #}
+
+{% set base                     = theme.colors_group.base.color %}
+{% set primary                  = theme.colors_group.primary.color %}
+{% set secondary                = theme.colors_group.secondary.color %}
+{% set danger                   = "#FF0000" %}
+{% set gray                     = "#6B7280" %}
+{% set dark                     = theme.colors_group.dark.color %}
+{% set white                    = "#ffffff" %}
+
+{# ===================================================================================== #}
+{# ------------------------------------ Typography ------------------------------------- #}
+{# ===================================================================================== #}
+
+{# ----------
+ * Base
+ * -------------------- #}
+{% set base_font_size             = theme.typography_group.base.size.value %}
+{% set base_font_weight           = theme.typography_group.base.variant %}
+{% set base_font_family           = theme.typography_group.base.font %}
+
+/* Line Height */
+{% if theme.typography_group.base_line_height == 'none' %}
+  {% set base_line_height = "1" %}
+{% elif theme.typography_group.base_line_height == 'tight' %}
+  {% set base_line_height = "1.25" %}
+{% elif theme.typography_group.base_line_height == 'snug' %}
+  {% set base_line_height = "1.375" %}
+{% elif theme.typography_group.base_line_height == 'normal' %}
+  {% set base_line_height = "1.5" %}
+{% elif theme.typography_group.base_line_height == 'relaxed' %}
+  {% set base_line_height = "1.625" %}
+{% elif theme.typography_group.base_line_height == 'losse' %}
+  {% set base_line_height = "2" %}
+{% else  %}
+  {% set base_line_height = "1.625" %}
+{% endif %}
+
+/* Letter Spacing */
+{% if theme.typography_group.base_letter_spacing == 'tigher' %}
+  {% set base_letter_spacing  = '-0.05em' %}
+{% elif theme.typography_group.base_letter_spacing == 'tight' %}
+  {% set base_letter_spacing  = '-0.025em' %}
+{% elif theme.typography_group.base_letter_spacing == 'normal' %}
+  {% set base_letter_spacing  = '0' %}
+{% elif theme.typography_group.base_letter_spacing == 'wide' %}
+  {% set base_letter_spacing  = '0.025em' %}
+{% elif theme.typography_group.base_letter_spacing == 'wider' %}
+  {% set base_letter_spacing  = '0.05em' %}
+{% elif theme.typography_group.base_letter_spacing == 'widest' %}
+  {% set base_letter_spacing  = '0.1em' %}
+{% endif %}
+
+{# ----------
+ * Heading
+ * -------------------- #}
+{% set h1_font = theme.typography_group.heading_1 %}
+{% set h2_font = theme.typography_group.heading_2 %}
+{% set h3_font = theme.typography_group.heading_3 %}
+{% set h4_font = theme.typography_group.heading_4 %}
+{% set h5_font = theme.typography_group.heading_5 %}
+{% set h6_font = theme.typography_group.heading_6 %}
+
+/* Color */
+{% set h1_color = theme.typography_group.heading_1.color %}
+{% set h2_color = theme.typography_group.heading_2.color %}
+{% set h3_color = theme.typography_group.heading_3.color %}
+{% set h4_color = theme.typography_group.heading_4.color %}
+{% set h5_color = theme.typography_group.heading_5.color %}
+{% set h6_color = theme.typography_group.heading_6.color %}
+
+{# -- H1 -- #}
+{% if theme.typography_group.heading_1_line_height == 'none' %}
+  {% set h1_line_height           = "1" %}
+{% elif theme.typography_group.heading_1_line_height == 'tight' %}
+  {% set h1_line_height           = "1.25" %}
+{% elif theme.typography_group.heading_1_line_height == 'snug' %}
+  {% set h1_line_height           = "1.375" %}
+{% elif theme.typography_group.heading_1_line_height == 'normal' %}
+  {% set h1_line_height           = "1.5" %}
+{% elif theme.typography_group.heading_1_line_height == 'relaxed' %}
+  {% set h1_line_height           = "1.625" %}
+{% elif theme.typography_group.heading_1_line_height == 'losse' %}
+  {% set h1_line_height           = "2" %}
+{% endif %}
+
+{% if theme.typography_group.heading_1_letter_spacing == 'tigher' %}
+  {% set h1_letter_spacing        = '-0.05em' %}
+{% elif theme.typography_group.heading_1_letter_spacing == 'tight' %}
+  {% set h1_letter_spacing        = '-0.025em' %}
+{% elif theme.typography_group.heading_1_letter_spacing == 'normal' %}
+  {% set h1_letter_spacing        = '0' %}
+{% elif theme.typography_group.heading_1_letter_spacing == 'wide' %}
+  {% set h1_letter_spacing        = '0.025em' %}
+{% elif theme.typography_group.heading_1_letter_spacing == 'wider' %}
+  {% set h1_letter_spacing        = '0.05em' %}
+{% elif theme.typography_group.heading_1_letter_spacing == 'widest' %}
+  {% set h1_letter_spacing        = '0.1em' %}
+{% endif %}
+
+{# -- H2 -- #}
+{% if theme.typography_group.heading_2_line_height == 'none' %}
+  {% set h2_line_height           = "1" %}
+{% elif theme.typography_group.heading_2_line_height == 'tight' %}
+  {% set h2_line_height           = "1.25" %}
+{% elif theme.typography_group.heading_2_line_height == 'snug' %}
+  {% set h2_line_height           = "1.375" %}
+{% elif theme.typography_group.heading_2_line_height == 'normal' %}
+  {% set h2_line_height           = "1.5" %}
+{% elif theme.typography_group.heading_2_line_height == 'relaxed' %}
+  {% set h2_line_height           = "1.625" %}
+{% elif theme.typography_group.heading_2_line_height == 'losse' %}
+  {% set h2_line_height           = "2" %}
+{% endif %}
+
+{% if theme.typography_group.heading_2_letter_spacing == 'tigher' %}
+  {% set h2_letter_spacing        = '-0.05em' %}
+{% elif theme.typography_group.heading_2_letter_spacing == 'tight' %}
+  {% set h2_letter_spacing        = '-0.025em' %}
+{% elif theme.typography_group.heading_2_letter_spacing == 'normal' %}
+  {% set h2_letter_spacing        = '0' %}
+{% elif theme.typography_group.heading_2_letter_spacing == 'wide' %}
+  {% set h2_letter_spacing        = '0.025em' %}
+{% elif theme.typography_group.heading_2_letter_spacing == 'wider' %}
+  {% set h2_letter_spacing        = '0.05em' %}
+{% elif theme.typography_group.heading_2_letter_spacing == 'widest' %}
+  {% set h2_letter_spacing        = '0.1em' %}
+{% endif %}
+
+{# -- H3 -- #}
+{% if theme.typography_group.heading_3_line_height == 'none' %}
+  {% set h3_line_height           = "1" %}
+{% elif theme.typography_group.heading_3_line_height == 'tight' %}
+  {% set h3_line_height           = "1.25" %}
+{% elif theme.typography_group.heading_3_line_height == 'snug' %}
+  {% set h3_line_height           = "1.375" %}
+{% elif theme.typography_group.heading_3_line_height == 'normal' %}
+  {% set h3_line_height           = "1.5" %}
+{% elif theme.typography_group.heading_3_line_height == 'relaxed' %}
+  {% set h3_line_height           = "1.625" %}
+{% elif theme.typography_group.heading_3_line_height == 'losse' %}
+  {% set h3_line_height           = "2" %}
+{% endif %}
+
+{% if theme.typography_group.heading_3_letter_spacing == 'tigher' %}
+  {% set h3_letter_spacing        = '-0.05em' %}
+{% elif theme.typography_group.heading_3_letter_spacing == 'tight' %}
+  {% set h3_letter_spacing        = '-0.025em' %}
+{% elif theme.typography_group.heading_3_letter_spacing == 'normal' %}
+  {% set h3_letter_spacing        = '0' %}
+{% elif theme.typography_group.heading_3_letter_spacing == 'wide' %}
+  {% set h3_letter_spacing        = '0.025em' %}
+{% elif theme.typography_group.heading_3_letter_spacing == 'wider' %}
+  {% set h3_letter_spacing        = '0.05em' %}
+{% elif theme.typography_group.heading_3_letter_spacing == 'widest' %}
+  {% set h3_letter_spacing        = '0.1em' %}
+{% endif %}
+
+{# -- h4 -- #}
+{% if theme.typography_group.heading_4_line_height == 'none' %}
+  {% set h4_line_height           = "1" %}
+{% elif theme.typography_group.heading_4_line_height == 'tight' %}
+  {% set h4_line_height           = "1.25" %}
+{% elif theme.typography_group.heading_4_line_height == 'snug' %}
+  {% set h4_line_height           = "1.375" %}
+{% elif theme.typography_group.heading_4_line_height == 'normal' %}
+  {% set h4_line_height           = "1.5" %}
+{% elif theme.typography_group.heading_4_line_height == 'relaxed' %}
+  {% set h4_line_height           = "1.625" %}
+{% elif theme.typography_group.heading_4_line_height == 'losse' %}
+  {% set h4_line_height           = "2" %}
+{% endif %}
+
+{% if theme.typography_group.heading_4_letter_spacing == 'tigher' %}
+  {% set h4_letter_spacing        = '-0.05em' %}
+{% elif theme.typography_group.heading_4_letter_spacing == 'tight' %}
+  {% set h4_letter_spacing        = '-0.025em' %}
+{% elif theme.typography_group.heading_4_letter_spacing == 'normal' %}
+  {% set h4_letter_spacing        = '0' %}
+{% elif theme.typography_group.heading_4_letter_spacing == 'wide' %}
+  {% set h4_letter_spacing        = '0.025em' %}
+{% elif theme.typography_group.heading_4_letter_spacing == 'wider' %}
+  {% set h4_letter_spacing        = '0.05em' %}
+{% elif theme.typography_group.heading_4_letter_spacing == 'widest' %}
+  {% set h4_letter_spacing        = '0.1em' %}
+{% endif %}
+
+{# -- h5 -- #}
+{% if theme.typography_group.heading_5_line_height == 'none' %}
+  {% set h5_line_height           = "1" %}
+{% elif theme.typography_group.heading_5_line_height == 'tight' %}
+  {% set h5_line_height           = "1.25" %}
+{% elif theme.typography_group.heading_5_line_height == 'snug' %}
+  {% set h5_line_height           = "1.375" %}
+{% elif theme.typography_group.heading_5_line_height == 'normal' %}
+  {% set h5_line_height           = "1.5" %}
+{% elif theme.typography_group.heading_5_line_height == 'relaxed' %}
+  {% set h5_line_height           = "1.625" %}
+{% elif theme.typography_group.heading_5_line_height == 'losse' %}
+  {% set h5_line_height           = "2" %}
+{% endif %}
+
+{% if theme.typography_group.heading_5_letter_spacing == 'tigher' %}
+  {% set h5_letter_spacing        = '-0.05em' %}
+{% elif theme.typography_group.heading_5_letter_spacing == 'tight' %}
+  {% set h5_letter_spacing        = '-0.025em' %}
+{% elif theme.typography_group.heading_5_letter_spacing == 'normal' %}
+  {% set h5_letter_spacing        = '0' %}
+{% elif theme.typography_group.heading_5_letter_spacing == 'wide' %}
+  {% set h5_letter_spacing        = '0.025em' %}
+{% elif theme.typography_group.heading_5_letter_spacing == 'wider' %}
+  {% set h5_letter_spacing        = '0.05em' %}
+{% elif theme.typography_group.heading_5_letter_spacing == 'widest' %}
+  {% set h5_letter_spacing        = '0.1em' %}
+{% endif %}
+
+{# -- h6 -- #}
+{% if theme.typography_group.heading_6_line_height == 'none' %}
+  {% set h6_line_height           = "1" %}
+{% elif theme.typography_group.heading_6_line_height == 'tight' %}
+  {% set h6_line_height           = "1.25" %}
+{% elif theme.typography_group.heading_6_line_height == 'snug' %}
+  {% set h6_line_height           = "1.375" %}
+{% elif theme.typography_group.heading_6_line_height == 'normal' %}
+  {% set h6_line_height           = "1.5" %}
+{% elif theme.typography_group.heading_6_line_height == 'relaxed' %}
+  {% set h6_line_height           = "1.625" %}
+{% elif theme.typography_group.heading_6_line_height == 'losse' %}
+  {% set h6_line_height           = "2" %}
+{% endif %}
+
+{% if theme.typography_group.heading_6_letter_spacing == 'tigher' %}
+  {% set h6_letter_spacing        = '-0.05em' %}
+{% elif theme.typography_group.heading_6_letter_spacing == 'tight' %}
+  {% set h6_letter_spacing        = '-0.025em' %}
+{% elif theme.typography_group.heading_6_letter_spacing == 'normal' %}
+  {% set h6_letter_spacing        = '0' %}
+{% elif theme.typography_group.heading_6_letter_spacing == 'wide' %}
+  {% set h6_letter_spacing        = '0.025em' %}
+{% elif theme.typography_group.heading_6_letter_spacing == 'wider' %}
+  {% set h6_letter_spacing        = '0.05em' %}
+{% elif theme.typography_group.heading_6_letter_spacing == 'widest' %}
+  {% set h6_letter_spacing        = '0.1em' %}
+{% endif %}
+
+
+{# ===================================================================================== #}
+{# ------------------------- Vertical Spacing & Container Size ------------------------- #}
+{# ===================================================================================== #}
+
+{% set vertical_spacing       = theme.spacing_group.vertical_spacing %}
+{% set max_width              = theme.spacing_group.max_width %}
+
+
+{# ===================================================================================== #}
+{# ---------------------------------------- Form --------------------------------------- #}
+{# ===================================================================================== #}
+
+{% set form_header_background           = theme.form_group.form_header_background.color %}
+{% set form_header_text_color           = theme.form_group.form_header_text_color.color %}
+{% set form_background_color            = theme.form_group.form_background_color.color %}
+{% set form_border_color                = theme.form_group.form_border_color.color %}
+{% set form_label_color                 = theme.form_group.form_label_color.color %}
+{% set form_field_background_color      = theme.form_group.form_feld_bg_color.color %}
+{% set form_field_border_color          = theme.form_group.form_field_border_color.color %}
+{% set form_field_focus_border_color    = theme.form_group.form_field_focus_border_color.color %}
+{% set form_button_text_color           = theme.form_group.form_button_text_color.color %}
+{% set form_button_background_color     = theme.form_group.form_button_bg_color.color %}
+
+
+{# ===================================================================================== #}
+{# --------------------------------------- Button -------------------------------------- #}
+{# ===================================================================================== #}
+
+{% set button_bold                      = theme.button_group.button_bold %}
+{% set button_border_width              = theme.button_group.button_border_width %}
+{% set border_radius                    = theme.button_group.button_border_radius %}
+
+/* Uppercase */
+{% if theme.button_group.button_uppercase %}
+  {% set button_uppercase               = 'uppercase' %}
+{% else %}
+  {% set button_uppercase               = 'none' %}
+{% endif %}
+
+/* Letter Spacing */
+{% if theme.button_group.button_letter_spacing == 'tigher' %}
+  {% set button_letter_spacing            = '-0.05em' %}
+{% elif theme.button_group.button_letter_spacing == 'tight' %}
+  {% set button_letter_spacing            = '-0.025em' %}
+{% elif theme.button_group.button_letter_spacing == 'normal' %}
+  {% set button_letter_spacing            = '0' %}
+{% elif theme.button_group.button_letter_spacing == 'wide' %}
+  {% set button_letter_spacing            = '0.025em' %}
+{% elif theme.button_group.button_letter_spacing == 'wider' %}
+  {% set button_letter_spacing            = '0.05em' %}
+{% elif theme.button_group.button_letter_spacing == 'widest' %}
+  {% set button_letter_spacing            = '0.1em' %}
+{% endif %}
+
+/* Shadow */
+{% if theme.button_group.button_shadow_size == 'shadow-none' %}
+  {% set button_shadow = 'none' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-xs' %}
+  {% set button_shadow = '0 0 0 1px rgba(0, 0, 0, 0.05)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-sm' %}
+  {% set button_shadow = ' 0 1px 2px 0 rgba(0, 0, 0, 0.05)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-md' %}
+  {% set button_shadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-lg' %}
+  {% set button_shadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-xl' %}
+  {% set button_shadow = '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-2xl' %}
+  {% set button_shadow = '0 25px 50px -12px rgba(0, 0, 0, 0.25)' %}
+{% endif %}
+
+/* Shadow Hover */
+{% if theme.button_group.button_shadow_size == 'shadow-none' %}
+  {% set button_shadow_hover = 'none' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-xs' %}
+  {% set button_shadow_hover = '0 1px 2px 0 rgba(0, 0, 0, 0.05)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-sm' %}
+  {% set button_shadow_hover = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-md' %}
+  {% set button_shadow_hover = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-lg' %}
+  {% set button_shadow_hover = '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-xl' %}
+  {% set button_shadow_hover = '0 25px 50px -12px rgba(0, 0, 0, 0.25)' %}
+{% elif theme.button_group.button_shadow_size == 'shadow-2xl' %}
+  {% set button_shadow_hover = '0 25px 50px -12px rgba(0, 0, 0, 0.3)' %}
+{% endif %}
+

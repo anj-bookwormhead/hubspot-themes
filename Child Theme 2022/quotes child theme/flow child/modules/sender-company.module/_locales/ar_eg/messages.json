@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "الشركة المرسِلة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "إذا اخترت صورة، فسيتم عرضها كشعار لشركتك",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "صورة الشركة المرسِلة",
+    "description" : "",
+    "placeholders" : null
+  }
+}

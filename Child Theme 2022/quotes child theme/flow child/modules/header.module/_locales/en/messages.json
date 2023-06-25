@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Our offerings</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Configure how the header looks on quotes created using this template.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Displayed header",
+    "description" : "",
+    "placeholders" : null
+  }
+}

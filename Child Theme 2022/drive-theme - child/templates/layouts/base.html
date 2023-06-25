@@ -1,0 +1,95 @@
+<!--
+  templateType: "none"
+  isAvailableForNewContent: false
+-->
+<!doctype html>
+<html lang="{{ html_lang }}" {{ html_lang_dir }}>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page_meta.html_title }}</title>
+    {% if site_settings.favicon_src %}<link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />{% endif %}
+    <meta name="description" content="{{ page_meta.meta_description }}">
+    {{ require_css(get_asset_url("../../css/layout.css")) }}
+    {{ require_css(get_asset_url("../../css/main.css")) }}     
+    {# Google Fonts #}
+    {{ require_css("https://fonts.googleapis.com/css?family=Open+Sans:wght@400;800|Lato:400,700&display=swap") }}
+    {# JQuery #}
+    {{ require_js("https://code.jquery.com/jquery-1.12.4.min.js", "head") }}
+    {# Bootstrap - Customized with only modal and tabs #}
+    {{ require_css("https://f.hubspotusercontent30.net/hubfs/5377389/theme/vendor/bootstrap/css/bootstrap.css") }} 
+    {{ require_js("https://f.hubspotusercontent30.net/hubfs/5377389/theme/vendor/bootstrap/js/bootstrap.min.js", "head") }}
+    {{ require_js("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/umd/util.js") }}
+    {# Font Awesome #}
+    {{ require_js("https://kit.fontawesome.com/c54554821c.js") }} 
+    {# AOS #}
+    {{ require_css("https://unpkg.com/aos@next/dist/aos.css") }}
+    {{ require_js("https://unpkg.com/aos@next/dist/aos.js") }}
+    {# Slick #}
+    {{ require_css("//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css") }}
+    {{ require_css("//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css") }}
+    {{ require_js("//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js") }} 
+    {# Include Theme Overrides #}
+    {{ require_css(get_asset_url("../../css/theme-overrides.css")) }}
+    {{ require_js(get_asset_url("../../js/main.js")) }}
+    {{ require_js(get_asset_url("../../child.js")) }}
+{{ standard_header_includes }}
+{{ require_css(get_public_template_url("../../child.css")) }}      
+  </head>
+  <body>
+    <div class="body-wrapper {{ builtin_body_classes }}">
+      {% block header %}
+        {% global_partial path="../partials/header.html" %}
+      {% endblock header %}
+
+      {% block body %}
+        <!-- Nothing to see here -->
+      {% endblock body %}
+
+      {% global_partial path="../partials/footer.html" %}
+    </div>    
+    {{ standard_footer_includes }}
+    {% require_js %}
+      <script>        
+        AOS.init({        
+          // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+          offset: 120, // offset (in px) from the original trigger point
+          delay: 0, // values from 0 to 3000, with step 50ms
+          duration: 800, // values from 0 to 3000, with step 50ms
+          easing: 'ease', // default easing for AOS animations
+          once: false, // whether animation should happen only once - while scrolling down
+          mirror: false, // whether elements should animate out while scrolling past them
+          anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation        
+        });     
+
+        $(document).on('ready', function() {                  
+          $('.image-animate').attr('data-aos', 'fade-up');
+        });      
+        $(window).on('load', function() {          
+          AOS.refreshHard();
+        });           
+      </script>
+    {% end_require_js %}    
+
+    <!-- Modals -->
+    <div class="team-modal modal fade" id="teamModal" tabindex="-1" role="dialog" aria-labelledby="teamModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="teamModalLabel">Team Member Name</h2>
+            <div class="close" data-dismiss="modal" aria-label="Close">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal-image">
+              <img src="https://cdn2.hubspot.net/hubfs/5377389/theme/images/stock-images/team-member-1.png" alt="team-member">
+            </div>          
+            <p class="modal-text">Team member bio information.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / Modals -->
+    
+  </body>
+</html>

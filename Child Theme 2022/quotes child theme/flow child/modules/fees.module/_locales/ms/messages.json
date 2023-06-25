@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Yuran",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Yuran Lain",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Teks yuran lain",
+    "description" : "",
+    "placeholders" : null
+  }
+}

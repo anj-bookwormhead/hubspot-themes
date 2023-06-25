@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "../../../../Child%20Theme%202022/hb_official_themes/images/module-icons/menu.svg",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 121545998201,
+  "label" : "Menu",
+  "is_available_for_new_content" : true
+}

@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>ההצעות שלנו</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "הגדר כיצד תיראה הכותרת בהצעות מחיר שנוצרות באמצעות תבנית זו.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "כותרת מוצגת",
+    "description" : "",
+    "placeholders" : null
+  }
+}

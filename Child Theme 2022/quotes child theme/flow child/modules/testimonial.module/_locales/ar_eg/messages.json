@@ -1,0 +1,37 @@
+{
+  "name" : {
+    "message" : "توصية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.label" : {
+    "message" : "توصية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author.label" : {
+    "message" : "مؤلف التوصية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.default" : {
+    "message" : "اسم الشركة",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.label" : {
+    "message" : "شركة مؤلف التوصية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_image.label" : {
+    "message" : "صورة التوصية",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_text.label" : {
+    "message" : "نص التوصية",
+    "description" : "",
+    "placeholders" : null
+  }
+}

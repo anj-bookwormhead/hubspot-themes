@@ -1,0 +1,314 @@
+{% include './_variables.css' %} 
+
+.btn,
+.btn-cta a,
+.hs-button {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none!important;
+	{% if button_bold %}
+	font-weight: bold;
+	{% endif %}
+	font-size: 1rem;
+	line-height: 1;
+	white-space: initial;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	user-select: none;
+	border-radius: {{ border_radius }}px;
+	text-transform: {{ button_uppercase }};
+	letter-spacing: {{ button_letter_spacing }};
+	box-shadow: {{ button_shadow }};
+	transition: all 0.4s ease;
+	padding: 1.1em 2.25em;
+}
+.btn:hover,
+.btn-cta a:hover,
+.hs-button:hover {
+	box-shadow: {{ button_shadow_hover }};
+	opacity: 0.85;
+	transform: translateY(-2px);
+}
+
+/* ==========
+ * Button Spacing
+ * ==================== */
+.button-wrapper > div {
+	margin: -1rem;
+}
+.button-wrapper > div > * {
+  margin: 1rem;
+}
+
+/* ==========
+ * Button Size 
+ * ==================== */
+.btn.btn-s,
+.btn-cta.btn-s a {
+	font-size: 0.75rem;
+}
+.btn.btn-m,
+.btn-cta.btn-m a,
+.hs-button {
+	font-size: 1rem;
+}
+.btn.btn-l,
+.btn-cta.btn-l a {
+	font-size: 1.2rem;
+}
+.btn.btn-xl,
+.btn-cta.btn-xl a {
+	font-size: 1.4rem;
+}
+
+.btn-fullwidth {
+	display: block;
+	width: 100%;
+}
+
+/* ==========
+ * Button Text
+ * ==================== */
+.btn.text-base,
+.btn-cta.text-base a {
+	color: {{ base }}!important;
+}
+.btn.text-primary,
+.btn-cta.text-primary a {
+	color: {{ primary }}!important;
+}
+.btn.text-secondary,
+.btn-cta.text-secondary a {
+	color: {{ secondary }}!important;
+}
+.btn.text-tertiary,
+.btn-cta.text-tertiary a {
+	color: {{ tertiary }}!important;
+}
+.btn.text-success,
+.btn-cta.text-success a {
+	color: {{ success }}!important;
+}
+.btn.text-warning,
+.btn-cta.text-warning a {
+	color: {{ warning }}!important;
+}
+.btn.text-danger,
+.btn-cta.text-danger a {
+	color: {{ danger }}!important;
+}
+.btn.text-light,
+.btn-cta.text-light a {
+	color: {{ light }}!important;
+}
+.btn.text-lightgray,
+.btn-cta.text-lightgray a {
+	color: {{ lightgray }}!important;
+}
+.btn.text-gray,
+.btn-cta.text-gray a {
+	color: {{ gray }}!important;
+}
+.btn.text-dark,
+.btn-cta.text-dark a {
+	color: {{ dark }}!important;
+}
+.btn.text-white,
+.btn-cta.text-white a {
+	color: #fff!important;
+}
+
+/* ==========
+ * Button Color & Style
+ * ==================== */
+
+/* Link */
+.btn.btn-link,
+.btn-cta.btn-link a {
+	padding: 0!important;
+	background-color: none!important;
+	border-radius: 0px;
+	box-shadow: none!important;
+}
+
+/* Solid */
+.btn.btn-solid.btn-base,
+.btn-cta.btn-solid.btn-base a {
+	background-color: {{ base }};
+}
+.btn.btn-solid.btn-primary,
+.btn-cta.btn-solid.btn-primary a {
+	background-color: {{ primary }};
+}
+.btn.btn-solid.btn-secondary,
+.btn-cta.btn-solid.btn-secondary a {
+	background-color: {{ secondary }};
+}
+.btn.btn-solid.btn-tertiary,
+.btn-cta.btn-solid.btn-tertiary a {
+	background-color: {{ tertiary }};
+}
+.btn.btn-solid.btn-success,
+.btn-cta.btn-solid.btn-success a {
+	background-color: {{ success }};
+}
+.btn.btn-solid.btn-warning,
+.btn-cta.btn-solid.btn-warning a {
+	background-color: {{ warning }};
+}
+.btn.btn-solid.btn-danger,
+.btn-cta.btn-solid.btn-danger a {
+	background-color: {{ danger }};
+}
+.btn.btn-solid.btn-light,
+.btn-cta.btn-solid.btn-light a {
+	background-color: {{ light }};
+}
+.btn.btn-solid.btn-lightgray,
+.btn-cta.btn-solid.btn-lightgray a {
+	background-color: {{ lightgray }};
+}
+.btn.btn-solid.btn-gray,
+.btn-cta.btn-solid.btn-gray a {
+	background-color: {{ gray }};
+}
+.btn.btn-solid.btn-dark,
+.btn-cta.btn-solid.btn-dark a {
+	background-color: {{ dark }};
+}
+.btn.btn-solid.btn-white,
+.btn-cta.btn-solid.btn-white a {
+	background-color: #fff;
+}
+
+
+/* Outline */
+.btn.btn-outline {
+	border-width: {{ button_border_width }}px;
+}
+
+.btn.btn-outline-1,
+.btn-cta.btn-outline-1 a {
+	border-width: 1px;
+}
+.btn.btn-outline-2,
+.btn-cta.btn-outline-2 a {
+	border-width: 2px;
+}
+.btn.btn-outline-3,
+.btn-cta.btn-outline-3 a {
+	border-width: 3px;
+}
+.btn.btn-outline-4,
+.btn-cta.btn-outline-4 a {
+	border-width: 4px;
+}
+.btn.btn-outline-5,
+.btn-cta.btn-outline-5 a {
+	border-width: 5px;
+}
+.btn.btn-outline-6,
+.btn-cta.btn-outline-6 a {
+	border-width: 6px;
+}
+.btn.btn-outline-7,
+.btn-cta.btn-outline-7 a {
+	border-width: 7px;
+}
+.btn.btn-outline-8,
+.btn-cta.btn-outline-8 a {
+	border-width: 8px;
+}
+.btn.btn-outline-9,
+.btn-cta.btn-outline-9 a {
+	border-width: 9px;
+}
+.btn.btn-outline-10,
+.btn-cta.btn-outline-10 a {
+	border-width: 10px;
+}
+
+/* Outline Color */
+.btn.btn-outline.btn-base,
+.btn-cta.btn-outline.btn-base a {
+	border-color: {{ base }};
+}
+.btn.btn-outline.btn-primary,
+.btn-cta.btn-outline.btn-primary a {
+	border-color: {{ primary }};
+}
+.btn.btn-outline.btn-secondary,
+.btn-cta.btn-outline.btn-secondary a {
+	border-color: {{ secondary }};
+}
+.btn.btn-outline.btn-tertiary,
+.btn-cta.btn-outline.btn-tertiary a {
+	border-color: {{ tertiary }};
+}
+.btn.btn-outline.btn-success,
+.btn-cta.btn-outline.btn-success a {
+	border-color: {{ success }};
+}
+.btn.btn-outline.btn-warning,
+.btn-cta.btn-outline.btn-warning a {
+	border-color: {{ warning }};
+}
+.btn.btn-outline.btn-danger,
+.btn-cta.btn-outline.btn-danger a {
+	border-color: {{ danger }};
+}
+.btn.btn-outline.btn-light,
+.btn-cta.btn-outline.btn-light a {
+	border-color: {{ light }};
+}
+.btn.btn-outline.btn-lightgray,
+.btn-cta.btn-outline.btn-lightgray a {
+	border-color: {{ lightgray }};
+}
+.btn.btn-outline.btn-gray,
+.btn-cta.btn-outline.btn-gray a {
+	border-color: {{ gray }};
+}
+.btn.btn-outline.btn-dark,
+.btn-cta.btn-outline.btn-dark a {
+	border-color: {{ dark }};
+}
+.btn.btn-outline.btn-white,
+.btn-cta.btn-outline.btn-white a {
+	border-color: #fff;
+}
+
+/* ==========
+ * Button Shape 
+ * ==================== */
+.btn.btn-square,
+.btn-cta.btn-square a {
+	border-radius: 0;
+}
+.btn.btn-rounded,
+.btn-cta.btn-rounded a {
+	border-radius: 10px;
+}
+.btn.btn-pill,
+.btn-cta.btn-pill a {
+	border-radius: 999999px;
+}
+
+/* ==========
+ * Button Shadow 
+ * ==================== */
+.btn.btn-shadow-s,
+.btn-cta.btn-shadow-s a {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+.btn.btn-shadow-m,
+.btn-cta.btn-shadow-m a {
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+.btn.btn-shadow-l,
+.btn-cta.btn-shadow-l a {
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}

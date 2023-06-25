@@ -1,0 +1,37 @@
+{
+  "name" : {
+    "message" : "Відгук",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.label" : {
+    "message" : "Відгук",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author.label" : {
+    "message" : "Автор відгуку",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.default" : {
+    "message" : "Назва компанії",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.label" : {
+    "message" : "Компанія автора відгуку",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_image.label" : {
+    "message" : "Зображення відгуку",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_text.label" : {
+    "message" : "Текст відгуку",
+    "description" : "",
+    "placeholders" : null
+  }
+}

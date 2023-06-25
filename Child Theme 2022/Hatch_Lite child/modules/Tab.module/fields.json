@@ -1,0 +1,70 @@
+[ {
+  "id" : "09dd8023-d7bb-effd-97af-e2981ece3150",
+  "name" : "tab",
+  "display_width" : null,
+  "label" : "Tab",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 2,
+    "max" : 10,
+    "sorting_label_field" : "b718ed84-6a83-ee02-19ec-9532de7d6f8d",
+    "default" : 2
+  },
+  "children" : [ {
+    "id" : "b718ed84-6a83-ee02-19ec-9532de7d6f8d",
+    "name" : "tab_label",
+    "display_width" : null,
+    "label" : "Tab Label",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Tab Label"
+  }, {
+    "id" : "22b391ad-8395-74ad-3e1b-51973608dc0c",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "Add some helpful and informative content here."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "tab_label" : "Tab Label",
+    "content" : "Add some helpful and informative content here."
+  }, {
+    "tab_label" : "Tab Label",
+    "content" : "Add some helpful and informative content here."
+  } ]
+}, {
+  "id" : "8ad9eae4-f8de-d37b-3823-132b5e5e0423",
+  "name" : "tab_bg_color",
+  "display_width" : null,
+  "label" : "Inactive tab background color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#cfcfcf",
+    "opacity" : 100
+  }
+}, {
+  "id" : "aaa721da-444d-af93-3134-09a269e29658",
+  "name" : "tab_text_color",
+  "display_width" : null,
+  "label" : "Inactive tab text color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#555",
+    "opacity" : 100
+  }
+} ]

@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "סמל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "סמל",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "תוכל לעקוף את הסמל שחל על תבנית זו באמצעות לחצן דו-מצבי זה.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "עקוף לוגו ברירת מחדת",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logotipo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logotipo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Você pode optar por substituir o logotipo aplicado a este modelo usando este botão.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Substituir logotipo padrão",
+    "description" : "",
+    "placeholders" : null
+  }
+}

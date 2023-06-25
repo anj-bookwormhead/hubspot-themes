@@ -1,0 +1,41 @@
+{% macro subtotal_section (frequency, frequency_text) %}
+  {% set subtotal_frequency = sub_totals|attr(frequency) %}
+  {% if subtotal_frequency %}
+    <div class="totals__row">
+      <span>{{ module.default_text.frequency_subtotal }}</span>
+      <span>{{ subtotal_frequency.subtotal|format_currency(locale, currency, true) }}<br></span>
+    </div>
+    <div class="totals-row__discount">
+      <span class="totals-row__discount__amount">
+        {% for line_item in line_items %}
+          {% if line_item.recurringbillingfrequency == frequency %}
+            {% set frequency_discount_total = frequency_discount_total + line_item.hs_total_discount %}
+          {% elif line_item.recurringbillingfrequency == null and frequency == "one_time" %}
+            {% set frequency_discount_total = frequency_discount_total + line_item.hs_total_discount %}
+          {% endif %}
+          {% if loop.last && frequency_discount_total %}
+            {% set discount_amount = frequency_discount_total|format_currency(locale, currency, true) %}
+            {{ module.default_text.after_discount }}
+          {% endif %}
+        {% endfor %}
+      </span>
+    </div>
+  {% endif %}
+{% endmacro %}
+
+
+{% if sub_totals|length > 0 %}
+
+  {% if module.subtotal_title|length > 0 %}
+    <span class="subtotal-title">{{ module.subtotal_title }}</span>
+  {% endif %}
+
+  {{ subtotal_section ("monthly",  module.default_text.monthly) }}
+  {{ subtotal_section ("quarterly", module.default_text.quarterly) }}
+  {{ subtotal_section ("per_six_months", module.default_text.per_six_months) }}
+  {{ subtotal_section ("annually", module.default_text.annual) }}
+  {{ subtotal_section ("per_two_years", module.default_text.per_two_years) }}
+  {{ subtotal_section ("per_three_years", module.default_text.per_three_years) }}
+  {{ subtotal_section ("one_time", module.default_text.one_time) }}
+
+{% endif %}

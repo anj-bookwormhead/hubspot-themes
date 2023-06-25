@@ -1,0 +1,230 @@
+[ {
+  "id" : "01aadaa0-e258-413a-66e5-55b01b6de4ee",
+  "name" : "google_fonts",
+  "display_width" : null,
+  "label" : "Google Fonts",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "e6161b21-2540-5e2e-c539-70420bda420b",
+    "name" : "enter_your_google_font",
+    "display_width" : null,
+    "label" : "Enter Your Google Font",
+    "help_text" : "Google fonts make your content more beautiful",
+    "inline_help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+  }, {
+    "id" : "1d00efed-a5f4-1788-67ed-da236b097382",
+    "name" : "heading_font_family",
+    "display_width" : null,
+    "label" : "Heading Font Family",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "\"Poppins\", sans-serif"
+  }, {
+    "id" : "4b88931e-7dba-d92e-7ae8-60c559c0fa13",
+    "name" : "paragraph_font_family",
+    "display_width" : null,
+    "label" : "Paragraph Font Family",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "\"Poppins\", sans-serif"
+  }, {
+    "id" : "737f5325-2e41-5cbc-8645-d5a322b74a04",
+    "name" : "button_font_family",
+    "display_width" : null,
+    "label" : "Button Font Family",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "\"Poppins\", sans-serif"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "enter_your_google_font" : "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap",
+    "heading_font_family" : "\"Poppins\", sans-serif",
+    "paragraph_font_family" : "\"Poppins\", sans-serif",
+    "button_font_family" : "\"Poppins\", sans-serif"
+  }
+}, {
+  "id" : "f4515cb8-b52a-d23c-6b34-96de89f68635",
+  "name" : "add_card",
+  "display_width" : null,
+  "label" : "Add Card*",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "2696cf66-6fc2-2943-7779-385ccab2cdaf",
+    "name" : "url_field",
+    "display_width" : null,
+    "label" : "Select image",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "FILE" ],
+    "type" : "url",
+    "default" : {
+      "type" : "EXTERNAL",
+      "href" : "https://car-images.bauersecure.com/upload/5666/images/480x270/ima_1_560px.jpg",
+      "content_id" : null
+    }
+  }, {
+    "id" : "b972b877-7115-e991-569b-95704c98fa80",
+    "name" : "put_your_content",
+    "display_width" : null,
+    "label" : "Heading",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h2 style=\"line-height: 1; text-align: left;\"><span style=\"color: #ff0201;\"><strong>Section</strong></span></h2>"
+  }, {
+    "id" : "6a787c38-0a3a-f4a5-1e1b-60681b5eadbc",
+    "name" : "card_heading",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum vero aliquid, aut blanditiis recusandae?                    "
+  }, {
+    "id" : "2c899591-c4b5-4d96-8b7b-85664fe7d42c",
+    "name" : "add_your_link",
+    "display_width" : null,
+    "label" : "Link address",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "#"
+  }, {
+    "id" : "34c172f0-88d3-9849-c37d-84ce8535c0ea",
+    "name" : "link_name",
+    "display_width" : null,
+    "label" : "Link text to display",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Read More"
+  }, {
+    "id" : "86c9c538-a16f-f6bb-90f2-4ffc28ebef78",
+    "name" : "pop_content",
+    "display_width" : null,
+    "label" : "Pop Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "url_field" : {
+      "type" : "EXTERNAL",
+      "href" : "https://car-images.bauersecure.com/upload/5666/images/480x270/ima_1_560px.jpg",
+      "content_id" : null
+    },
+    "put_your_content" : "<h2 style=\"line-height: 1; text-align: left;\"><span style=\"color: #ff0201;\"><strong>Section</strong></span></h2>",
+    "card_heading" : " Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eum vero aliquid, aut blanditiis recusandae?                    ",
+    "add_your_link" : "#",
+    "link_name" : "Read More"
+  }
+}, {
+  "id" : "1c338e36-913c-8b75-eac3-106feb3d6474",
+  "name" : "select_your_width",
+  "display_width" : null,
+  "label" : "Select Your Width",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "4f5e27bb-148c-9805-df45-b148d8a36563",
+    "name" : "choose_your_max_width",
+    "display_width" : null,
+    "label" : "Choose Your Max_Width",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 980,
+    "max" : 2000,
+    "step" : 1,
+    "type" : "number",
+    "default" : 1200
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "choose_your_max_width" : 1200
+  }
+}, {
+  "id" : "fc64d574-db65-c4a3-f3ba-f125ad49b4ce",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+}, {
+  "id" : "93648f50-a9dd-1470-472a-264afd6ef342",
+  "name" : "choose_image_height",
+  "display_width" : null,
+  "label" : "Choose Image height",
+  "help_text" : "you can adjust image height",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "3d29aa3f-ce96-8a52-76bd-bae24584dd49",
+    "name" : "choose_your_image_height",
+    "display_width" : null,
+    "label" : "Choose Your Image Height",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "min" : 0,
+    "max" : 1000,
+    "step" : 1,
+    "type" : "number",
+    "default" : 200
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "choose_your_image_height" : 200
+  }
+} ]

@@ -1,0 +1,33 @@
+<div class="tabset">
+
+  <!-- Tab 1 -->
+  <input class="testme" type="radio" name="tabset" id="{{ module.featured_tab.tab_id }}" aria-controls="{{ module.featured_tab.content_id }}}" checked>
+  <label for="{{ module.featured_tab.content_id }}">{{ module.featured_tab.tab_name }}</label>
+  
+  <!-- Tab 2 -->
+  {% for item in module.tab_fields %}
+  <input type="radio" name="tabset" id="{{ item.tab_id }}" aria-controls="rauchbier">
+  <label for="{{ item.tab_id }}">{{ item.tab_name }}</label>
+ {% endfor %}
+  
+  
+  <div class="tab-panels">
+    
+    
+    <section id="{{ module.featured_tab.tab_id }}" class="tab-panel">
+    <div>
+      
+     {% inline_rich_text field="featured_tab.tab_content" value="{{ module.featured_tab.tab_content }}" %} </div> 
+  </section>
+
+    
+     {% for item in module.tab_fields %}
+  <section id="{{ item.tab_content }}" class="tab-panel">
+      <div>
+        {% inline_rich_text field="tab_content" value="{{ item.tab_content }}" %} </div> 
+  </section>
+     {% endfor %}
+  
+  </div>
+  
+

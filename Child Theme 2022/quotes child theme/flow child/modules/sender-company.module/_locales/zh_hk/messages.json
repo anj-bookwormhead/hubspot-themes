@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "寄件人公司",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "如果你選擇圖片，便會顯示為公司標誌",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "寄件人公司圖片",
+    "description" : "",
+    "placeholders" : null
+  }
+}

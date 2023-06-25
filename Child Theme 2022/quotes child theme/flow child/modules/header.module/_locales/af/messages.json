@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Ons aanbiedings</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Konfigureer die voorkoms van die opskrif op kwotasies wat met hierdie sjabloon geskep is.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Vertoonde opskrif",
+    "description" : "",
+    "placeholders" : null
+  }
+}

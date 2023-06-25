@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Biaya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Biaya Lainnya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Teks biaya lain",
+    "description" : "",
+    "placeholders" : null
+  }
+}

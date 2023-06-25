@@ -1,0 +1,27 @@
+{
+  "contact_email.label" : {
+    "message" : "E-mail kontaktu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_job_title" : {
+    "message" : "Názov pozície kontaktu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_name.label" : {
+    "message" : "Meno kontaktu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_phone_number.label" : {
+    "message" : "Telefónne číslo kontaktu",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Prijímajúce kontakty",
+    "description" : "",
+    "placeholders" : null
+  }
+}

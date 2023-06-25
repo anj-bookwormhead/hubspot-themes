@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Lähettäjän yritys",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Jos valitset kuvan, se näkyy yrityksesi logona",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Lähettäjän yrityskuva",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Díjak",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Egyéb díjak",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Egyéb díjak szövege",
+    "description" : "",
+    "placeholders" : null
+  }
+}

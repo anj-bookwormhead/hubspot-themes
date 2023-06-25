@@ -1,0 +1,10 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "inline_help_text" : "By default, your quotes will show your company logo from your Brand Kit in Account Defaults or Website Page Settings.",
+  "icon" : "../../../../../Child%20Theme%202022/quotes%20child%20theme/flow%20child/images/module-icons/logo.svg",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84089562269,
+  "label" : "Logo",
+  "is_available_for_new_content" : true
+}

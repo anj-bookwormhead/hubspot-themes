@@ -1,0 +1,15 @@
+{% if module.override_logo and module.logo.src %}
+  {% set image = module.logo %}
+{% elif brand_settings.primaryLogo.src %}
+  {% set image = brand_settings.primaryLogo %}
+{% elif !brand_settings.primaryLogo.src and site_settings.logoSrc %}
+  {% set image = {"src": site_settings.logoSrc, "alt": site_settings.logoAlt, "width": site_settings.logoWidth, "height": site_settings.logoHeight, "loading": "lazy" } %}
+{% endif %}
+
+{# Logo #}
+
+{% if image != null %}
+  <img src="{{ image.src }}" alt="{{ image.alt }}" width="{{ image.width }}" height="{{ image.height }}" loading="{{ image.loading }}">
+{% elif image == null and quote.hs_sender_company_name %}
+  <h1>{{ quote.hs_sender_company_name }}</h1>
+{% endif %}

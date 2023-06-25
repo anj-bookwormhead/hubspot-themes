@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "ロゴ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "ロゴ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "このスイッチを使用して、このテンプレートで適用されるロゴを上書きすることもできます。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "既定のロゴを上書き",
+    "description" : "",
+    "placeholders" : null
+  }
+}

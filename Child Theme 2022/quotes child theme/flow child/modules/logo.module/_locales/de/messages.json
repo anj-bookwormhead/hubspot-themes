@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Mit diesem Schalter können Sie das auf diese Vorlage angewendete Logo überschreiben.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Standardlogo überschreiben",
+    "description" : "",
+    "placeholders" : null
+  }
+}

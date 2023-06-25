@@ -1,0 +1,37 @@
+{
+  "name" : {
+    "message" : "Aanbeveling",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.label" : {
+    "message" : "Aanbeveling",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author.label" : {
+    "message" : "Aanbevelingsouteur",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.default" : {
+    "message" : "Maatskappynaam",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.label" : {
+    "message" : "Maatskappy van aanbevelingsouteur",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_image.label" : {
+    "message" : "Aanbevelingsbeeld",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_text.label" : {
+    "message" : "Aanbevelingsteks",
+    "description" : "",
+    "placeholders" : null
+  }
+}

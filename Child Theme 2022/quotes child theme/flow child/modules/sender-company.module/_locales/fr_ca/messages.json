@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Entreprise de l'expéditeur",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Si vous choisissez une image, elle sera affichée comme logo de votre entreprise",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Image de la société de l'expéditeur",
+    "description" : "",
+    "placeholders" : null
+  }
+}

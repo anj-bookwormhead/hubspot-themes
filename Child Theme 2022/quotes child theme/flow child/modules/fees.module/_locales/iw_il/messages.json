@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "עמלות",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "עמלות אחרות",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "טקסט עמלות אחר",
+    "description" : "",
+    "placeholders" : null
+  }
+}

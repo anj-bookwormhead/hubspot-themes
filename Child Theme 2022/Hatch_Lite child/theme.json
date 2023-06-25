@@ -1,0 +1,22 @@
+{
+  "label" : "Hatch_Lite child",
+  "preview_path" : "./templates/home.html",
+  "screenshot_path" : "./images/template-previews/home.jpg",
+  "enable_domain_stylesheets" : false,
+  "is_available_for_new_content" : true,
+  "extends" : "@marketplace/GiantFocal/Hatch_Lite",
+  "responsive_breakpoints" : [ {
+    "mediaQuery" : "@media (max-width: 991px)",
+    "name" : "mobile",
+    "previewWidth" : {
+      "units" : "px",
+      "value" : 567
+    }
+  } ],
+  "version" : "3",
+  "author" : {
+    "name" : "",
+    "email" : ""
+  },
+  "license" : "./license.txt"
+}

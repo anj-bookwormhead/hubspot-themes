@@ -1,0 +1,144 @@
+<section>
+   <br> <br> <br> <br> <br> <br>
+    <div class="container">
+        <div class="row">
+          {% for item in module.add_card %}
+            <div class="card_section">
+                <div class="card_image">
+                    <img src="{{ item.url_field.href }}" alt="">
+                </div>
+                <div class="card_content">
+                    <div class="card_heading">
+                        {{ item.put_your_content }}
+                    </div>
+                    <div class="card_info">
+                        <p>
+                          {{ item.card_heading }}
+                        </p>
+                    </div>
+                    <div class="card_btn">
+                        <a href="{{ item.add_your_link }}">{{ item.link_name }} <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                 
+                </div>
+            </div>
+          
+          <div id="{{ item.add_your_link }}" class="modal">
+             <div class="modal modal-content">
+                <div class="modal-body">
+                <span class="close">×</span>
+            {% inline_rich_text field="pop_content" value="{{ module.pop_content }}" %} 
+          </div> </div>
+          {% endfor %}
+        </div>
+    </div>
+</section>
+  
+<script>
+    (function($) {$(document).ready(function() {
+    
+        $('.close').click(function(){
+             {% for item in module.form %}
+                 {% for item2 in item.pop_id %}
+                  $('#{{ item.add_your_link }}').hide();
+                 {% endfor %}  
+            {% endfor %} 
+        }); 
+    });
+      
+       {% for item in module.form %}
+           {% for item2 in item.pop_id %}
+            $('#{{ item2 }}_button').click(function(){
+            $('#{{ item2 }}').toggle();
+            });         
+            {% endfor %}    
+      {% endfor %} 
+        
+    })(jQuery)
+    
+    
+    </script>
+    
+  
+  
+{% require_css %}
+{{ require_css("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css") }}
+<style>
+  @import url("{{ module.google_fonts.enter_your_google_font }}");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: {{ module.select_your_width.choose_your_max_width }}px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 100px 0 100px 0; */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.card_section {
+    width: calc(33.33% - 20px);
+    margin: 0px 10px;
+    background-color: #eaeaea;;
+/*     border-radius: 10px; */
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.card_image {
+    height: {{ module.choose_image_height.choose_your_image_height }}px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.card_image img {
+    width: 100%;
+    height: auto;
+}
+
+.card_content {
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%) ;
+}
+.card_heading h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #222;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: {{ module.google_fonts.heading_font_family }};
+}
+.card_info p {
+    font-size: 16px;
+    color: #8b989b;
+    margin: 15px 0;
+    font-family: {{ module.google_fonts.paragraph_font_family }};
+}
+.card_btn a {
+    font-size: 14px;
+    color: #0a7de9;
+    text-decoration: underline;
+    margin-top: 15px;
+    font-family: {{ module.google_fonts.button_font_family }};
+}
+@media (max-width: 1024px) {
+    .card_section {
+        width: calc(50% - 20px);
+    }
+}
+@media (max-width: 512px) {
+    .card_section {
+        width: calc(100% - 20px);
+    }
+}
+
+</style>
+{% end_require_css %}

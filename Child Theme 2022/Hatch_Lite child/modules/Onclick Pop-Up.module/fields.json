@@ -1,0 +1,69 @@
+[ {
+  "id" : "cb7175b2-f633-e8d5-7e28-7c8c8cbf82df",
+  "name" : "onclick_pop_up_option",
+  "display_width" : null,
+  "label" : "Onclick Pop Up Option",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "display" : "select",
+  "choices" : [ [ "yes", "Yes" ], [ "no", "No" ] ],
+  "multiple" : false,
+  "reordering_enabled" : true,
+  "preset" : null,
+  "type" : "choice"
+}, {
+  "id" : "0ba8ee36-58c3-b9ee-99f5-f3ed32dd0331",
+  "name" : "form",
+  "display_width" : null,
+  "label" : "Form",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "347ce62c-b767-0eaa-1aed-ecf579606311",
+    "name" : "pop_id",
+    "display_width" : null,
+    "label" : "Pop ID",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : null
+    },
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "053e32cf-33c4-9dcc-b1c5-f0a0e7c4af7d",
+    "name" : "pop_up_body",
+    "display_width" : null,
+    "label" : "Pop-Up Body",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : null
+    },
+    "type" : "richtext"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+} ]

@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Сборы",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Другие сборы",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Текст других сборов",
+    "description" : "",
+    "placeholders" : null
+  }
+}

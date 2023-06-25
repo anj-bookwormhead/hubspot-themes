@@ -1,0 +1,27 @@
+{
+  "contact_email.label" : {
+    "message" : "Kontaktens e-postadresse",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_job_title" : {
+    "message" : "Kontaktens stillingstittel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_name.label" : {
+    "message" : "Kontaktnavn",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_phone_number.label" : {
+    "message" : "Kontaktens telefonnummer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Mottakerkontakter",
+    "description" : "",
+    "placeholders" : null
+  }
+}

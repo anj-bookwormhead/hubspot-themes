@@ -1,0 +1,20 @@
+[ {
+  "id" : "banner_image",
+  "name" : "banner_image",
+  "display_width" : null,
+  "label" : "Banner image",
+  "help_text" : "If the banner image is hidden, the banner color set in theme settings will appear",
+  "required" : false,
+  "locked" : false,
+  "responsive" : false,
+  "resizable" : false,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "alt" : "",
+    "height" : "",
+    "loading" : "lazy",
+    "src" : "https://7303166.fs1.hubspotusercontent-na1.net/hubfs/7303166/Flow/banner-background.jpg",
+    "width" : ""
+  }
+} ]

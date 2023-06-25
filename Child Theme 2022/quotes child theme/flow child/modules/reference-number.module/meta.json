@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "../../../../../Child%20Theme%202022/quotes%20child%20theme/flow%20child/images/module-icons/pen-square.svg",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84090251062,
+  "label" : "Reference number",
+  "is_available_for_new_content" : true
+}

@@ -1,0 +1,35 @@
+{# associated company data: name, address, city, state, zip, country #}
+
+<div class="recipient-company">
+  {% if module.recipient_company_text %}
+    <p>{{ module.recipient_company_text }}</p>
+  {% endif %}
+
+  {% if module.show_company_name && recipient_company.name %}
+    <span class="recipient-company__name">{{ recipient_company.name }}</span>
+  {% endif %}
+
+  {% if module.show_company_address && recipient_company.address %}
+    <span>{{ recipient_company.address }}</span>
+  {% endif %}
+
+  {% if module.show_company_city_state_zip && (recipient_company.city or recipient_company.state or recipient_company.zip) %}
+    <div class="recipient-company__region-info">
+      {% if recipient_company.city %}
+        <span>{{ recipient_company.city }}</span>
+      {% endif %}
+
+      {% if recipient_company.state %}
+        <span>{{ recipient_company.state }}</span>
+      {% endif %}
+
+      {% if recipient_company.zip %}
+        <span>{{ recipient_company.zip }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if module.show_company_country && recipient_company.country %}
+    <span>{{ recipient_company.country }}</span>
+  {% endif %}
+</div>

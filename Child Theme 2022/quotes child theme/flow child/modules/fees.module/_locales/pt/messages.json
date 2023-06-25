@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Tarifas",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Outras tarifas",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Texto de outras tarifas",
+    "description" : "",
+    "placeholders" : null
+  }
+}

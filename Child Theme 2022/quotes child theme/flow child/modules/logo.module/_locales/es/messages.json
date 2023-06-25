@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logotipo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logotipo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Puede elegir anular el logotipo aplicado en esta plantilla mediante este botón.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Anular logotipo predeterminado",
+    "description" : "",
+    "placeholders" : null
+  }
+}

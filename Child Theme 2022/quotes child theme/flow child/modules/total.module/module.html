@@ -1,0 +1,8 @@
+{% set quote = template_data.quote or mock_data.quote %}
+{% set currency = quote.hs_currency or 'USD' %}
+{% set locale = quote.hs_locale or 'en-US' %}
+
+<div class="totals__row total-cost">
+  <div class="line-items__total-name" style="white-space: pre;">{{ module.total_title }}</div>
+  <div class="line-items__total-value">{{ totals.total|format_currency(locale, currency, true) }}</div>
+</div>

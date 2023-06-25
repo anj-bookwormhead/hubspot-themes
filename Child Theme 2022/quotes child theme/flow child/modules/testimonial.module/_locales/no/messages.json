@@ -1,0 +1,37 @@
+{
+  "name" : {
+    "message" : "Anbefaling",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.label" : {
+    "message" : "Anbefaling",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author.label" : {
+    "message" : "Forfatter av anbefaling",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.default" : {
+    "message" : "Selskapets navn",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.label" : {
+    "message" : "Bedriften til forfatter av anbefaling",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_image.label" : {
+    "message" : "Anbefalingsbilde",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_text.label" : {
+    "message" : "Anbefalingstekst",
+    "description" : "",
+    "placeholders" : null
+  }
+}

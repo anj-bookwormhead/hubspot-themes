@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Maksut",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Muut maksut",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Muiden maksujen teksti",
+    "description" : "",
+    "placeholders" : null
+  }
+}

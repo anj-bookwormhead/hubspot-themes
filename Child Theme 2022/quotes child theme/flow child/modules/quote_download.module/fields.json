@@ -1,0 +1,25 @@
+[ {
+  "id" : "button_text",
+  "name" : "button_text",
+  "display_width" : null,
+  "label" : "Button text",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Download"
+}, {
+  "id" : "download_error",
+  "name" : "download_error",
+  "display_width" : null,
+  "label" : "Error message shown when download fails",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "There was a problem downloading the quote. Please try again."
+} ]

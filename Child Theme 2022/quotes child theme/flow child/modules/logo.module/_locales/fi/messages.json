@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Voit ohittaa tässä mallipohjassa käytetyn logon käyttämällä tätä vaihtokytkintä.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Ohita oletuslogo",
+    "description" : "",
+    "placeholders" : null
+  }
+}

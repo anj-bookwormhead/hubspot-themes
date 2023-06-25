@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Naša ponuka</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Konfigurujte, ako hlavička vyzerá na cenových ponukách vytvorených pomocou tejto šablóny.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Zobrazená hlavičak",
+    "description" : "",
+    "placeholders" : null
+  }
+}

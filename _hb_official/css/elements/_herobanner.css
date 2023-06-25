@@ -1,0 +1,50 @@
+.hero-banner img {
+    margin: 0 auto;
+    position: relative;
+    display: inherit;
+    margin-top: 5rem;
+}
+
+.hero-banner { 
+    background-image: linear-gradient(180deg,#000 70%,hsl(0deg 0% 100% / 50%) 0);
+    position: absolute;
+    min-height: 200px;
+    top: 0;
+    width: 100vw;
+    left: 0;
+    overflow: hidden;
+}
+
+.bar-colors {
+    width: 100vw;
+    background-image: linear-gradient(90deg,
+      #f72119,#f72119 5.5%,
+      #ff007f 0,#ff007f 11%,
+      #ff5f1f 0,#ff5f1f 16.5%,
+      #eb18ef 0,#eb18ef 22%,
+      #59c2ff 0,#59c2ff 27.5%,
+      #6cf600 0,#6cf600 33%,
+      #fff239 0,#fff239,
+      #f72119 10%,#f72119 0, 
+      #ff007f 0,#ff007f 38.5%,
+      #ff5f1f 0,#ff5f1f 44%, 
+      #eb18ef 0,#eb18ef 49.5%,
+      #59c2ff 0,#59c2ff 55%,
+      #6cf600 0,#6cf600 59.5%,  
+      #f72119 10%,#f72119 0,   
+      #ff007f 0,#ff007f 65%,
+      #ff5f1f 0,#ff5f1f 71.5%,
+      #eb18ef 0,#eb18ef 76.5%,
+      #59c2ff 0,#59c2ff 82%,
+      #F72119 0,#F72119 87.5%,
+      #6cf600 0,#6cf600 93%,
+      #fff239 0,#fff239 
+      
+    );
+  
+    bottom: 0;
+    height: 80px;
+    left: 0;
+    position: absolute;
+}
+

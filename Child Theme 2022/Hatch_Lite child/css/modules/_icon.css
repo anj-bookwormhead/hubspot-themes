@@ -1,0 +1,172 @@
+.icon,
+.icon-only {
+	padding: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.icon.prebuilt-card,
+.icon.prebuilt-card-border,
+.icon.prebuilt-border {
+	border-radius: {{ icon_border_radius }}px;
+}
+.icon.prebuilt-card-border,
+.icon.prebuilt-border {
+	border-width: {{ icon_border_width }}px;
+}
+.icon.prebuilt-card,
+.icon.prebuilt-card-border {
+	box-shadow: {{ icon_shadow }};
+}
+
+
+.icon-prebuilt-radius {
+	border-radius: {{ icon_border_radius }}px;
+}
+/* ==========
+ * Icon Size 
+ * =============== */
+
+.icon.icon-xs,
+.icon.icon-sm,
+.icon.icon-md,
+.icon.icon-lg,
+.icon.icon-xl,
+.icon.icon-2xl,
+.icon.icon-3xl {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* XS */
+.icon-only.icon-xs {
+	width: 1rem;
+	height: 1rem;
+}
+.icon.icon-xs {
+	width: 2rem;
+	height: 2rem;
+}
+.icon-xs svg {
+	height: 1rem;
+}
+.icon-xs img {
+	max-width: 1rem;
+	max-height: 1rem;
+}
+
+/* S */
+.icon-only.icon-sm {
+	width: 1.25rem;
+	height: 1.25rem;
+}
+.icon.icon-sm {
+	width: 3rem;
+	height: 3rem;
+}
+.icon-sm svg {
+	height: 1.25rem;
+}
+.icon-sm img {
+	max-width: 1.25rem;
+	max-height: 1.25rem;
+}
+
+/* M */
+.icon-only.icon-md {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.icon.icon-md {
+	width: 4rem;
+	height: 4rem;
+}
+.icon-md svg {
+	height: 1.5rem;
+}
+.icon-md img {
+	max-width: 1.5rem;
+	max-height: 1.5rem;
+}
+
+/* L */
+.icon-only.icon-lg {
+	width: 2rem;
+	height: 2rem;
+}
+.icon.icon-lg {
+	width: 5rem;
+	height: 5rem;
+}
+.icon-lg svg {
+	height: 2rem;
+}
+.icon-lg img {
+	max-width: 2rem;
+	max-height: 2rem;
+}
+
+/* XL */
+.icon-only.icon-xl {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.icon.icon-xl {
+	width: 6rem;
+	height: 6rem;
+}
+.icon-xl svg {
+	height: 2.5rem;
+}
+.icon-xl img {
+	max-width: 2.5rem;
+	max-height: 2.5rem;
+}
+
+/* 2XL */
+.icon-only.icon-2xl {
+	width: 3rem;
+	height: 3rem;
+}
+.icon.icon-2xl {
+	width: 8rem;
+	height: 8rem;
+}
+.icon-2xl svg {
+	height: 3rem;
+}
+.icon-2xl img {
+	max-width: 3rem;
+	max-height: 3rem;
+}
+
+/* 3XL */
+.icon-only.icon-3xl {
+	width: 4rem;
+	height: 4rem;
+}
+.icon.icon-3xl {
+	width: 10rem;
+	height: 10rem;
+}
+.icon-3xl svg {
+	height: 4rem;
+}
+.icon-3xl img {
+	max-width: 4rem;
+	max-height: 4rem;
+}
+
+/* ==========
+ * Icon Color 
+ * =============== */
+.icon svg,
+.icon-only svg {
+	fill: currentColor;
+}
+a.icon:hover,
+a.icon-only:hover {
+/* 	color: inherit; */
+	opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "bars",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84089913267,
+  "label" : "Text block",
+  "is_available_for_new_content" : true
+}

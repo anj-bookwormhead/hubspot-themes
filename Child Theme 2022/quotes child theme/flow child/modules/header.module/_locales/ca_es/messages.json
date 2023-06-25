@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Les nostres ofertes</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Configura l'aspecte del títol als pressupostos creats amb aquesta plantilla.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Encapçalament mostrat",
+    "description" : "",
+    "placeholders" : null
+  }
+}

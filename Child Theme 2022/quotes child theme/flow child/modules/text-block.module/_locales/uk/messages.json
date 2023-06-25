@@ -1,0 +1,32 @@
+{
+  "name" : {
+    "message" : "Текстовий блок",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_description.label" : {
+    "message" : "Блок тексту",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.default" : {
+    "message" : "МЕТА",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.label" : {
+    "message" : "Заголовок блоку",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_text_unit_color.label" : {
+    "message" : "Колір фону текстової одиниці",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.label" : {
+    "message" : "Одиниця текстового блоку",
+    "description" : "",
+    "placeholders" : null
+  }
+}

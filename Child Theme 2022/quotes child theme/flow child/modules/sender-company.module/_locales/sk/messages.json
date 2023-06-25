@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Odosielajúca spoločnosť",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Ak vyberiete obrázok, zobrazí sa ako logo vašej spoločnosti",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Obrázok odosielajúcej spoločnosti",
+    "description" : "",
+    "placeholders" : null
+  }
+}

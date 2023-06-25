@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Verwysingsnommer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "reference_text.label" : {
+    "message" : "Verwysingsteks",
+    "description" : "",
+    "placeholders" : null
+  }
+}

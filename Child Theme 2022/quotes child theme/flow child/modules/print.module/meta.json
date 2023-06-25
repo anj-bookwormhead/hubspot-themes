@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "download",
+  "host_template_types" : [ "NONE" ],
+  "module_id" : 84088348704,
+  "label" : "Print",
+  "is_available_for_new_content" : true
+}

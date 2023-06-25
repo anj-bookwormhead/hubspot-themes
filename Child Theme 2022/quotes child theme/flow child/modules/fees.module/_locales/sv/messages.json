@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Avgifter",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Andra avgifter",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Övrig avgiftstext",
+    "description" : "",
+    "placeholders" : null
+  }
+}

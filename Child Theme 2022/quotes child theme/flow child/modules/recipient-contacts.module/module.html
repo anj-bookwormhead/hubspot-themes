@@ -1,0 +1,41 @@
+{# Module content #}
+
+{% for recipient in recipient_contacts %}
+  {% if (module.contact_name and recipient.firstname and recipient.lastname) or (module.contact_email and recipient.email) and (module.contact_phone_number and recipient.phone) %}
+    <div class="recipient-contact">
+
+      {# Contact name #}
+
+      {% if module.contact_name and recipient.firstname and recipient.lastname  %}
+        <div class="recipient-contact__data recipient-contact__name">
+          {{ recipient.firstname ~ ' ' ~ recipient.lastname }}
+        </div>
+      {% endif %}
+
+      {# Contact job title #}
+
+      {% if module.contact_job_title and recipient.jobtitle %}
+        <div class="recipient-contact__data recipient-contact__job-title">
+          {{ recipient.jobtitle }}
+        </div>
+      {% endif %}
+
+      {# Contact email #}
+
+      {% if module.contact_email and recipient.email %}
+        <div class="recipient-contact__data recipient-contact__email">
+          {{ recipient.email }}
+        </div>
+      {% endif %}
+
+      {# Contact phone number #}
+
+      {% if module.contact_phone_number and recipient.phone %}
+        <div class="recipient-contact__data recipient-contact__phone-number">
+          {{ recipient.phone }}
+        </div>
+      {% endif %}
+
+    </div>
+  {% endif %}
+{% endfor %}

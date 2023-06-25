@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Sender company",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "画像を選択すると、会社ロゴとして表示されます",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "送信者の会社画像",
+    "description" : "",
+    "placeholders" : null
+  }
+}

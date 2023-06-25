@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Nos offres</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Configurez l'apparence du titre sur les devis créés à l'aide de ce modèle.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "En-tête affiché",
+    "description" : "",
+    "placeholders" : null
+  }
+}

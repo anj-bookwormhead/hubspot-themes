@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Nos offres</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Configurez l’apparence de l’en-tête sur les guillemets créés à l’aide de ce modèle.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "En-tête affichée",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Naknade",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Ostale naknade",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Tekst o drugim naknadama",
+    "description" : "",
+    "placeholders" : null
+  }
+}

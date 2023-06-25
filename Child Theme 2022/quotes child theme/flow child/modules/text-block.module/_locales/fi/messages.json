@@ -1,0 +1,32 @@
+{
+  "name" : {
+    "message" : "Tekstikenttä",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_description.label" : {
+    "message" : "Lohkoteksti",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.default" : {
+    "message" : "TAVOITE",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.label" : {
+    "message" : "Lohkon otsikko",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_text_unit_color.label" : {
+    "message" : "Tekstiyksikön taustaväri",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.label" : {
+    "message" : "Tekstikentän yksikkö",
+    "description" : "",
+    "placeholders" : null
+  }
+}

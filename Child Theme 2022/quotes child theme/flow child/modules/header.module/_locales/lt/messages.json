@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Mūsų pasiūlymai</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Konfigūruoti, kaip atrodys pasiūlymo puslapio viršutinė antraštė naudojant šį šabloną.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Rodoma antraštė",
+    "description" : "",
+    "placeholders" : null
+  }
+}

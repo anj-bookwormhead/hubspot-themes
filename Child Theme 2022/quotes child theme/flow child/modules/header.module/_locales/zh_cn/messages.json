@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>我们的产品</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "配置标题在使用此模板创建的报价上的外观。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "显示标题",
+    "description" : "",
+    "placeholders" : null
+  }
+}

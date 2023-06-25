@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Commissioni",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Altre quote",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Testo altre commissioni",
+    "description" : "",
+    "placeholders" : null
+  }
+}

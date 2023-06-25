@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Ang aming mga alok</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Ikumpigura ang hitsura ng header sa mga ginawang quote gamit ang template na ito.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Ipinapakitang header",
+    "description" : "",
+    "placeholders" : null
+  }
+}

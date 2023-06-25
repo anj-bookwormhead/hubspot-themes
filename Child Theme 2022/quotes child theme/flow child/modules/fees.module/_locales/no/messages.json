@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Gebyrer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Andre avgifter",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Andre gebyrer tekst",
+    "description" : "",
+    "placeholders" : null
+  }
+}

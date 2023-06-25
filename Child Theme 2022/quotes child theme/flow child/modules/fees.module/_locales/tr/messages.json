@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Ücretler",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Diğer Ücretler",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Diğer ücretler metni",
+    "description" : "",
+    "placeholders" : null
+  }
+}

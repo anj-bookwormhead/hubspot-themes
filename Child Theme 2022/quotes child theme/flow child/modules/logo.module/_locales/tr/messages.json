@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Bu seçimi kullanarak bu şablona uygulanan logoyu geçersiz kılmayı seçebilirsiniz.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Varsayılan logoyu geçersiz kıl",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "מספר של הפניה",
+    "description" : "",
+    "placeholders" : null
+  },
+  "reference_text.label" : {
+    "message" : "טקסט של הפניה",
+    "description" : "",
+    "placeholders" : null
+  }
+}

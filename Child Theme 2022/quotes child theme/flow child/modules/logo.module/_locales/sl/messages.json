@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logotip",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logotip",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "S tem preklopom lahko povozite logotip, uporabljen na tej predlogi.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Povozi privzeti logo",
+    "description" : "",
+    "placeholders" : null
+  }
+}

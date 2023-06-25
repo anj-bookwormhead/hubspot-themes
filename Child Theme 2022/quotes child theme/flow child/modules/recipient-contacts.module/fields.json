@@ -1,0 +1,41 @@
+[ {
+  "id" : "contact_name",
+  "name" : "contact_name",
+  "display_width" : null,
+  "label" : "Contact name",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "contact_job_title",
+  "name" : "contact_job_title",
+  "display_width" : null,
+  "label" : "Contact job title",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "contact_email",
+  "name" : "contact_email",
+  "display_width" : null,
+  "label" : "Contact email",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "contact_phone_number",
+  "name" : "contact_phone_number",
+  "display_width" : null,
+  "label" : "Contact phone number",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+} ]

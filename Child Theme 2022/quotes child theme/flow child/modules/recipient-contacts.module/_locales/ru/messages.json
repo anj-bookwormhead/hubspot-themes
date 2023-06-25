@@ -1,0 +1,27 @@
+{
+  "contact_email.label" : {
+    "message" : "Электронная почта контактного лица",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_job_title" : {
+    "message" : "Должность контактного лица",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_name.label" : {
+    "message" : "Имя контакта",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_phone_number.label" : {
+    "message" : "Номер телефона контактного лица",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Контактные лица получателя",
+    "description" : "",
+    "placeholders" : null
+  }
+}

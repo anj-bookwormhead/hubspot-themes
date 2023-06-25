@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Λογότυπο",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Λογότυπο",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Μπορείτε να επιλέξετε να παρακάμψετε το λογότυπο που εφαρμόζεται σε αυτό το πρότυπο χρησιμοποιώντας αυτό το κουμπί εναλλαγής.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Παράκαμψη προεπιλεγμένου λογότυπου",
+    "description" : "",
+    "placeholders" : null
+  }
+}

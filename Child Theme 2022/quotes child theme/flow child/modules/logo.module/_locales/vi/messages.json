@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Bạn có thể chọn ghi đè logo được dùng trên mẫu này bằng cách sử dụng nút chuyển đổi này.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Ghi đè logo mặc định",
+    "description" : "",
+    "placeholders" : null
+  }
+}

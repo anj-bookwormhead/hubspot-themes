@@ -1,0 +1,15 @@
+{# company data: name, image, address, city, state, zip and country #}
+
+<div class="sender-company__address">
+  {% if module.sender_company_image.src %}
+    <img
+      class="sender-company__image"
+      width="{{ module.sender_company_image.width }}"
+      height="{{ module.sender_company_image.height }}"
+      loading="lazy"
+      src="{{ module.sender_company_image.src }}"
+    >
+  {% endif %}
+
+  <div>{{ module.sender_company_address }}</div>
+</div>

@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Fooie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Ander fooie",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Teks van ander fooie",
+    "description" : "",
+    "placeholders" : null
+  }
+}

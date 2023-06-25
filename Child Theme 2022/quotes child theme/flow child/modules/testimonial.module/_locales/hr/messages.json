@@ -1,0 +1,37 @@
+{
+  "name" : {
+    "message" : "Iskustvo korisnika",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.label" : {
+    "message" : "Iskustvo korisnika",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author.label" : {
+    "message" : "Autor iskustva korisnika",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.default" : {
+    "message" : "Ime tvrtke",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.label" : {
+    "message" : "Tvrtka autora iskustva korisnika",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_image.label" : {
+    "message" : "Slika rezerviranog mjesta",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_text.label" : {
+    "message" : "Tekst iskustva korisnika",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name" : {
+    "message" : "การรับรอง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.label" : {
+    "message" : "การรับรอง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author.label" : {
+    "message" : "ผู้เขียนใบรับรอง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.default" : {
+    "message" : "ชื่อบริษัท",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_author_company.label" : {
+    "message" : "บริษัทของผู้เขียนใบรับรอง",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_image.label" : {
+    "message" : "รูปภาพยืนยัน",
+    "description" : "",
+    "placeholders" : null
+  },
+  "testimonial.testimonial_text.label" : {
+    "message" : "ข้อความยืนยัน",
+    "description" : "",
+    "placeholders" : null
+  }
+}

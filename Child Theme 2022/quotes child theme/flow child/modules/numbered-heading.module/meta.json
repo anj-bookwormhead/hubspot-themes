@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "heading",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84089376768,
+  "label" : "Numbered heading",
+  "is_available_for_new_content" : true
+}

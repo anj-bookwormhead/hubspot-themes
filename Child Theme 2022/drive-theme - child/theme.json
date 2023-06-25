@@ -1,0 +1,13 @@
+{
+  "label" : "drive-theme - child",
+  "preview_path" : "./templates/home.html",
+  "screenshot_path" : "./images/template-previews/home.png",
+  "enable_domain_stylesheets" : false,
+  "is_available_for_new_content" : true,
+  "extends" : "@marketplace/Drive_Web_Studio/drive-theme-free",
+  "version" : "3",
+  "author" : {
+    "name" : "",
+    "email" : ""
+  }
+}

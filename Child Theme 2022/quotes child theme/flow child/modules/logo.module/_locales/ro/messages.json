@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Puteți alege să înlocuiți sigla aplicată pe acest șablon cu ajutorul acestui element de comutare.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Înlocuire siglă implicită",
+    "description" : "",
+    "placeholders" : null
+  }
+}

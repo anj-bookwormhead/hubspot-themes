@@ -1,0 +1,15 @@
+img {
+	max-width: 100%;
+}
+
+.pb-full {
+	padding-bottom: 100%;
+}
+
+/* Filter */
+.filter-grayscale {
+	filter: grayscale(100%);
+}
+.hover\:gray-scale:hover {
+	filter: grayscale(0%);
+}

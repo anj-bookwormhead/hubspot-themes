@@ -1,0 +1,16 @@
+[ {
+  "id" : "f9a8bd3b-6d69-2557-2560-a36658edd49a",
+  "name" : "meeting_url",
+  "display_width" : null,
+  "label" : "Meeting URL",
+  "help_text" : "Your HubSpot Meeting Link. You can find the meeting link by going to Marketing > Meetings. Hover over the Meeting you want to include, click \"Copy Link\" and paste in here.",
+  "required" : true,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+  "type" : "url",
+  "default" : {
+    "content_id" : null,
+    "href" : "",
+    "type" : "EXTERNAL"
+  }
+} ]

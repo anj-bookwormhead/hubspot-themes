@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Sender company",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "আপনি যদি একটি ছবি বেছে নেন, এটি আপনার কোম্পানির লোগো হিসাবে দেখানো হবে",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "প্রেরক কোম্পানির ছবি",
+    "description" : "",
+    "placeholders" : null
+  }
+}

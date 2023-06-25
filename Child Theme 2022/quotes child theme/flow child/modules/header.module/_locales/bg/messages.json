@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Нашите предложения</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Конфигурирайте как да изглежда заглавката на офертите, създадени с помощта на този шаблон.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Визуализиран горен колонтитул",
+    "description" : "",
+    "placeholders" : null
+  }
+}

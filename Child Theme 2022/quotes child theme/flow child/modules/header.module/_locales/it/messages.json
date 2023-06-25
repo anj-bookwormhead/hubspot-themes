@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Le nostre offerte</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Configura l'aspetto dell'intestazione sui preventivi creati utilizzando questo modello.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Intestazione visualizzata",
+    "description" : "",
+    "placeholders" : null
+  }
+}

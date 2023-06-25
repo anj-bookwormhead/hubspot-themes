@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Kompanyang nagpapadala",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Kapag pumili ka ng larawan, ipapakita ito bilang logo ng iyong kompanya",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Larawan ng nagpadalang kompanya",
+    "description" : "",
+    "placeholders" : null
+  }
+}

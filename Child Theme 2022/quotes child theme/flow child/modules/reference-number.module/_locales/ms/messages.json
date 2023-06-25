@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Nombor rujukan",
+    "description" : "",
+    "placeholders" : null
+  },
+  "reference_text.label" : {
+    "message" : "Teks rujukan",
+    "description" : "",
+    "placeholders" : null
+  }
+}

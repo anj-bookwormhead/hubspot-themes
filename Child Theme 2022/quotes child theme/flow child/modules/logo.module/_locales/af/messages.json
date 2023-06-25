@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Jy kan kies om die logo op hierdie sjabloon te oorheers deur middel van hierdie skakelaar.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Oorheers standaardlogo",
+    "description" : "",
+    "placeholders" : null
+  }
+}

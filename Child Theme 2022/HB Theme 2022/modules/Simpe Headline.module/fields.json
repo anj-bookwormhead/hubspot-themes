@@ -1,0 +1,25 @@
+[ {
+  "id" : "fab16ee3-8dbe-53b5-0f8e-d06746d64694",
+  "name" : "headline",
+  "display_width" : null,
+  "label" : "Headline",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Pop Culture BrandPartnership News And Insights"
+}, {
+  "id" : "10d71ea3-194a-e3df-e46a-b6346535dd8a",
+  "name" : "sub_headline",
+  "display_width" : null,
+  "label" : "Sub Headline",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "We believe that bringing brands, content, celebrities and influencers together makes storytelling more meaningful and impactful. Our team provides insights to best practices and how brands are leveraging pop culture."
+} ]

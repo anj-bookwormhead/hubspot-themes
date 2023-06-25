@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logotip",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logotip",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Pomoću ovoga preklopnog gumba možete zaobići logotip primijenjen na ovom predlošku.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Zaobiđite zadani logotip",
+    "description" : "",
+    "placeholders" : null
+  }
+}

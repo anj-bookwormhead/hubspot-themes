@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Mokesčiai",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Kiti mokesčiai",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Kitų mokesčių tekstas",
+    "description" : "",
+    "placeholders" : null
+  }
+}

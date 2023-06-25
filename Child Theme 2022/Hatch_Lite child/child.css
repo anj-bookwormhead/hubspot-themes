@@ -1,0 +1,34 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+.accordion-lite-item {
+    border: 1px solid #d1cbcb;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.card_content {
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    background: #fff;
+    border: 1px solid #E2E2E2;
+   
+}
+
+ul,ol {
+    margin-left: 2rem;
+    margin-right: 0;
+   
+   
+}
+
+.widget-type-rich_text ul li:before {
+    background: #333333;
+}

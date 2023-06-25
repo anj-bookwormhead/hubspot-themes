@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Naše ponude</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Konfigurirajte izgled naslova ponuda izrađenih putem ovog predloška.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Prikazano zaglavlje",
+    "description" : "",
+    "placeholders" : null
+  }
+}

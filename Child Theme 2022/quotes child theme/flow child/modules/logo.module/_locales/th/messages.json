@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "โลโก้",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "โลโก้",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "คุณสามารถเลือกแทนที่โลโก้ที่ใช้กับเทมเพลตนี้ได้โดยใช้ปุ่มนี้",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "แทนที่โลโก้เริ่มต้น",
+    "description" : "",
+    "placeholders" : null
+  }
+}

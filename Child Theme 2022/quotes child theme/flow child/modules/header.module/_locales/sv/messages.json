@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Våra erbjudanden</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Konfigurera hur rubriken se ut på offerter skapade med hjälp av denna mall.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Visad rubrik",
+    "description" : "",
+    "placeholders" : null
+  }
+}

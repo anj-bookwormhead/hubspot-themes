@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Opłaty",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Inne opłaty",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Tekst dotyczący innych opłat",
+    "description" : "",
+    "placeholders" : null
+  }
+}

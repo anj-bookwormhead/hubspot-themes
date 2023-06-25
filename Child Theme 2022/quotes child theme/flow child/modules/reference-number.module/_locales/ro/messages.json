@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Număr de referință",
+    "description" : "",
+    "placeholders" : null
+  },
+  "reference_text.label" : {
+    "message" : "Text de referință",
+    "description" : "",
+    "placeholders" : null
+  }
+}

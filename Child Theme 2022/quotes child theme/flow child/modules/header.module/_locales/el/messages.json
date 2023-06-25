@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Οι προσφορές μας</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Διαμορφώστε τον τρόπο με τον οποίο εμφανίζεται η επικεφαλίδα στις προσφορές που δημιουργούνται χρησιμοποιώντας αυτό το πρότυπο.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Εμφανιζόμενη κεφαλίδα",
+    "description" : "",
+    "placeholders" : null
+  }
+}

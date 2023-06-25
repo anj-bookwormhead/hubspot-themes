@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Логотип",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Логотип",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "За допомогою цього перемикача можна перевизначити логотип, застосований до цього шаблону.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Перевизначити стандартний логотип",
+    "description" : "",
+    "placeholders" : null
+  }
+}

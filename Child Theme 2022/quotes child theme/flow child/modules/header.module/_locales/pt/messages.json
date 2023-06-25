@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Nossas ofertas</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Configure como o cabeçalho é exibido nos orçamentos criados usando este modelo.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Cabeçalho exibido",
+    "description" : "",
+    "placeholders" : null
+  }
+}

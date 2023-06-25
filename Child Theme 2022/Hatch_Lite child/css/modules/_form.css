@@ -1,0 +1,38 @@
+/* Inline Form */
+.form-inline form {
+	display: inline-flex;
+	margin-left: -0.5rem;
+	margin-right: -0.5rem;
+}
+.form-inline form .field {
+	margin-bottom: 0;
+}
+.form-inline form > fieldset,
+.form-inline form > .field {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.form-inline .hs-submit {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	margin-top: 1.5rem;
+}
+.form-inline.form-no-labels .hs-submit {
+	margin-top: 0;
+}
+.form-inline .hs-submit .hs-button {
+	white-space: nowrap;
+}
+
+.form-inline.form-fullwidth form {
+	display: flex;
+}
+.form-inline.form-fullwidth form fieldset,
+.form-inline.form-fullwidth form .field {
+	width: 100%;
+}
+
+/* No Labels */
+.form-no-labels form > .field:not(.hs-radio) > label {
+	display: none;
+}

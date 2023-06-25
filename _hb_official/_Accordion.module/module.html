@@ -1,0 +1,69 @@
+<div {% if module.custom_id %}id="{{ module.custom_id }}"{% endif %} class="relative accordion-lite {{ module.custom_classes }}">
+
+	<div class="accordion-lite-container grid gap-4 {% if module.styles.shadow.shadow %}shadow-md{% endif %}">
+		{% for item in module.content.repeater %}
+		<div class="accordion-lite-item">
+			<h4 class="accordion-lite-title flex items-start cursor-pointer leading-8 font-bold text-lg">
+				<div class="flex items-center justify-center h-8 fill-primary">
+					<span class="accordion-lite-open w-4 h-4 mr-4">
+						{% icon
+							name="{{ module.content.icon_style.open_icon.name }}"
+							style="{{ module.content.icon_style.open_icon.type }}"
+							unicode="{{ module.content.icon_style.open_icon.unicode }}"
+							icon_set="{{ module.content.icon_style.open_icon.icon_set }}"
+							no_wrapper=True
+						%}
+					</span>
+					<span class="accordion-lite-close w-4 h-4 mr-4">
+						{% icon
+							name="{{ module.content.icon_style.close_icon.name }}"
+							style="{{ module.content.icon_style.close_icon.type }}"
+							unicode="{{ module.content.icon_style.close_icon.unicode }}"
+							icon_set="{{ module.content.icon_style.close_icon.icon_set }}"
+							no_wrapper=True
+						%}
+					</span>
+				</div>
+				{{ item.title }}
+			</h4>
+			<div class="accordion-lite-content" style="display:none;">
+				<div class="pl-8 pr-4 pt-4 pb-4 content-wrapper">{{ item.content }}</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+
+{% require_css %}
+<style>
+	{% scope_css %}
+	.accordion-lite-container {
+		{% if module.styles.background.background_option == 'solid' %}
+		background-color: {{ module.styles.background.bg_color.color }};
+		{% elif module.styles.background.background_option == 'image' %}
+		{{ module.styles.background.bg_image.css }}
+		{% endif %}
+		{% if module.styles.border.enable_border %}{{ module.styles.border.border.css }}{% endif %}
+		{{ module.styles.spacing.spacing.css }}
+		{{ module.styles.typography.text_alignment.css }}
+	}
+	{% if module.styles.typography.customize_heading_color %}
+	.accordion-lite-container h1,
+	.accordion-lite-container h2,
+	.accordion-lite-container h3,
+	.accordion-lite-container h4,
+	.accordion-lite-container h5,
+	.accordion-lite-container h6 {
+		color: {{ module.styles.typography.heading_color.color }};
+		opacity: {{ module.styles.typography.heading_color.opacity /100 }};
+	}
+	{% endif %}
+	{% if module.styles.typography.customize_text_color %}
+	.accordion-lite-container *:not(a):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+		color: {{ module.styles.typography.text_color.color }};
+		opacity: {{ module.styles.typography.text_color.opacity /100 }};
+	}
+	{% endif %}
+	{% end_scope_css %}
+</style>
+{% end_require_css %}

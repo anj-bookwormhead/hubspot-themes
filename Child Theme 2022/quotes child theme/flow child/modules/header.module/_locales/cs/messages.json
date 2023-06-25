@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Naše nabídka</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Nakonfigurujte, jak má vypadat nadpis nabídek vytvořených s použitím této šablony.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Zobrazený nadpis",
+    "description" : "",
+    "placeholders" : null
+  }
+}

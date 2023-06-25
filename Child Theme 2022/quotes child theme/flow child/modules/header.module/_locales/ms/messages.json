@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Tawaran kami</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Konfigurasikan cara tajuk kelihatan pada petikan yang dibuat menggunakan templat ini.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Pengepala yang dipaparkan",
+    "description" : "",
+    "placeholders" : null
+  }
+}

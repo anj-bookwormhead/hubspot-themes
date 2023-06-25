@@ -1,0 +1,104 @@
+
+
+<!-- start with header banner -->
+		  <div class="bg-white">
+			<header>
+			  <div class="relative bg-white">
+				<div class="mx-auto flex max-w-7xl items-center justify-between py-6 px-6 md:justify-start md:space-x-10 lg:px-8">
+				  <div class="header-logo">
+					<a href="https://hollywoodbranded.com/">
+					  <span class="sr-only">{{site_settings.company_name }}</span>
+					  <img class="h-8 w-auto sm:h-10" src="{{ module.logo.src }}" alt="{{ module.logo.alt }}">
+					</a>
+				  </div>
+				  <div class="-my-2 -mr-2 md:hidden">
+					<button type="button" class="inline-flex items-center justify-center z bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+					  <span class="sr-only">Open menu</span>
+					  <!-- Heroicon name: outline/bars-3 -->
+					  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+					  </svg>
+					</button>
+				  </div>
+				  <nav class="hidden space-x-10 md:flex">
+					<div class="relative hs-menu-wrapper">
+						<ul>
+							<!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+					    {% for item in module.menu %}
+              <li class="hs-menu-item">
+							<div type="button" class="text-gray-500 group inline-flex items-center bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" aria-expanded="false">
+								<a href="#" class="primary-menu">{{ item.primary_menu }}</a>
+													<svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+													<path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+													</svg>
+												</div>
+									
+												
+                {#<!--Fly Out-->
+												<ul class="hs-menu-children-wrapper">
+													<div class="overflow-hidden rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
+													<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+                            {% set href = item.secondary_menu.link_field.url.href %}
+                              {% if item.secondary_menu.link_field.url.type is equalto "EMAIL_ADDRESS" %}
+                                {% set href = "mailto:" + href %}
+                              {% endif %}
+														<a href="{{ href }}" class="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                               {% if item.secondary_menu.link_field.open_in_new_tab %}target="_blank"{% endif %}
+		                           {% if item.secondary_menu.link_field.rel %}rel="{{ item.secondary_menu.link_field.rel }}"{% endif %}
+                               >
+														<div class="menu-box-icon">
+															<!-- Heroicon name: outline/inbox -->
+															<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+															<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
+															</svg>
+														</div>
+														<li class="ml-4">
+															<p class="text-base font-medium text-gray-900">{{ item.secondary_menu.secondary_menu }}</p>
+															<p class="mt-1 text-sm text-gray-500">Get a better understanding of where your traffic is coming from.</p>
+														</li>
+														</a>
+													</div>
+													</div>
+												</div>
+												</ul>#}
+            
+   
+								<!-- Primary li closing -->
+									</li>
+                {% endfor %}
+								<!-- Primary li closing -->
+						</nav>
+
+
+				  <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+                  <li class="hs-menu-item">
+                  {% set href = module.cta.cta1.url.href %}
+                        {% if module.cta.cta1.url.type is equalto "EMAIL_ADDRESS" %}
+                          {% set href = "mailto:" + href %}
+                        {% endif %}
+                        <a href="{{ href }}"
+                          {% if module.cta.cta1.open_in_new_tab %}target="_blank"{% endif %}
+                          {% if module.cta.cta1.rel %}rel="{{ module.cta.cta1.rel }}"{% endif %}
+                          >
+                          {% inline_text field="cta.cta_name" value="{{ module.cta.cta_name }}" %}
+                        </a></li>
+     
+                        <li class="hs-menu-item">
+                        {% set href = module.cta_2.cta1.url.href %}
+                        {% if module.cta_2.cta1.url.type is equalto "EMAIL_ADDRESS" %}
+                          {% set href = "mailto:" + href %}
+                        {% endif %}
+                        <a href="{{ href }}"
+                          {% if module.cta_2.cta1.open_in_new_tab %}target="_blank"{% endif %}
+                          {% if module.cta_2.cta1.rel %}rel="{{ module.cta_2.cta1.rel }}"{% endif %}
+                           class="primary-menu-cta primary-menu" >
+                          {% inline_text field="cta_2.cta_name" value="{{ module.cta_2.cta_name }}" %}
+                        </a>	</li>
+           
+            
+             
+								
+							
+					</div> 
+			</ul>
+		</div>

@@ -1,0 +1,70 @@
+.dnd-section {
+  padding: {{ vertical_spacing/base_font_size/3 }}rem 20px;
+	position: relative;
+}
+.dnd-section.dnd-section-fullheight {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+@media (min-width: 768px) {
+  .dnd-section {
+    padding: {{ vertical_spacing/base_font_size/2 }}rem 20px;
+  }
+}
+@media (min-width:992px) {
+  .dnd-section {
+    padding: {{ vertical_spacing/base_font_size*0.72 }}rem 60px;
+  }
+}
+@media (min-width: 1440px) {
+  .dnd-section {
+    padding: {{ vertical_spacing/base_font_size*0.72 }}rem 60px;
+  }
+}
+@media (min-width: 1680px) {
+  .dnd-section {
+    padding: {{ vertical_spacing/base_font_size }}rem 60px;
+  }
+}
+
+.dnd-section > .row-fluid {
+  max-width: {{ max_width }}px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.row-fluid > .dnd-column {
+	margin-top: -2rem;
+}
+.dnd-column > .dnd-row,
+.dnd-column > .sticky-column > .dnd-row {
+	padding-top: 2rem;
+}
+
+.dnd-section .dnd-row-p-0 {
+	padding-top: 0!important;
+}
+.dnd-section .dnd-row-m-0 {
+	margin-top: 0!important;
+}
+.dnd-section .widget-type-cell {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width: 767px) {
+  .dnd-section .widget-type-cell {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+	.dnd-section .dnd-module + .dnd-module,
+  .dnd-section .dnd-column + .dnd-column,
+  .dnd-section .dnd-column + .dnd-module,
+  .dnd-section .dnd-module + .dnd-column {
+		padding-top: 2rem;
+	}
+	
+}

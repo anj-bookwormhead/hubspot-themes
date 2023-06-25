@@ -1,0 +1,16 @@
+{% for item in module.resource %}
+  <div class="resource">
+    {% if item.resource_icon %}
+      <img
+        class="resource__icon"
+        style="max-width: 150px; height: auto;"
+        src="{{ item.resource_icon.src }}"
+        alt="{{ item.resource_icon.alt }}"
+      >
+    {% endif %}
+
+    {% if item.resource_description %}
+      <span class="resource__description">{{ item.resource_description }}</span>
+    {% endif %}
+  </div>
+{% endfor %}

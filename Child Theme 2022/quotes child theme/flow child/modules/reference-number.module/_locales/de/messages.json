@@ -1,0 +1,12 @@
+{
+  "name" : {
+    "message" : "Referenznummer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "reference_text.label" : {
+    "message" : "Referenztext",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,11 @@
+[ {
+  "id" : "displayed_header",
+  "name" : "displayed_header",
+  "display_width" : null,
+  "label" : "Displayed header",
+  "required" : false,
+  "locked" : false,
+  "enabled_features" : [ "fonts", "standard_emphasis", "colors", "personalize" ],
+  "type" : "richtext",
+  "default" : "<h1>Our offerings</h1>"
+} ]

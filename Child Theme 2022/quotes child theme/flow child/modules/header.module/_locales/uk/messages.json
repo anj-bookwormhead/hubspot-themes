@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Наші пропозиції</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Налаштуйте, який вигляд матиме заголовок у цінових пропозиціях, створених за допомогою цього шаблону.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Заголовок, що відображається",
+    "description" : "",
+    "placeholders" : null
+  }
+}

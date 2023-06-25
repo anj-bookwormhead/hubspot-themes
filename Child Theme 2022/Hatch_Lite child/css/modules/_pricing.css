@@ -1,0 +1,12 @@
+.pricing-price {
+	line-height: 80%;
+}
+
+/* Features */
+.pricing-features .strike {
+	opacity: .8;
+}
+.pricing-feature-inactive {
+	filter: grayscale(100%);
+	opacity: 0.25;
+}

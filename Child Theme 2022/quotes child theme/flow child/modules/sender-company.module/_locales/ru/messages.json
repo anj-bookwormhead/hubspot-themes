@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Sender company",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Если выбрано изображение, оно будет отображаться в качестве логотипа вашей компании",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Изображение компании отправителя",
+    "description" : "",
+    "placeholders" : null
+  }
+}

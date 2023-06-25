@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Sender company",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Jei pasirinksite paveikslą, jis bus rodomas kaip jūsų įmonės logotipas",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Siuntėjo įmonės vaizdas",
+    "description" : "",
+    "placeholders" : null
+  }
+}

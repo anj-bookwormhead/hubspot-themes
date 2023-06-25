@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "building",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84090129313,
+  "label" : "Sender company",
+  "is_available_for_new_content" : true
+}

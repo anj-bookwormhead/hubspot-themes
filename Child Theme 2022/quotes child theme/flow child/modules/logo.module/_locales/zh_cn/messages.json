@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "徽标",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "徽标",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "您可以选择使用此切换开关覆盖应用于此模板的徽标。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "覆盖默认徽标",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Gebühren",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Anfallende Steuern & Sonstige Gebühren",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Text „Anfallende Steuern & Sonstige Gebühren“",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,23 @@
+[ {
+  "id" : "title_number",
+  "name" : "title_number",
+  "display_width" : null,
+  "label" : "Number",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "min" : 0,
+  "step" : 1,
+  "type" : "number",
+  "default" : 1
+}, {
+  "id" : "title_text",
+  "name" : "title_text",
+  "display_width" : null,
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "enabled_features" : [ "fonts", "standard_emphasis", "block", "source_code", "colors", "personalize" ],
+  "type" : "richtext",
+  "default" : "<h2>Executive<br> Summary</h2>"
+} ]

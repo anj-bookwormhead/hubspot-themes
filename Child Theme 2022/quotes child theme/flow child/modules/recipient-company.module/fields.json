@@ -1,0 +1,53 @@
+[ {
+  "id" : "recipient_company_text",
+  "name" : "recipient_company_text",
+  "display_width" : null,
+  "label" : "Recipient company text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Prepared for"
+}, {
+  "id" : "show_company_name",
+  "name" : "show_company_name",
+  "display_width" : null,
+  "label" : "Recipient company name",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "show_company_address",
+  "name" : "show_company_address",
+  "display_width" : null,
+  "label" : "Recipient company main address",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "show_company_city_state_zip",
+  "name" : "show_company_city_state_zip",
+  "display_width" : null,
+  "label" : "Recipient company city, state, and zip",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "show_company_country",
+  "name" : "show_company_country",
+  "display_width" : null,
+  "label" : "Recipient company country",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : true
+} ]

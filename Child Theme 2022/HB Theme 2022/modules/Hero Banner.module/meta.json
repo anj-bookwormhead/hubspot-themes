@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING", "QUOTE" ],
+  "module_id" : 99941126695,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/blog-style-minified.css",
+    "name" : "blog-style-minified.css"
+  } ],
+  "label" : "Headline",
+  "is_available_for_new_content" : true
+}

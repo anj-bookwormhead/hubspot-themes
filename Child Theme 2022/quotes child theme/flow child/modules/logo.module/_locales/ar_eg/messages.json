@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "الشعار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "الشعار",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "يمكنك اختيار استبدال الشعار المطبق على هذا القالب باستخدام هذا التبديل.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "استبدال الشعار الافتراضي",
+    "description" : "",
+    "placeholders" : null
+  }
+}

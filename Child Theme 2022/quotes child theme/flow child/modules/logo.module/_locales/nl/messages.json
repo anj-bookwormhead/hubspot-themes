@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Je kunt ervoor kiezen het logo dat op dit sjabloon wordt toegepast te vervangen door deze schakelaar te gebruiken.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Standaardlogo vervangen",
+    "description" : "",
+    "placeholders" : null
+  }
+}

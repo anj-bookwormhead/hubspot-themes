@@ -1,0 +1,87 @@
+{# Plugins #}
+{% include './plugins/slick.css' %}
+{% include './plugins/hamburgers.css' %}
+
+{# Variables #}
+{% include './_variables.css' %} 
+
+{# General #}
+{% include './layout.css' %}
+{% include './_reset.css' %}
+{% include './_normalize.css' %}
+{% include './_typography.css' %}
+{% include './_dnd_areas.css' %}
+{% include './_forms.css' %}
+{% include './_buttons.css' %}
+{% include './_menus.css' %}
+{% include './_tables.css' %}
+{% include './_image.css' %}
+{% include './_base.css' %}
+
+
+{# Modules #}
+{% include './modules/_accordion.css' %}
+{% include './modules/_social.css' %}
+{% include './modules/_icon.css' %}
+{% include './modules/_form.css' %}
+{% include './modules/_menu.css' %}
+{% include './modules/_pricing.css' %}
+
+{# Global #}
+{% include './global/_header.css' %}
+
+{# Pages #}
+{% include './pages/_system_pages.css' %}
+{% include './pages/_blog.css' %}
+
+
+* {
+  --base: {{ base }};
+  --primary: {{ primary }};
+  --secondary: {{ secondary }};
+  --danger: {{ danger }};
+  --dark: {{ dark }};
+  --white: {{ white }};
+
+	--h1_color: {{ h1_color }};
+	--h2_color: {{ h2_color }};
+	--h3_color: {{ h3_color }};
+	--h4_color: {{ h4_color }};
+	--h5_color: {{ h5_color }};
+	--h6_color: {{ h6_color }};
+	
+	--base-50: {{ color_variant(base, 135) }};
+	--base-100: {{ color_variant(base, 120) }};
+	--base-200: {{ color_variant(base, 90) }};
+	--base-300: {{ color_variant(base, 60) }};
+	--base-400: {{ color_variant(base, 30) }};
+	--base-500: {{ base }};
+	--base-600: {{ color_variant(base, -30) }};
+	--base-700: {{ color_variant(base, -60) }};
+	--base-800: {{ color_variant(base, -90) }};
+	--base-900: {{ color_variant(base, -120) }};
+	
+	--primary-50: {{ color_variant(primary, 135) }};
+	--primary-100: {{ color_variant(primary, 120) }};
+	--primary-200: {{ color_variant(primary, 90) }};
+	--primary-300: {{ color_variant(primary, 60) }};
+	--primary-400: {{ color_variant(primary, 30) }};
+	--primary-500: {{ primary }};
+	--primary-600: {{ color_variant(primary, -30) }};
+	--primary-700: {{ color_variant(primary, -60) }};
+	--primary-800: {{ color_variant(primary, -90) }};
+	--primary-900: {{ color_variant(primary, -120) }};
+	
+	--white-50: {{ white }};
+	--white-100: {{ white }};
+	--white-200: {{ white }};
+	--white-300: {{ white }};
+	--white-400: {{ white }};
+	--white-500: {{ white }};
+	--white-600: {{ white }};
+	--white-700: {{ white }};
+	--white-800: {{ white }};
+	--white-900: {{ white }};
+}
+
+

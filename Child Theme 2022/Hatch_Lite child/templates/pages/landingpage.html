@@ -1,0 +1,565 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Home
+  screenshotPath: ../../images/template-previews/home.jpg
+-->
+{% extends "/Child Theme 2022/Hatch_Lite child/templates/layouts/base-normal.html" %}
+
+{% block body %}
+{# The main-content ID is used for the navigation skipper in the header.html file. More information on the navigation skipper can be found here: https://github.com/HubSpot/cms-theme-boilerplate/wiki/Accessibility #}
+<main id="main-content" class="body-container-wrapper">
+  {% dnd_area 'dnd_area' class='body-container body-container--home', label='Main section' %}
+    
+	  {% dnd_section
+		  background_color={
+				r: 120,
+				b: 255,
+				g: 86,
+				a: 1
+			},
+			vertical_alignment='MIDDLE',
+			padding={
+				'top': '8rem',
+				'bottom': '8rem'
+			},
+		%}
+      {% dnd_column, width=5 %}
+        {% dnd_row %}
+          {% dnd_module 'content' 
+							path='../../modules/Content LITE'
+							width=12
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"rich_text": "<h1>Your best HubSpot experience yet</h1><p>Nulla nisi enim, mollis ut tempus et, pulvinar eu urna. Mauris commodo turpis elit, sed dictum orci pharetra ac.</p>"
+							}
+						{% end_module_attribute %}
+						{% module_attribute "styles" is_json=True %}
+							{
+								"typography": {
+									"customize_heading_color": true,
+									"heading_color": {
+										"color": "#fff"
+									},
+									"customize_text_color": true,
+									"text_color": {
+										"color": "#fff"
+									}
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+	      {% dnd_row %}
+          {% dnd_module '' 
+						path='../../modules/Button LITE',
+						width=12
+					%}
+						{% module_attribute "styles" is_json=True %}
+							{
+								"typography": {
+									"customize_button_color": true,
+									"button_background_color": {
+										"color": "#FF9902"
+									},
+									"button_text_color": {
+										"color": "#fff"
+									}
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+      {% dnd_module 'image' 
+					path='../../modules/Image LITE',
+					width=7, offset=5
+			%}
+	      {% module_attribute "styles" is_json=True %}
+	        {
+	          "spacing": {
+	            "spacing": {
+	              "margin": {
+	                "bottom": {
+	                  "value": "-10.5",
+	                  "units": "rem"
+	                }
+	              }
+	            }
+	          }
+	        }
+	      {% end_module_attribute %}
+	      {% module_attribute "content" is_json=True %}
+	        {
+	          "image": {
+	            "src": get_asset_url("../../images/placeholder/image-01.png")
+	          }
+	        }
+	      {% end_module_attribute %}
+	    {% end_dnd_module %}
+    {% end_dnd_section %}
+	
+	  {% dnd_section %}
+      {% dnd_column, width=12 %}
+        {% dnd_row %}
+	        {% dnd_module 'content' 
+							path='../../modules/Content LITE'
+							width=12
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"rich_text": "<h2>Trusted by the brands you know</h2>"
+							}
+						{% end_module_attribute %}
+	          {% module_attribute "styles" is_json=True %}
+							{
+	              "typography": {
+									"text_alignment": {
+										"text_align": "CENTER"
+									}
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+	      {% dnd_row %}
+	        {% dnd_module 'logo_01' 
+						path='../../modules/Image LITE',
+						width=2
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"image": {
+									"src": get_asset_url("../../images/placeholder/logo-01.png")
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+	        {% dnd_module 'logo_02' 
+						path='../../modules/Image LITE',
+						width=2, offset=2
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"image": {
+									"src": get_asset_url("../../images/placeholder/logo-02.png")
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+	        {% dnd_module 'logo_03' 
+						path='../../modules/Image LITE',
+						width=2, offset=4
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"image": {
+									"src": get_asset_url("../../images/placeholder/logo-03.png")
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+	        {% dnd_module 'logo_04' 
+						path='../../modules/Image LITE',
+						width=2, offset=6
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"image": {
+									"src": get_asset_url("../../images/placeholder/logo-04.png")
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+	        {% dnd_module 'logo_05' 
+						path='../../modules/Image LITE',
+						width=2, offset=8
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"image": {
+									"src": get_asset_url("../../images/placeholder/logo-05.png")
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+	        {% dnd_module 'logo_06' 
+						path='../../modules/Image LITE',
+						width=2, offset=10
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"image": {
+									"src": get_asset_url("../../images/placeholder/logo-06.png")
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+	  
+	  {% dnd_section
+		  background_color={
+				r: 250,
+				b: 250,
+				g: 250,
+				a: 1
+			},
+		%}
+      {% dnd_column, width=12 %}
+        {% dnd_row %}
+          {% dnd_module 'content' 
+							path='../../modules/Content LITE'
+							width=5
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+								"rich_text": "<h2>Build your website<br>in less than 15 minutes.</h2><p>Nulla nisi enim, mollis ut tempus et, pulvinar eu urna. Mauris commodo turpis elit, sed dictum orci pharetra ac.</p>"
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+	        {% dnd_module path='@hubspot/horizontal_spacer', width=1, offset=5 %}{% end_dnd_module %}
+	        {% dnd_module '' 
+						path='../../modules/Image LITE',
+						width=6, offset=6
+					%}
+	          {% module_attribute "styles" is_json=True %}
+							{
+								"spacing": {
+									"spacing": {
+										"margin": {
+											"bottom": {
+												"value": "2",
+												"units": "rem"
+											}
+										}
+									}
+								},
+	              "border": {
+									"border": {
+										"border_radius": {
+											"units": "px",
+											"value": 4
+										},
+										"bottom": {
+											"color": "#ddd",
+											"opacity": 100,
+											"style": "solid",
+											"width": {
+												"units": "px",
+												"value": 1
+											}
+										},
+										"left": {
+											"color": "#ddd",
+											"opacity": 100,
+											"style": "solid",
+											"width": {
+												"units": "px",
+												"value": 1
+											}
+										},
+										"right": {
+											"color": "#ddd",
+											"opacity": 100,
+											"style": "solid",
+											"width": {
+												"units": "px",
+												"value": 1
+											}
+										},
+										"top": {
+											"color": "#ddd",
+											"opacity": 100,
+											"style": "solid",
+											"width": {
+												"units": "px",
+												"value": 1
+											}
+									  }
+									},
+									"enable_border": true
+								},
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+	      {% dnd_row %}
+          {% dnd_column, width=4 %}
+            {% dnd_row %}
+              {% dnd_module 'icon_01' 
+								path='../../modules/Icon LITE',
+								width=12
+							%}
+							{% end_dnd_module %}
+            {% end_dnd_row %}
+	          {% dnd_row %}
+              {% dnd_module 'feature_01' 
+								path='../../modules/Content Lite',
+								width=12
+							%}
+	              {% module_attribute "content" is_json=True %}
+									{
+										"rich_text": "<h3>Heading Text</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget hendrerit metus. Curabitur a diam ultricies, vulputate quam non, aliquet sem. Nulla nisi enim, mollis ut tempus et, pulvinar eu urna. Mauris commodo turpis elit, sed dictum orci pharetra ac.&nbsp;</p>"
+									}
+								{% end_module_attribute %}
+							{% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+	        {% dnd_column, width=4, offset=4 %}
+            {% dnd_row %}
+              {% dnd_module 'icon_02' 
+								path='../../modules/Icon LITE',
+								width=12
+							%}
+							{% end_dnd_module %}
+            {% end_dnd_row %}
+	          {% dnd_row %}
+              {% dnd_module 'feature_02' 
+								path='../../modules/Content Lite',
+								width=12
+							%}
+	              {% module_attribute "content" is_json=True %}
+									{
+										"rich_text": "<h3>Heading Text</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget hendrerit metus. Curabitur a diam ultricies, vulputate quam non, aliquet sem. Nulla nisi enim, mollis ut tempus et, pulvinar eu urna. Mauris commodo turpis elit, sed dictum orci pharetra ac.&nbsp;</p>"
+									}
+								{% end_module_attribute %}
+							{% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+	        {% dnd_column, width=4, offset=8 %}
+            {% dnd_row %}
+              {% dnd_module 'icon_03' 
+								path='../../modules/Icon LITE',
+								width=12
+							%}
+							{% end_dnd_module %}
+            {% end_dnd_row %}
+	          {% dnd_row %}
+              {% dnd_module 'feature_03' 
+								path='../../modules/Content Lite',
+								width=12
+							%}
+	              {% module_attribute "content" is_json=True %}
+									{
+										"rich_text": "<h3>Heading Text</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget hendrerit metus. Curabitur a diam ultricies, vulputate quam non, aliquet sem. Nulla nisi enim, mollis ut tempus et, pulvinar eu urna. Mauris commodo turpis elit, sed dictum orci pharetra ac.&nbsp;</p>"
+									}
+								{% end_module_attribute %}
+							{% end_dnd_module %}
+            {% end_dnd_row %}
+          {% end_dnd_column %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+	
+	  {% dnd_section %}
+      {% dnd_column, width=12 %}
+        {% dnd_row %}
+          {% dnd_module 'content' 
+							path='../../modules/Content LITE'
+							width=5
+					%}
+						{% module_attribute "content" is_json=True %}
+							{
+              	"rich_text": "<h2>Latest news<br>from our blog</h2>"
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+	      {% dnd_row %}
+          {% dnd_module '' 
+						path='../../modules/Blog Lite',
+						width=12
+					%}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+	
+	  {% dnd_section
+		  background_color={
+				r: 250,
+				b: 250,
+				g: 250,
+				a: 1
+			},
+			max_width="800"
+		%}
+      {% dnd_column, width=12 %}
+        {% dnd_row %}
+          {% dnd_module 'content' 
+							path='../../modules/Content LITE'
+							width=12
+					%}
+	          {% module_attribute "styles" is_json=True %}
+							{
+	              "typography": {
+									"text_alignment": {
+										"text_align": "CENTER"
+									}
+								}
+							}
+						{% end_module_attribute %}
+						{% module_attribute "content" is_json=True %}
+							{
+              	"rich_text": "<h2>Frequently<br>asked questions</h2>"
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+	      {% dnd_row %}
+          {% dnd_module '' 
+					path='../../modules/Accordion Lite',
+					width=12
+				%}
+	        {% module_attribute "styles" is_json=True %}
+							{
+	              "background": {
+									"background_option": "solid",
+	                "bg_color": {
+	                  "color": "#fff"
+	                }
+								},
+	              "border": {
+									"border": {
+										"border_radius": {
+											"units": "px",
+											"value": 4
+										},
+										"bottom": {
+											"color": "#EEEEEE",
+											"opacity": 100,
+											"style": "solid",
+											"width": {
+												"units": "px",
+												"value": 1
+											}
+										},
+										"left": {
+											"color": "#EEEEEE",
+											"opacity": 100,
+											"style": "solid",
+											"width": {
+												"units": "px",
+												"value": 1
+											}
+										},
+										"right": {
+											"color": "#EEEEEE",
+											"opacity": 100,
+											"style": "solid",
+											"width": {
+												"units": "px",
+												"value": 1
+											}
+										},
+										"top": {
+											"color": "#EEEEEE",
+											"opacity": 100,
+											"style": "solid",
+											"width": {
+												"units": "px",
+												"value": 1
+											}
+									  }
+									},
+									"enable_border": true
+								},
+								"spacing": {
+									"spacing": {
+										"padding": {
+											"top": {
+												"value": "2",
+												"units": "rem"
+											},
+	                    "right": {
+												"value": "2",
+												"units": "rem"
+											},
+	                    "bottom": {
+												"value": "1",
+												"units": "rem"
+											},
+	                    "left": {
+												"value": "2",
+												"units": "rem"
+											}
+										}
+									}
+								}
+							}
+						{% end_module_attribute %}
+				{% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+    {% end_dnd_section %}
+	
+	  {% dnd_section
+		  background_color={
+				r: 120,
+				b: 255,
+				g: 86,
+				a: 1
+			}
+		%}
+	    {% dnd_column, width=12 %}
+        {% dnd_row %}
+          {% dnd_module 'content' 
+							path='../../modules/Content LITE'
+							width=12
+					%}
+	          {% module_attribute "styles" is_json=True %}
+							{
+	              "typography": {
+									"text_alignment": {
+										"text_align": "CENTER"
+									},
+									"customize_heading_color": true,
+									"heading_color": {
+										"color": "#fff"
+									},
+									"customize_text_color": true,
+									"text_color": {
+										"color": "#fff"
+									}
+								}
+							}
+						{% end_module_attribute %}
+						{% module_attribute "content" is_json=True %}
+							{
+              	"rich_text": "<h2>Heading Text</h2><p>Nullam aliquet, magna faucibus tristique cursus, lacus augue venenatis elit, non gravida mi orci in velit. </p>"
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+	      {% dnd_row %}
+          {% dnd_module '' 
+						path='../../modules/Button LITE',
+						width=12
+					%}
+						{% module_attribute "styles" is_json=True %}
+							{
+								"typography": {
+									"text_alignment": {
+										"text_align": "CENTER"
+									},
+									"customize_button_color": true,
+									"button_background_color": {
+										"color": "#FF9902"
+									},
+									"button_text_color": {
+										"color": "#fff"
+									}
+								}
+							}
+						{% end_module_attribute %}
+					{% end_dnd_module %}
+        {% end_dnd_row %}
+      {% end_dnd_column %}
+	  {% end_dnd_section %}
+	
+  {% end_dnd_area %}
+</main>
+{% endblock body %}

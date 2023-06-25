@@ -1,0 +1,13 @@
+{
+  "global" : false,
+  "icon" : "../../../../Child%20Theme%202022/Hatch_Lite%20child/images/module-icons/accordion.svg",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 83513967663,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../child.css",
+    "name" : "child.css"
+  } ],
+  "label" : "Accordion LITE",
+  "is_available_for_new_content" : true
+}

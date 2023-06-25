@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Ons aanbod</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Geef aan hoe de kop eruit moet komen te zien op prijsopgaven die worden gemaakt met dit sjabloon.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Weergegeven header",
+    "description" : "",
+    "placeholders" : null
+  }
+}

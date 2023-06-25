@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Логотип",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Логотип",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Можно изменить определенный для этого шаблона логотип, используя этот флажок.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Изменить логотип по умолчанию",
+    "description" : "",
+    "placeholders" : null
+  }
+}

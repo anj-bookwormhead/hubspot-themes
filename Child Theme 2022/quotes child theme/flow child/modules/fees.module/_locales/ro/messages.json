@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Taxe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Alte taxe",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Text Alte taxe",
+    "description" : "",
+    "placeholders" : null
+  }
+}

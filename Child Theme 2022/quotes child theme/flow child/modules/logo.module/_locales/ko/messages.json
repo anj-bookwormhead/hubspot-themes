@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "로고",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "로고",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "이 토글을 사용하여 이 템플릿에 적용된 로고를 재정의할 수도 있습니다.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "기본 로고 재정의",
+    "description" : "",
+    "placeholders" : null
+  }
+}

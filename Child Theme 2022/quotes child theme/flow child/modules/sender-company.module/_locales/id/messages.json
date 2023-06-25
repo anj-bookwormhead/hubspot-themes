@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Perusahaan pengirim",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Jika Anda memilih gambar, ini akan ditampilkan sebagai logo perusahaan Anda",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Gambar perusahaan pengirim",
+    "description" : "",
+    "placeholders" : null
+  }
+}

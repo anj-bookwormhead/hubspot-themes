@@ -1,0 +1,13 @@
+{% for item in module.testimonial %}
+  <div class="testimonial__container">
+    <img class="testimonial__image"
+      src="{{ item.testimonial_image.src }}"
+      alt="{{ item.testimonial_image.alt }}"
+    >
+    <div class="testimonial__content">
+      <span class="testimonial__content__text">{{ item.testimonial_text }}</span>
+      <span class="testimonial__content__author">{{ item.testimonial_author }}</span>
+      <span class="testimonial__content__company">{{ item.testimonial_author_company }}</span>
+    </div>
+  </div>
+{% endfor %}

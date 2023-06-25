@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Naše ponudbe</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Konfigurirajte, kako je videti glava na narekovajih, ustvarjenih s to predlogo.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Prikazana glava",
+    "description" : "",
+    "placeholders" : null
+  }
+}

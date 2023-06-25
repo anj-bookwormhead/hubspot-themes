@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Sản phẩm và dịch vụ của chúng tôi</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Cấu hình giao diện tiêu đề trên các báo giá được tạo bằng cách sử dụng mẫu này.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Tiêu đề hiển thị",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "contact_email.label" : {
+    "message" : "Kontak-e-posadres",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_job_title" : {
+    "message" : "Kontakwerkstitel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_name.label" : {
+    "message" : "Kontaknaam",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_phone_number.label" : {
+    "message" : "Kontaktelefoonnommer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Ontvangerskontakte",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name" : {
+    "message" : "numbered-heading",
+    "description" : "",
+    "placeholders" : null
+  },
+  "title_number.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "title_number.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "title_number.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "title_number.label" : {
+    "message" : "",
+    "description" : "",
+    "placeholders" : null
+  },
+  "title_number.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "title_text.default" : {
+    "message" : "<h2>Executive<br> Summary</h2>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "title_text.label" : {
+    "message" : "Text",
+    "description" : "",
+    "placeholders" : null
+  }
+}

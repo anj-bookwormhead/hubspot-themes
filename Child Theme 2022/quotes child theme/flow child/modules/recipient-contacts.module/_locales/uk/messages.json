@@ -1,0 +1,27 @@
+{
+  "contact_email.label" : {
+    "message" : "Електронна пошта контактної особи",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_job_title" : {
+    "message" : "Посада контактної особи",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_name.label" : {
+    "message" : "Імʼя контактної особи",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_phone_number.label" : {
+    "message" : "Номер телефону контактної особи",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Контактні особи отримувача",
+    "description" : "",
+    "placeholders" : null
+  }
+}

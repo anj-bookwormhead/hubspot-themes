@@ -1,0 +1,37 @@
+{
+  "name" : {
+    "message" : "Mottakerbedrift",
+    "description" : "",
+    "placeholders" : null
+  },
+  "recipient_company_text.default" : {
+    "message" : "Klargjort for",
+    "description" : "",
+    "placeholders" : null
+  },
+  "recipient_company_text.label" : {
+    "message" : "Mottakerbedrift, tekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "show_company_address.label" : {
+    "message" : "Mottakerbedrift, hovedadresse",
+    "description" : "",
+    "placeholders" : null
+  },
+  "show_company_city_state_zip.label" : {
+    "message" : "Mottakerbedrift, by, stat og postnummer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "show_company_country.label" : {
+    "message" : "Mottakerbedrift, land",
+    "description" : "",
+    "placeholders" : null
+  },
+  "show_company_name.label" : {
+    "message" : "Mottakerbedrift, navn",
+    "description" : "",
+    "placeholders" : null
+  }
+}

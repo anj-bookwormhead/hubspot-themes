@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logo",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Anda dapat memilih untuk menimpa logo yang diaplikasikan pada templat ini menggunakan tombol pengalihan ini.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Timpa logo default",
+    "description" : "",
+    "placeholders" : null
+  }
+}

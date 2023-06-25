@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "ค่าธรรมเนียม",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "ค่าธรรมเนียมอื่นๆ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "ข้อความค่าธรรมเนียมอื่นๆ",
+    "description" : "",
+    "placeholders" : null
+  }
+}

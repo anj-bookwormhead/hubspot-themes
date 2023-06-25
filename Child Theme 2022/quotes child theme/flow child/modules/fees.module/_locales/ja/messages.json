@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "手数料",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "その他の料金",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "その他の料金テキスト",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "bullhorn",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84089914719,
+  "label" : "Testimonial",
+  "is_available_for_new_content" : true
+}

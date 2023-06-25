@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Empresa do remetente",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Se você escolher uma imagem, ela será mostrada como o logotipo da sua empresa",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Imagem da empresa remetente",
+    "description" : "",
+    "placeholders" : null
+  }
+}

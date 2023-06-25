@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Ofertele noastre</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Configurați modul în care arată antetul pe ofertele create cu ajutorul acestui șablon.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Antet afișat",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "رسوم",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "الرسوم الأخرى",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "نص الرسوم الأخرى",
+    "description" : "",
+    "placeholders" : null
+  }
+}

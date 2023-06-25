@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>제공 서비스</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "이 템플릿을 사용하여 생성된 견적서에 헤더를 어떻게 표시할지 구성하십시오.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "표시된 헤더",
+    "description" : "",
+    "placeholders" : null
+  }
+}

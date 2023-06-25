@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING", "QUOTE" ],
+  "module_id" : 121587869812,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../../Child Theme 2022/HB Theme 2022/css/blog-style-minified.css",
+    "name" : "blog-style.css"
+  } ],
+  "label" : "Menu",
+  "is_available_for_new_content" : true
+}

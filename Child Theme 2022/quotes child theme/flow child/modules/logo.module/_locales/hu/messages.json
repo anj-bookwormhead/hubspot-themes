@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logó",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logó",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Ezzel kiválasztható, hogy felülírja-e a sablonra alkalmazott logót.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Alapértelmezett logó felülírása",
+    "description" : "",
+    "placeholders" : null
+  }
+}

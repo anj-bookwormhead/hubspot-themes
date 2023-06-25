@@ -1,0 +1,32 @@
+{
+  "name" : {
+    "message" : "Tekstblok",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_description.label" : {
+    "message" : "Bloktekst",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.default" : {
+    "message" : "DOEL",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.label" : {
+    "message" : "Blogkop",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_text_unit_color.label" : {
+    "message" : "Achtergrondkleur teksteenheid",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.label" : {
+    "message" : "Tekstblokeenheid",
+    "description" : "",
+    "placeholders" : null
+  }
+}

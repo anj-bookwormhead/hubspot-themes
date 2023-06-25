@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "ফি",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "অন্যান্য ফি",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "অন্যান্য ফিজ টেক্সট",
+    "description" : "",
+    "placeholders" : null
+  }
+}

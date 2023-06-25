@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Logotip",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Logotip",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Pots triar substituir el logotip aplicat a aquesta plantilla amb aquest botó de commutació.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Substitueix el logotip per defecte",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,15 @@
+{# LK - Testimonial Module 1 #}
+
+{% for item in module.testimonial_item %} 
+<div class="lk-testimonial-1 lk-testimonial-1--{{ item.align_image }}">     
+    <figure style="background-image: url('{{ item.author_picture.src }}'); width: {{ item.image_size }}px; height: {{ item.image_size }}px;"></figure>
+    <blockquote>
+        <main>{{ item.quote }}</main>
+        <footer>
+            <div class="lk-testimonial-1-name">{{ item.author_name }}</div>
+            <div class="lk-testimonial-1-title">{{ item.job_title }}</div>
+        </footer> 
+    </blockquote>
+</div>
+
+{% endfor %}

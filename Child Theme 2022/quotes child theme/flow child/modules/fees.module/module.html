@@ -1,0 +1,21 @@
+{% if additional_fees|length > 0 %}
+
+  {% if module.other_fees_title|length > 0 %}
+    <span class="fees-title">{{ module.other_fees_title }}</span>
+  {% endif %}
+
+  {% for fee in additional_fees %}
+    <div class="totals__row bordered">
+      <div>{{ fee.name }}</div>
+      <div>
+        {{ fee.category == "DISCOUNT" ? "-" : null }}
+        {% if fee.is_percentage == true %}
+          {{ fee.amount }}%
+        {% else %}
+          {{ fee.amount|format_currency(locale, currency, true)}}
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+
+{% endif %}

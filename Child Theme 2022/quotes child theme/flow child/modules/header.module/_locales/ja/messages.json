@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>オファーの内容</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "このテンプレートを使用して作成された見積もりでヘッダーがどのように表示されるかを設定します。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "表示されるヘッダー",
+    "description" : "",
+    "placeholders" : null
+  }
+}

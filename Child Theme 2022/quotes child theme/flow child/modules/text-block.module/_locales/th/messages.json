@@ -1,0 +1,32 @@
+{
+  "name" : {
+    "message" : "บล็อกข้อความ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_description.label" : {
+    "message" : "ข้อความในบล็อก",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.default" : {
+    "message" : "เป้าหมาย",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_header.label" : {
+    "message" : "ส่วนหัวของบล็อก",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.block_text_unit_color.label" : {
+    "message" : "สีพื้นหลังของหน่วยข้อความ",
+    "description" : "",
+    "placeholders" : null
+  },
+  "text_block_unit.label" : {
+    "message" : "หน่วยของบล็อกข้อความ",
+    "description" : "",
+    "placeholders" : null
+  }
+}

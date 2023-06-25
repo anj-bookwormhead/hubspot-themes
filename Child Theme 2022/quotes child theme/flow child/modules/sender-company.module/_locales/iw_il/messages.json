@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Sender company",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "אם תבחר תמונה, היא תוצג כלוגו של החברה שלך",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "תמונת החברה של השולח",
+    "description" : "",
+    "placeholders" : null
+  }
+}

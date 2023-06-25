@@ -1,0 +1,17 @@
+{
+  "banner_image.help_text" : {
+    "message" : "V případě skrytí obrázku banneru se zobrazí barva banneru zvolená v nastavení motivu.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "banner_image.label" : {
+    "message" : "Obrázek banneru",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Obrázek banneru",
+    "description" : "",
+    "placeholders" : null
+  }
+}

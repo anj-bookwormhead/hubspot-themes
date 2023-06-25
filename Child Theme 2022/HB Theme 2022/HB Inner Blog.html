@@ -1,0 +1,194 @@
+<!--
+    templateType: blog_listing
+    isAvailableForNewContent: true
+    label: HB Blog 2023
+-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    {% if content.html_title %}<title>{{ content.html_title }}</title>{% endif %}
+    <meta name="description" content="{{ content.meta_description }}">
+   {{ require_css(get_asset_url('/Child Theme 2022/HB Theme 2022/css/blog-style.css') + '?' + unixtimestamp()) }}
+       {{ standard_header_includes }}
+  </head>
+  <body>
+    
+
+
+
+ {% module "Announcement Banner" path=" /Child Theme 2022/HB Theme 2022/modules/Announcement CTA.module", label="Announcement Banner" %}
+   
+{% module "Menu" path=" /Child Theme 2022/HB Theme 2022/modules/Menu.module", label="Menu" %}  
+<main>
+
+      <div class="myhbform flex w-full md:justify-start justify-center">
+               <form action="/{{ site_settings.content_search_results_page_path }}"><input id="searchbox" type="search" class="hs-search-field__input" name="term" autocomplete="off" placeholder="Search here...">   </form>
+            </div>
+    
+ {# ----------------------Blog listing------------------------------ #}
+ {# <div class="relative bg-gray-50 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
+  <div class="absolute inset-0">
+    <div class="h-1/3 bg-white sm:h-2/3"></div>
+  </div> #}
+ <div class="blog-width relative mx-auto max-w-7xl">
+  
+  {% set my_blog = blog_by_id("default") %}
+{% set my_tags = blog_tags("default", 1) %}
+
+
+<div class="blog-section-inner">
+<nav class="breadcrumb" aria-label="Breadcrumb" >
+        <div> <a href="{{ my_blog.absolute_url }}"> Blog </a>> &#160;</div> 
+        {% for item in my_tags %}
+        <div> <a href="{{ blog_tag_url(group.id, item.slug) }}" >{{ item }}</a> > &#160; </div> 
+        {% endfor %}
+  
+        <div>  {{ content.name }}</div> 
+  
+</nav>
+
+    <div class="blog-post-wrapper cell-wrapper">
+       <div class="blog-section">
+            <div class="blog-post-wrapper cell-wrapper">
+                <div class="section post-header">
+                    <h1>{{ content.name }}</h1>
+                    <span>  
+                  
+
+                  </span>
+                    <div id="hubspot-author_data" class="hubspot-editable" data-hubspot-form-id="author_data" data-hubspot-name="Blog Author" >
+                       {# <span class="hs-author-label">Posted by</span>#}
+                 
+                      {% if content.blog_post_author.avatar %} 
+                      <div class="hs-author-avatar"> <img src="{{ content.blog_post_author.avatar }}" alt="{{ content.blog_post_author.display_name }}"> 
+                      </div> {% endif %}
+                          {#  {% if content.blog_post_author.has_social_profiles %}
+                                <div class="hs-author-social-section">
+                                    <span class="hs-author-social-label">Find me on:</span>
+                                    <div class="hs-author-social-links">
+                                        {% if content.blog_post_author.facebook %}
+                                            <a href="{{ content.blog_post_author.facebook }}" target="_blank" class="hs-author-social-link hs-social-facebook">Facebook </a>
+                                        {% endif %}
+                                        {% if content.blog_post_author.linkedin %}
+                                            <a href="{{ content.blog_post_author.linkedin }}" target="_blank" class="hs-author-social-link hs-social-linkedin">LinkedIn</a>
+                                        {% endif %}
+                                        {% if content.blog_post_author.twitter %}
+                                            <a href="{{ content.blog_post_author.twitter }}" target="_blank" class="hs-author-social-link hs-social-twitter">Twitter </a>
+                                        {% endif %} 
+                                        
+                                    </div> 
+                                </div>
+                            {% endif %}#}
+                      
+                   
+                  
+                     {% if content.blog_post_author %}
+                      <div class="meta-author">
+                         <a style="font-weight:bold;" class="author-link" href="{{ blog_author_url(group.id, content.blog_post_author.slug) }}">{{ content.blog_post_author.display_name }}</a> 
+                        <br>
+                      <span> {# on #} {{ content.publish_date_localized }}</span> 
+                           {% endif %} 
+                      
+                        <br><br>
+                          <span class="est-time">
+                              {% set initialPostWords = content.post_body|striptags|wordcount %}
+                              {% set calculatedPostWords = (initialPostWords/100) * 100 %}
+                              {% set finishedPostWords = calculatedPostWords|divide(300)|round(2) %}
+                              {% set number = finishedPostWords|round %}
+                              {% if number < 1 %}
+
+                              {% else %}
+                                {{ finishedPostWords|round }} minute read
+                              {% endif %}
+                          </span>  
+                        </div>
+                     </div>  
+                </div>
+              {% blog_social_sharing "blog_social_sharing" overrideable=False, label='Blog Social Sharing' %} 
+              {% if is_in_editor  %}  
+               {{ content.post_body }}  
+                {% else %}
+                <div id="contents"> {{ content.post_body }}    </div>
+              {% endif %} 
+                {% if content.topic_list %}
+                     <p id="hubspot-topic_data" > Topics:
+                        {% for topic in content.topic_list %}
+                            <a class="topic-link" href="{{ blog_tag_url(group.id, topic.slug) }}">{{ topic.name }}</a>{% if not loop.last %},{% endif %}
+                        {% endfor %}
+                     </p>
+                {% endif %}
+            </div>
+        </div>
+        <!-- Optional: Blog Author Bio Box -->
+        <div class="about-author-sec row-fluid">
+            <div class="span2">
+          <img alt="{{ content.blog_post_author.display_name }}" src="{{ content.blog_post_author.avatar }}">
+            </div>
+            <div class="span10">
+                <h3>Written by <a class="author-link" href="{{ blog_author_url(group.id, content.blog_post_author.slug) }}">{{ content.blog_post_author.display_name }}</a></h3>
+                <p>{{ content.blog_post_author.bio }}</p>
+                {% if content.blog_post_author.has_social_profiles %}
+                    <div class="hs-author-social-section">
+                        <div class="hs-author-social-links">
+                            {% if content.blog_post_author.facebook %}
+                                <a href="{{ content.blog_post_author.facebook }}" target="_blank" class="hs-author-social-link hs-social-facebook">Facebook</a>
+                            {% endif %}
+                            {% if content.blog_post_author.linkedin %}
+                                <a href="{{ content.blog_post_author.linkedin }}" target="_blank" class="hs-author-social-link hs-social-linkedin">LinkedIn</a>
+                            {% endif %}
+                            {% if content.blog_post_author.twitter %}
+                                <a href="{{ content.blog_post_author.twitter }}" target="_blank" class="hs-author-social-link hs-social-twitter">Twitter</a>
+                            {% endif %}
+                       
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .breadcrumb, .breadcrumb span {
+      font-size: 10px;
+      display: flex;
+  }
+    
+  
+  
+/* temporary style */
+  
+h1,h2 {
+  color:##F42819;
+ }
+  h1 span {
+    font-family: 'Bebas Neue';
+    font-size: 2.3rem;
+}
+  
+  h2 {
+    font-size: 2rem;
+}
+
+  .blog-width {
+  max-width:90%;
+  margin:0 auto;
+  
+ </style>
+
+   
+ {#content here end #}  
+   
+</div>
+  
+  
+  </div>
+    {% module "Footer" path="/Child Theme 2022/HB Theme 2022/modules/HB Footer.module", label="Footer" %}
+
+
+    
+    
+    {{ standard_footer_includes }}
+  </body>
+</html>

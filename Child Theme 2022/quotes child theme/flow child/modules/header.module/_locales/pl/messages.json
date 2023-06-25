@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Nasza oferta</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Skonfiguruj wygląd nagłówka w wycenach utworzonych przy użyciu tego szablonu.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Wyświetlany nagłówek",
+    "description" : "",
+    "placeholders" : null
+  }
+}

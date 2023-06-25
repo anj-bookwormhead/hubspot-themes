@@ -1,0 +1,46 @@
+/*change 08-31-2022
+.hs-tabs__navitem {
+    border: 1px solid #efefef;
+    width: 230px;
+    overflow-wrap: anywhere;
+    min-height: 100px;
+}
+/*end change 08-31-2022*/
+
+.hs-tabs__item{
+  display: none;
+  padding: 20px;
+  border: 1px solid #efefef;
+}
+.hs-tabs__item--active{
+  display: block;
+}
+.hs-tabs__item img{ 
+ 	/* Protect images from overflowing the tab */ 
+  max-width: 100%;
+  height: auto;
+}
+.hs-tabs__nav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -1px;
+}
+.hs-tabs__nav li{
+  display: inline-block;
+}
+.hs-tabs__navitem{
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  border: 1px solid #efefef;
+  border-bottom: none;
+}
+.hs-tabs__navitem--active{
+  color: #000;
+  background: #fff;
+}
+/* fix for hubspot injected div */
+.hs-tabs__navitem *{
+  pointer-events: none;
+}

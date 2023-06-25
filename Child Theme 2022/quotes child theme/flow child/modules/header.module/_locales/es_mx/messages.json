@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>Nuestras ofertas</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "Configura cómo se ve el encabezado en las citas creadas con esta plantilla.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "Encabezado mostrado",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "dollar-sign",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84088271192,
+  "label" : "Subtotals",
+  "is_available_for_new_content" : true
+}

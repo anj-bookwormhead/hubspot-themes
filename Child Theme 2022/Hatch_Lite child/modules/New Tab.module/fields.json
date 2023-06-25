@@ -1,0 +1,60 @@
+[ {
+  "id" : "7881b5f4-22cd-21ca-13b0-633fe01d872b",
+  "name" : "tab_fields",
+  "display_width" : null,
+  "label" : "Tab Fields",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "d7d72df4-a86e-d1f0-ea46-4406a31eb618",
+    "name" : "tab_name",
+    "display_width" : null,
+    "label" : "Tab Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "99677f97-ae9e-83c6-bd38-f0092dba951a",
+    "name" : "tab_id",
+    "display_width" : null,
+    "label" : "Tab ID",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "d290c39a-604b-0c9e-7e45-6fe5c053f16d",
+    "name" : "content_id",
+    "display_width" : null,
+    "label" : "Content ID",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "9bf57100-3f78-fb3d-6c48-aec0853778a8",
+    "name" : "tab_content",
+    "display_width" : null,
+    "label" : "Tab Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+} ]

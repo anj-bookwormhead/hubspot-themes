@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "发件人公司",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "如果您选择了一张图片，它将显示为您公司的徽标",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "发件人公司图片",
+    "description" : "",
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>我們提供</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "設定使用此範本所建立報價的標頭外觀。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "顯示的標題",
+    "description" : "",
+    "placeholders" : null
+  }
+}

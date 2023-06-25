@@ -1,0 +1,17 @@
+{
+  "displayed_header.default" : {
+    "message" : "<span>عروضنا</span>",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.inline_help_text" : {
+    "message" : "قم بتكوين كيفية ظهور رأس الصفحة على عروض الأسعار التي تم إنشاؤها باستخدام هذا القالب.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "displayed_header.label" : {
+    "message" : "رأس الصفحة المعروض",
+    "description" : "",
+    "placeholders" : null
+  }
+}

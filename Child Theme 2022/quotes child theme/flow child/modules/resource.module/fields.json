@@ -1,0 +1,48 @@
+[ {
+  "id" : "resource",
+  "name" : "resource",
+  "display_width" : null,
+  "label" : "Resource unit",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 0,
+    "max" : 6,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "resource.resource_icon",
+    "name" : "resource_icon",
+    "display_width" : null,
+    "label" : "Icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "width" : "125",
+      "height" : "125",
+      "src" : "https://f.hubspotusercontentqa00.net/hubfs/105234054/project-management.png",
+      "alt" : "Resource icon"
+    }
+  }, {
+    "id" : "resource.resource_description",
+    "name" : "resource_description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "enabled_features" : [ "fonts", "standard_emphasis", "colors", "personalize" ],
+    "type" : "richtext",
+    "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit faucibus pellentesque justo."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : true,
+  "type" : "group",
+  "default" : {
+    "resource_title" : "Resource unit"
+  }
+} ]

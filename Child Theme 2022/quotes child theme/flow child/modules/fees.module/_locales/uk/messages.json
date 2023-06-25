@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Платежі",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.default" : {
+    "message" : "Інші збори",
+    "description" : "",
+    "placeholders" : null
+  },
+  "other_fees_title.label" : {
+    "message" : "Текст інших зборів",
+    "description" : "",
+    "placeholders" : null
+  }
+}

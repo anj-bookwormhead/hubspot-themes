@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Загалом",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_title.default" : {
+    "message" : "Загалом",
+    "description" : "",
+    "placeholders" : null
+  },
+  "total_title.label" : {
+    "message" : "Текст для загальної суми",
+    "description" : "",
+    "placeholders" : null
+  }
+}

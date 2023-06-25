@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Avsändarföretaget",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Om du väljer en bild, kommer den att se ut som din företagslogotyp",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Avsändarens företagsbild",
+    "description" : "",
+    "placeholders" : null
+  }
+}

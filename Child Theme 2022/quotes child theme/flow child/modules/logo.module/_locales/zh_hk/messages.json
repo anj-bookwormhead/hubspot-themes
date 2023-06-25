@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "標誌",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "標誌",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "你可以使用此切換按鈕，選擇覆寫套用在此範本上的標誌。",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "覆寫預設標誌",
+    "description" : "",
+    "placeholders" : null
+  }
+}

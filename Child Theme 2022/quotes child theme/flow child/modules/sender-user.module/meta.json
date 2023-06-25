@@ -1,0 +1,9 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "user",
+  "host_template_types" : [ "QUOTE" ],
+  "module_id" : 84089937777,
+  "label" : "Sender user",
+  "is_available_for_new_content" : true
+}

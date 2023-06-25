@@ -1,0 +1,10 @@
+[ {
+  "id" : "sender_user",
+  "name" : "sender_user",
+  "display_width" : null,
+  "label" : "Sender user",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<span>{{ personalization_token('template_data.quote.hs_sender_firstname', '') }} {{ personalization_token('template_data.quote.hs_sender_lastname', '') }}<br>{{ personalization_token('template_data.quote.hs_sender_email', '') }}</span>"
+} ]

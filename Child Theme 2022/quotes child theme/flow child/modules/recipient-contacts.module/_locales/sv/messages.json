@@ -1,0 +1,27 @@
+{
+  "contact_email.label" : {
+    "message" : "Kontakte-post",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_job_title" : {
+    "message" : "Kontaktens yrkestitel",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_name.label" : {
+    "message" : "Kontaktnamn",
+    "description" : "",
+    "placeholders" : null
+  },
+  "contact_phone_number.label" : {
+    "message" : "Kontakttelefonnummer",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Mottagarens kontakter",
+    "description" : "",
+    "placeholders" : null
+  }
+}

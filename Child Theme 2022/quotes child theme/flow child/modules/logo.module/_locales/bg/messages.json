@@ -1,0 +1,22 @@
+{
+  "logo.label" : {
+    "message" : "Лого",
+    "description" : "",
+    "placeholders" : null
+  },
+  "name" : {
+    "message" : "Лого",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.help_text" : {
+    "message" : "Можете да изберете да замените логото, приложено към този шаблон, като използвате този превключвател.",
+    "description" : "",
+    "placeholders" : null
+  },
+  "override_logo.label" : {
+    "message" : "Замяна на логото по подразбиране",
+    "description" : "",
+    "placeholders" : null
+  }
+}

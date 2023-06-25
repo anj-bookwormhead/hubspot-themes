@@ -1,0 +1,67 @@
+[ {
+  "id" : "bcdf58cd-6e8b-3739-2041-136e83037798",
+  "name" : "button",
+  "display_width" : null,
+  "label" : "Button",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "700e7206-1d85-2bc8-7b1b-9fdb9e33d9b6",
+    "name" : "cta_btn",
+    "display_width" : null,
+    "label" : "CTA",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "LEARN"
+  }, {
+    "id" : "146ea642-9e6e-7da5-5272-6200c7d4fe58",
+    "name" : "link_field",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://hollywoodbranded.com/podcast/",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "cta_btn" : "LEARN",
+    "link_field" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://hollywoodbranded.com/podcast/",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }
+}, {
+  "id" : "583cc2e7-d084-2ede-fff5-8b25000969ba",
+  "name" : "announcement",
+  "display_width" : null,
+  "label" : "Announcement",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Join Stacy On Weekly Podcast On Marketing + Business Advice |"
+} ]

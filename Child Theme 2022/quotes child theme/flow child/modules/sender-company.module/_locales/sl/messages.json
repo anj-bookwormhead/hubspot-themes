@@ -1,0 +1,17 @@
+{
+  "name" : {
+    "message" : "Podjetje pošiljatelja",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.inline_help_text" : {
+    "message" : "Če izberete sliko, bo prikazana kot logotip vašega podjetja",
+    "description" : "",
+    "placeholders" : null
+  },
+  "sender_company_image.label" : {
+    "message" : "Slika podjetja pošiljatelja",
+    "description" : "",
+    "placeholders" : null
+  }
+}
