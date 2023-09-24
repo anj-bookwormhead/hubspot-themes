@@ -1,0 +1,25 @@
+<div id="myaccordion" style="background-color:{{ module.style.color_field }};">
+   {% for item in module.section %}
+	<input type="checkbox" id="{{ item.title }}" class="hidecontent"/>
+	<label for="{{ item.title }}">{{ item.title }}</label>
+	<div class="content hidecontent">
+	{% inline_rich_text field="description" value="{{ item.description }}" %}
+	</div>
+{% endfor %}
+</div>
+  
+
+{% require_css %}
+<style>
+	{% scope_css %}
+	#myaccordion label {
+	background: {{ module.style.background_color.css }}
+  }
+	{% end_scope_css %}
+</style>
+{% end_require_css %}
+  
+
+
+
+

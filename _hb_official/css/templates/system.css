@@ -1,5 +1,29 @@
 /* Error pages */
+.system_wrapper {
+  width:1100px;
+  max-width:80%;
+  margin: 2rem auto;
+}
 
+button.system {
+    background: red;
+    height: 60px;
+    width: 200px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.bar-colors {
+  background-image: linear-gradient(90deg,#f72110,#f72110 14.2857%,#ff007f 0,#ff007f 28.5714%,#ff5f1f 0,#ff5f1f 42.8571%,#eb18ef 0,#eb18ef 57.1429%,#59c2f0 0,#59c2f0 71.4286%,#6cf600 0,#6cf600 85.7143%,#fff239 0,#fff239);
+    background-size: 400px 60px;
+    height: 60px;
+    position: relative;
+    width: 100vw;
+    background-repeat: repeat-x;
+}
+
+/* To review below, I might remove- Angie note (9-18-2023) */
 .error-page {
   padding: 10rem 0;
   position: relative;

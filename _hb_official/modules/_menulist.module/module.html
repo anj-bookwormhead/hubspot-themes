@@ -1,0 +1,17 @@
+                    <ul role="list" class="mt-6">
+                         <h3 class="text-m leading-7">{{ module.header }}</h3>
+                    {% for item in module.menu_list %}
+                    <li>            
+                          {% set href = item.link_field.url.href %}
+                          {% if item.link_field.url.type is equalto "EMAIL_ADDRESS" %}
+                            {% set href = "mailto:" + href %}
+                          {% endif %}
+                          <a href="{{ href }}",  class="text-sm leading-6"
+                            {% if item.link_field.open_in_new_tab %}target="_blank"{% endif %}
+                            {% if item.link_field.rel %}rel="{{ item.link_field.rel }}"{% endif %} > {{ item.title }}
+                          </a>
+                     </li>
+                        {% endfor %}
+                      
+                  </ul>
+

@@ -1,5 +1,6 @@
+/*Menu in The Module*/
+/*General Configuration */
 /* Menu */
-
 .menu--desktop {
   display: block;
 }
@@ -8,18 +9,28 @@
   display: none;
 }
 
+
+.menu.menu--mobile.menu--open {
+    display: block;
+}
+
+ul.menu__submenu > li:last-child {
+  border:none;
+}
+
+
+/*end of General Configuration */
+
+
+
 @media (max-width: 767px) {
   .menu--desktop {
     display: none;
   }
 
-  .menu--mobile {
-    display: block;
-  }
 }
 
 /* Menu items */
-
 .menu__item {
   position: relative;
 }
@@ -41,6 +52,16 @@
   font-weight: bold;
 }
 
+button.menu__child-toggle.no-button {
+  background: none;
+  border:none;
+}
+
+ul.menu__submenu.menu__submenu--level-2,
+ul.menu__submenu.menu__submenu--level-3{
+list-style:none;
+}
+
 @media (min-width: 768px) and (max-width: 1150px) {
   .menu__link {
     font-size: 0.833rem;
@@ -60,7 +81,6 @@
 }
 
 /* Menu items - top level */
-
 .menu__item--depth-1 {
   display: inline-block;
   padding: 0.7rem 0.875rem;
@@ -78,8 +98,9 @@
 
 @media (max-width: 767px) {
   .menu__item--depth-1 {
-    border-top: 2px solid #CED4DB;
+    border-top: 1px solid #eff0f1;
     padding: 0;
+  
   }
 
   .menu__item--depth-1 > .menu__link {
@@ -92,7 +113,6 @@
 }
 
 /* Menu items - submenus */
-
 .menu__submenu {
   box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2);
   border-radius: 3px;
@@ -104,6 +124,7 @@
   top: 100%;
   width: 270px;
   z-index: 99;
+ padding: 5px;
 }
 
 .menu__item--open > .menu__submenu {
@@ -115,7 +136,25 @@
 }
 
 /* Keeps the first menu item's drop down menu aligned to the left of the top level menu item */
+nav.menu.menu--mobile {
+    background: rgb(0,0,0,0.18);
+    width: 100vw;
+    top: -10px;
+    position: absolute;
+    left: 0;
+    height: 100vh;
+}
 
+
+nav.menu.menu--mobile ul.menu__wrapper.no-list {
+    width: 70vw;
+    background: white;
+    position: absolute;
+    top: -10px;
+    padding: 2rem 1rem;
+    right: 0;
+    height: 100vh;
+}
 .menu__item--depth-1:first-child .menu__submenu--level-2 {
   transform: unset;
 }
@@ -131,6 +170,7 @@
   padding: 0.7rem 1.05rem;
   transition: background-color 0.3s;
   width: 100%;
+  text-transform:uppercase;
 }
 
 .menu__submenu--level-3 {
@@ -185,6 +225,22 @@
 }
 
 @media (max-width: 767px) {
+
+.x-icon {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(235, 234, 234);
+  border: none;
+  padding: 8px;
+ position: absolute;
+  top: 10px;
+  right: 40px;
+}
+
+.x-icon:hover {
+  transform: scale(1.1) rotate(360deg);
+}
+
   .menu__submenu {
     border: none;
     border-radius: 0;
@@ -197,13 +253,15 @@
   .menu__submenu .menu__item {
     background-color: #FFF;
     border-bottom: none;
-    border-top: 2px solid #EBEFF3;
+     border-top: 1px solid #EBEFF3;
     padding: 0;
   }
 
+
+
   .menu__submenu .menu__link {
     display: block;
-    padding: 0.7rem 2rem;
+    padding: 0.7rem 1.5rem;
     transition: none;
     width: 100%;
   }
@@ -219,12 +277,11 @@
   }
 
   .menu__submenu--level-3 .menu__item .menu__link {
-    padding: 0.7rem 3rem;
+    padding: 0.7rem 2rem;
   }
 }
 
 /* Menu icons */
-
 @media(min-width: 768px) {
   .menu__submenu .menu__child-toggle {
     margin-left: auto;
@@ -234,7 +291,7 @@
   .menu__child-toggle {
     position: absolute;
     right: 5px;
-    top: 30px;
+    top: 20px;
     z-index: 2;
   }
 
@@ -245,7 +302,7 @@
     vertical-align: middle;
   }
 
-  .menu__child-toggle-icon {
+.menu__child-toggle-icon {
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-top-style: solid;
@@ -273,7 +330,6 @@
   }
 
   .menu__child-toggle-icon {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMTkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgc3Ryb2tlPSIjOTc5ODlGIiBzdHJva2Utd2lkdGg9IjIuNCIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cmVjdCB4PSIxLjIiIHk9IjkuNiIgd2lkdGg9IjE2LjgiIGhlaWdodD0iMSIgcng9Ii41Ii8+PHJlY3QgdHJhbnNmb3JtPSJyb3RhdGUoOTAgOS42IDkuNikiIHg9IjEuMiIgeT0iOS42IiB3aWR0aD0iMTYuOCIgaGVpZ2h0PSIxIiByeD0iLjUiLz48L2c+PC9zdmc+);
     background-repeat: no-repeat;
     display: block;
     height: 20px;
@@ -281,11 +337,105 @@
     margin-right: 1.05rem;
     transition: transform 0.4s;
     width: 20px;
+    margin-top:-1rem;
   }
 
-  .menu__item--open > .menu__child-toggle .menu__child-toggle-icon {
-    transform: rotate(45deg);
-    transition: transform 0.4s;
-  }
+  .menu__child-toggle-icon::before {
+  content: '';
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg fill="%23000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"%3E%3Cpath d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  display: block;
+  height: 40px;
+  width: 40px;
 }
 
+
+}
+
+
+
+/**/
+.menu__hamburger-btn {
+  display: none; /* Hide the button on desktop */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu__hamburger-icon {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  position: relative;
+}
+
+.menu__hamburger-icon::before,
+.menu__hamburger-icon::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  position: absolute;
+  top: -8px;
+}
+
+
+.menu__hamburger-icon::after {
+  top: 8px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .menu--desktop {
+    display: none;
+  }
+
+
+span.menu__hamburger-icon::hover  {
+   transform: scale(1.2);
+}
+
+.menu__hamburger-btn{
+    display: block;
+     margin: 2.3rem 1rem 2rem 1rem;
+  }
+
+
+  
+ /* Initial state of the mobile menu */
+nav.menu.menu--mobile.menu--open {
+  background: rgba(0, 0, 0, 0.80);
+  width: 100vw; /* Start with full width */
+  top: 0;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  z-index:99;
+  
+}
+
+
+/* When the hamburger icon is clicked */
+nav.menu.menu--mobile.menu--open ul.menu__wrapper {
+  background: white;
+  max-width: 70vw; /* Use max-width to control the filling width */
+  right: 0;
+  position: absolute;
+  top: -1rem;
+  padding: 5rem 1rem;
+  height: 100vh;
+   animation: slideInFromRight 0.3s ease;
+}
+
+@keyframes slideInFromRight {
+  from { transform: translateX(100%);}
+  to {transform: translateX(0); }
+
+
+  /* Hide the submenus by default on mobile */
+  .menu__submenu {
+    display: none;
+  }

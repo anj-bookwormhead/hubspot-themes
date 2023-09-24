@@ -1,0 +1,16 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING", "QUOTE" ],
+  "module_id" : 134569509908,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/main.css",
+    "name" : "main.css"
+  }, {
+    "autoload" : true,
+    "path" : "../../css/output.css",
+    "name" : "output.css"
+  } ],
+  "label" : "Hero Banner FullWidth",
+  "is_available_for_new_content" : true
+}

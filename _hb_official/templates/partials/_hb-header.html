@@ -2,5 +2,32 @@
   templateType: global_partial
   label: HB Header
 -->
-{% module "module_16873322445782" path="/_hb_official/modules/_advanced_menu", label="_advanced_menu" %}
+{{ require_css (get_asset_url('/_hb_official/css/output.css')) }}
+{{ require_css(get_asset_url("/_hb_official/css/child.css")) }}
+<header class="header header-simple-menu">
+
+  <div class="header__simple__container">
+    {# Logo #}
+    <div class="header__logo">
+    <a href="https://hollywoodbranded.com/">
+    {% image "logo" 
+    label="HB Logo", 
+    alt="Hollywood Branded", 
+    src="https://info.hollywoodbranded.com/hs-fs/hubfs/HB%20Red%20Logo.png?width=200&name=HB%20Red%20Logo.png", 
+    width="50" %} 
+  </a>
+  </div>
+    
+
+    
+  <div class="header__menu">
+     {% module "hb menu" path="/_hb_official/modules/menu", label="Hollywood Branded Menu" %}
+  </div>
+ </div>
+
+    {# End logo #}
   
+
+
+</header>
+

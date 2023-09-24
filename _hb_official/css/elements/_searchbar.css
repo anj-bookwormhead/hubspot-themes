@@ -1,0 +1,47 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+
+.hbform form {
+background: white;
+ padding: 5px 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.15);
+    border-radius: 5px;
+  margin: 2rem 0;
+  width: 800px;
+    max-width: 90%;
+}
+
+
+.inner-content{
+  max-width:500px;
+
+}
+
+h2.title-font {
+  color: black;
+  font-size:2.7em;
+
+}
+
+#searchbox {
+    background-image: url('https://blog.hollywoodbranded.com/hubfs/icons8-search.svg')!important;
+    text-align: left;
+    padding-top: 5px;
+    padding-right: 0px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 780px;
+  max-width:98%;
+    margin: 10px 0;
+    border: 0;
+}

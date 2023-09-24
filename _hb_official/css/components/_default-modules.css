@@ -1,3 +1,26 @@
+/*Accordion Module */
+#myaccordion li,
+#myaccordion li span {
+  list-style: disc;
+}
+
+#myaccordion li {
+  margin-left: 1rem;
+
+}
+
+/*Footer */
+.footer-bg {
+ background:{{ theme.footer.background.color.color }};
+ color: {{ theme.footer.text.color.color }};
+}
+
+.footer-bg ul li:hover {
+  opacity:70%;
+ }
+/*end Footer */
+
+
 /* Menu and simple menu */
 
 .hs-menu-wrapper ul {

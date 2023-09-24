@@ -1,0 +1,190 @@
+<!--
+    templateType: blog_listing
+    isAvailableForNewContent: true
+    label: For Testing
+-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ content.html_title }}</title>
+    <meta name="description" content="{{ content.meta_description }}">
+  </head>
+{{ require_css(get_asset_url('./css/child.css')) }}
+{% extends "./layouts/base.html" %}
+
+{% block header %}
+{% global_partial  path="./partials/_hb-header.html" %} 
+{% endblock header %}
+
+
+
+{% block body %}
+<!--------- Hero Banner------>
+<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 ">
+  <img src="https://cdn2.hubspot.net/hubfs/442891/herobanner.jpeg" alt="" class="hero-bg absolute inset-0 -z-10 h-full w-full object-cover">
+  <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="absolute -bottom-8 -left-96 -z-10 transform-gpu blur-3xl sm:-bottom-64 sm:-left-40 lg:-bottom-32 lg:left-8 xl:-left-10" aria-hidden="true">
+      <div class="aspect-[1266/975] w-[79.125rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+    <div class="hero-title mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
+      <h2 class="text-3xl font-semibold leading-8 text-yellow-400">We Bring The Latest Trends</h2>
+      <h1>Pop Culture Brand Partnership News And Insights</h1>
+      <p class="mt-6 text-lg leading-8 text-gray-300">
+       Search our insiders tips and advice on how your brand are leveraging pop culture..
+      <div class="hbform w-full ">
+       <form action="/{{ site_settings.content_search_results_page_path }}">
+        <input id="searchbox" type="search" class="hs-search-field__input" name="term" autocomplete="off" placeholder="Search here...">   </form>
+    </div>
+    </div>
+    <dl class="mx-auto mt-16 grid max-w-2xl gap-x-8 gap-y-10 text-white sm:mt-20 grid-cols-4s sm:gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+      <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+        <dt class="text-sm leading-6">Podcast episodes</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight">300+</dd>
+      </div>
+      <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+        <dt class="text-sm leading-6">Insightful Blogs created</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight">1000+</dd>
+      </div>
+      <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+        <dt class="text-sm leading-6">Lessons created</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight">500+</dd>
+      </div>
+      <div class="flex flex-col gap-y-3 border-l border-white/10 pl-6">
+        <dt class="text-sm leading-6">Paid out to creators</dt>
+        <dd class="order-first text-3xl font-semibold tracking-tight">$70M</dd>
+      </div>
+    </dl>
+  </div>
+</div>
+
+<!---------end Hero Banner------>
+    <main>
+      <!-- Blog Imports -->
+    
+      <div class="bg-white py-24" >|
+       
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+         
+
+         <div class="mx-auto max-w-5xl text-center">
+          {% module_block rich_text "blog_overview" overrideable=True, label="Blog Overview"  %}
+          {% module_attribute "html" %}
+                  <h2 style="font-size:2rem;">Pop Culture Brand Partnership News And Insights</h1>
+                  <p>We believe that bringing brands, content, celebrities and influencers together makes storytelling more meaningful and impactful. 
+                    Our team provides insights to best practices and how brands are leveraging pop culture..</p>
+          {% end_module_attribute %}
+         {% end_module_block %}
+          </div>
+
+          <div class="mx-auto max-w-2xl text-center">
+            
+          </div>
+          <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+           
+           {% for content in contents %}
+            <article class="shadow-md flex flex-col items-start justify-between">
+              <div class="relative w-full">
+                {% if content.featured_image and group.use_featured_image_in_summary %}
+                <img src="{{ content.post_list_summary_featured_image }}" alt="">
+                <div class="absolute inset-0"></div>
+                {% endif %}
+              </div>
+              <div class="max-w-xl" style="padding: 0 1.4rem 2rem 1.4rem;">
+                <div class="mt-8 flex items-center gap-x-1 text-xs pb-4">
+                  {% if content.topic_list %}                   
+                  {% for topic in content.topic_list[0] %}
+                  <span class="relative font-medium">{{ topic.name }} </span> |  <time>{{content.publish_date|datetimeformat('%B %e %Y') }}</time> 
+                   {% if not loop.last %},{% endif %}
+                    {% endfor %}
+                 {% endif %}
+                </div>
+                <div class="group relativ">
+                 
+                  <h2 class="blog-title">
+                    <a href="{{ content.absolute_url }}">
+                    {{ content.name }}
+                    </a>
+                  </h2>
+
+                  <div class="blog-summary">
+                   <span>{{ content.meta_description|truncatehtml(80) }}</span> 
+                  </div>
+                 
+                   {% if content_group.show_summary_in_listing %}
+                  <span>{{ blog_excerpt.body.excerpt }}</span>
+                <div class="relative flex items-center gap-x-8">
+                  {% if content.blog_post_author.avatar %} 
+                  <img src="{{ content.blog_post_author.avatar }}" alt="" class="h-10 w-10 rounded-full bg-gray-100">    
+                  <div class="text-sm leading-6">
+                    <p>
+                      <a href="#">
+                        <span class="absolute inset-0"></span>
+                        {{ content.blog_post_author.display_name }} 
+                      </a>
+                    </p>
+                <span>
+
+                 
+                 {#time read#}
+                 {% set initialPostWords = content.post_body|striptags|wordcount %}
+                              {% set calculatedPostWords = (initialPostWords/100) * 100 %}
+                              {% set finishedPostWords = calculatedPostWords|divide(300)|round(2) %}
+                              {% set number = finishedPostWords|round %}
+                              {% if number < 1 %}
+
+                              {% else %}
+                                {{ finishedPostWords|round }}  min. read
+                              {% endif %}
+                </span>
+                 {# end time read#}
+             
+                  </div>
+                  {% endif %}
+                  {% endif %}
+                </div>
+              </div>
+            </article>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+
+      <!-- end of More posts... -->
+
+        {# Blog pagination #}
+        {% if contents.total_page_count > 1 %}
+          <nav class="blog-pagination" aria-label="Pagination" role="navigation">
+            {% set page_list = [-2, -1, 0, 1, 2] %}
+            {% if contents.total_page_count - current_page_num == 1 %}{% set offset = -1 %}
+            {% elif contents.total_page_count - current_page_num == 0 %}{% set offset = -2 %}
+            {% elif current_page_num == 2 %}{% set offset = 1 %}
+            {% elif current_page_num == 1 %}{% set offset = 2 %}
+            {% else %}{% set offset = 0 %}{% endif %}
+
+            <a class="blog-pagination__link blog-pagination__prev-link {{ 'blog-pagination__prev-link--disabled' if !last_page_num }}"{% if last_page_num %} href="{% if current_page_num == 2 %}{{ group.absolute_url }} {% else %}{{ blog_page_link(last_page_num) }}{% endif %}" rel="prev"{% else %} aria-disabled="true" disabled {% endif %} role="button" aria-label="Go to previous page">
+              Prev
+            </a>
+            {% for page in page_list %}
+              {% set this_page = current_page_num + page + offset %}
+              {% if this_page > 0 and this_page <= contents.total_page_count %}
+                <a class="blog-pagination__link blog-pagination__number-link {{ 'blog-pagination__link--active' if this_page == current_page_num }}" aria-label="Go to Page {{ this_page }}" {% if this_page == current_page_num %}aria-current="true"{% endif %} href="{% if this_page == 1 %}{{ group.absolute_url }}{% else %}{{ blog_page_link(this_page) }}{% endif %}">{{ this_page }}</a>
+              {% endif %}
+            {% endfor %}
+            <a class="blog-pagination__link blog-pagination__next-link {{ 'blog-pagination__next-link--disabled' if !next_page_num }}"{% if next_page_num %} href="{{ blog_page_link(current_page_num + 1) }}"  rel="prev" {% else %} aria-disabled="true" disabled {% endif %} role="button" aria-label="Go to next page">
+              Next
+            </a>
+          </nav>
+        {% endif %}
+        {# End blog pagination #}
+
+      </div>
+
+      
+    </main>
+    {% endblock body %}
+
+    {% block footer %}
+    {% global_partial path="./partials/footer.html" %}
+   {% endblock footer %}
+</html>

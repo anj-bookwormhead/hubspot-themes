@@ -3,6 +3,12 @@
   display: inline-block;
 }
 
+.hs-menu-wrapper ul li {
+  margin-left: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 /* Header DND sections */
 
 .header .dnd-section {

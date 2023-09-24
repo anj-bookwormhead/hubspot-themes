@@ -1,0 +1,26 @@
+.sidebar-container {
+padding:1rem 0;
+}
+
+.input input,
+.input select {
+    background: #f7f4f4;
+    min-width: 100%;
+}
+
+input.hs-button.primary.large {
+    background: red;
+    width: 100%;
+    padding: 0.8rem;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input.hs-button.primary.large:hover {
+    background: #FF007F;
+    
+}
+
+
+

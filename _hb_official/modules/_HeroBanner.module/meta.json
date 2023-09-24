@@ -1,0 +1,7 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE", "BLOG_POST" ],
+  "module_id" : 122509421361,
+  "label" : "Hero Banner",
+  "is_available_for_new_content" : true
+}

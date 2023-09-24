@@ -1,0 +1,151 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+.header--landing-page .header__container {
+  justify-content: left;
+}
+
+header.header.header-simple-menu {
+    box-shadow: 8px 5px 10px rgb(0,0,0,.07);
+    width: 100vw;
+    margin-top: -1rem;
+    background: white;
+   
+}
+
+
+.header__simple__container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 0 auto;
+    max-width: 95%;
+    width: 1100px;
+}
+
+.header__menu {
+  justify-self:  end ;
+  align-self: center;
+}
+
+
+/*Blog Listing */
+.body-container--blog-post{
+  width: 880px;
+  margin: 3rem auto;
+  max-width: 90%;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap:1rem;
+}
+
+/* Article Typography */
+
+article.blog-post {
+  width:500px;
+  max-width:90%;
+}
+article.blog-post h1, article.blog-post h1 span {
+  font-size: 2rem!important;
+  line-height:1!important;
+ 
+}
+
+
+article.blog-post h2, 
+article.blog-post span h2, 
+article.blog-post h2 span {
+    color: #f72110!important;
+    font-size: 1.6rem!important;
+    line-height: 2rem!important;
+    padding-top: 1rem!important;
+    font-weight: normal!important;
+}
+
+
+article.blog-post ul,
+article.blog-post ol,
+article.blog-post p,
+article.blog-post p span,
+article.blog-post span p,
+article.blog-post span {
+  font-size:0.9rem!important;
+  line-height:1.2rem;
+  padding-bottom: 1rem;
+
+}
+
+
+article.blog-post ul li {
+  list-style: disc;
+  margin-left: 2rem;
+  margin-top: 5px;
+ font-size:0.9rem!important;
+}
+
+article.blog-post ol li {
+   list-style: auto; 
+  margin-left: 2rem;
+  margin-top: 5px;
+font-size:0.9rem!important;
+}
+
+.blog-post__meta {
+  font-size: 0.7rem;
+  
+}
+
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+@media (max-width:767px) {
+
+.content-wrapper {
+    display:block;
+  }
+
+article.blog-post h1, article.blog-post h1 span{
+    font-size: 1.6rem!important;
+ 
+  }
+
+
+article.blog-post h2, 
+article.blog-post span h2, 
+article.blog-post h2 span {
+    font-size: 1.2rem!important;
+    line-height:1.5rem!important;
+  
+  }
+
+
+
+article.blog-post ol li, 
+article.blog-post ul li,
+article.blog-post ul,
+article.blog-post p,
+article.blog-post p span,
+article.blog-post span p,
+article.blog-post span {
+  font-size: 0.7rem!important;
+  line-height:1rem!important;
+
+}
+  
+}
+
+
+

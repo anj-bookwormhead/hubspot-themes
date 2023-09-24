@@ -1,0 +1,37 @@
+<!--
+  templateType: error_page
+  isAvailableForNewContent: true
+  label: HB 500 Page
+-->
+
+
+
+{% set pageTitle = "500 Error | Something Went Wrong!" %}
+{% extends "./layouts/base.html" %}
+{{ require_css(get_asset_url('../css/output.css')) }}
+
+
+{% block header %}
+{% global_partial  path="./partials/_hb-header.html" %} 
+{% endblock header %}
+
+{% block body clas="full_red" %}
+<div class="system_wrapper">
+ <div align="center" style="margin:2rem auto;">
+  <img src=" {{ get_asset_url('../images/500_error.png') }}"></div>
+ <h1 style="text-align: center;"><span style="color: #f72110;">SOMETHING </span><span style="color: #ff007f;"> WENT WRONG.</span></h1>
+ <p style="text-align:center;">  Server error 500. We apologize for the inconvenience and are fixing the problem. Please try again at a later stage.</p> 
+  <div align="center" style="margin-bottom:8rem;">
+      <button class="system" a href="https://blog.hollywoodbranded.com/">GO BACK TO BLOG </button>
+    </div>
+</div>
+
+  
+
+
+<div class="bar-colors"> </div>
+{% endblock body %}
+
+{% block footer %}
+{% global_partial path="./partials/footer.html" %}
+{% endblock footer %}

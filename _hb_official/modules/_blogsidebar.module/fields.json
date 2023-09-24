@@ -1,0 +1,69 @@
+[ {
+  "id" : "2261c9c1-84ae-631d-eee2-de2b5b8676e3",
+  "name" : "cta_1",
+  "display_width" : null,
+  "label" : "CTA 1",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "abae3d86-727c-45de-b8cc-4dc4166910c1"
+}, {
+  "id" : "8489abad-f147-16cf-a288-c314c99c95d1",
+  "name" : "form_field",
+  "display_width" : null,
+  "label" : "Form",
+  "required" : false,
+  "locked" : true,
+  "type" : "form",
+  "default" : {
+    "form_id" : "396ba875-1780-487f-82e4-1ebedf02344f",
+    "response_type" : "inline",
+    "message" : "Thanks for submitting the form.",
+    "gotowebinar_webinar_key" : null
+  }
+}, {
+  "id" : "4c76e0dd-de26-6c5e-1f9f-509b3f31cd45",
+  "name" : "cta_field",
+  "display_width" : null,
+  "label" : "CTA 2",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "dd07a5cd-8e18-41c8-9092-a04942dff37a"
+}, {
+  "id" : "42e3dc54-6aea-38f1-0351-5bae9f110839",
+  "name" : "cta_3",
+  "display_width" : null,
+  "label" : "CTA 3",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "dd07a5cd-8e18-41c8-9092-a04942dff37a"
+}, {
+  "id" : "83ba926d-31ca-c3cf-4906-f32b8576b611",
+  "name" : "cta_4",
+  "display_width" : null,
+  "label" : "CTA 4",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "dd07a5cd-8e18-41c8-9092-a04942dff37a"
+}, {
+  "id" : "069bb947-3750-452e-1ad1-caedae14d942",
+  "name" : "cta_5",
+  "display_width" : null,
+  "label" : "CTA 5",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "a250a541-36bd-443a-ae8a-c1b59ff8dc67"
+}, {
+  "id" : "0fe73e2b-2242-4892-d0c4-d8ab1653c0a4",
+  "name" : "cta_6",
+  "display_width" : null,
+  "label" : "CTA 6",
+  "required" : false,
+  "locked" : true,
+  "type" : "cta",
+  "default" : "f7458ccd-8094-47f6-b72f-19addb00dd33"
+} ]

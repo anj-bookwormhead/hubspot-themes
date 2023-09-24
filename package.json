@@ -8,7 +8,7 @@
     "gitpush1": "git pull origin main && git add . && git commit -m \"Your commit message\" && git push origin main",
     "hsupload": "hs upload \"_hb_official\" \"_hb_official\" ",
     "hswatch": "hs watch \"_hb_official\" \"_hb_official\" ",
-    "hsfetch": "hs fetch \"_hb_official\" \"_hb_official\" ",
+    "hsfetch": "hs fetch \"_hb_official\" \"_hb_official\" --overwrite ",
     "tailrun": "npx tailwindcss -i ./tailwind/css/main.css -o ./_hb_official/css/output.css --watch",
     "tailrun1": "npx tailwindcss -i 'tailwind/css/components/_header.css' -o '_hb_official/css/components/_header.css' --watch"
   },

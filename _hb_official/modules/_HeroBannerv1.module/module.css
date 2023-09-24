@@ -1,0 +1,73 @@
+.hero-banner-double img {
+    margin: 0 auto;
+    position: relative;
+    display: inherit;
+    margin-top: 4rem;
+    max-width:80%;
+    z-index:9;
+    padding-top:4rem;
+    transition: width 2s linear 1s;
+}
+
+.hero-banner-double { 
+    background-image: linear-gradient(180deg,#000 70%,hsl(0deg 0% 100% / 50%) 0);
+    position: absolute;
+    min-height: 480px;
+    top: 75px;
+    width: 100vw;
+    left: 0;
+    overflow: hidden;
+}
+
+
+.bar-colors-bottom{
+ bottom: 50%;
+ left:0;
+}
+
+.bar-colors-top{
+ top: 0;
+}
+
+.bar-colors-top, .bar-colors-bottom {
+ width: 100vw;
+    background-image: linear-gradient(90deg,
+      #f72119,#f72119 5.5%,
+      #ff007f 0,#ff007f 11%,
+      #ff5f1f 0,#ff5f1f 16.5%,
+      #eb18ef 0,#eb18ef 22%,
+      #59c2ff 0,#59c2ff 27.5%,
+      #6cf600 0,#6cf600 33%,
+      #fff239 0,#fff239,
+      #f72119 10%,#f72119 0, 
+      #ff007f 0,#ff007f 38.5%,
+      #ff5f1f 0,#ff5f1f 44%, 
+      #eb18ef 0,#eb18ef 49.5%,
+      #59c2ff 0,#59c2ff 55%,
+      #6cf600 0,#6cf600 59.5%,  
+      #f72119 10%,#f72119 0,   
+      #ff007f 0,#ff007f 65%,
+      #ff5f1f 0,#ff5f1f 71.5%,
+      #eb18ef 0,#eb18ef 76.5%,
+      #59c2ff 0,#59c2ff 82%,
+      #F72119 0,#F72119 87.5%,
+      #6cf600 0,#6cf600 93%,
+      #fff239 0,#fff239
+    );
+    height:50px;
+    background-size: 880px 180px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+@media(max-width:767px) {
+  .bar-colors-top, .bar-colors-bottom 
+  {
+    height:40px;
+  }
+}

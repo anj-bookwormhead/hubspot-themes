@@ -1,3 +1,13 @@
-ul li.hs-menu-item.hs-menu-depth-1 {
-    display: inline-block;
+.hs-menu-wrapper ul {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.hs-menu-wrapper ul li:first-child {
+    margin-left:0;
+}
+
+
+.hs-menu-wrapper ul li {
+    margin-left:1rem;
 }

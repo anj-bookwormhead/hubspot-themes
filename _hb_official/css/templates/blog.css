@@ -1,4 +1,64 @@
-/* Blog post */
+/*
+
+1. HubSpot Blog Listing
+
+
+
+*/
+
+
+/* 1. HubSpot Blog Listing */
+
+h2.blog-title {
+  font-size: 1.3rem;
+  color: #353131;
+}
+
+.blog-summary h1,.blog-summary h1 span,
+.blog-summary h2,.blog-summary h2 span,
+.blog-summary h3, .blog-summary h3 span {
+  display:none;
+}
+
+.blog-summary * {
+  font-size: 0.85rem;
+}
+
+nav.blog-pagination {
+  display: block;
+  margin: 0rem auto 5rem auto;
+  text-align: center;
+}
+
+
+
+
+/* Blog Listing */
+img.hero-bg {
+  filter: brightness(0.25);
+}
+.hero-title h1 {
+  font-size:3rem;
+  color:white;
+  line-height:1;
+
+}
+
+.grid-cols-4s{
+  grid-template-columns: repeat(4,minmax(0,1fr));
+}
+
+@media(max-width:1000px) {
+  .grid-cols-4s {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }}
+
+
+/* end of 1. HubSpot Blog Listing */
+
+
+
+/* HubSpot Blog post boilerplate  */
 
 .blog-post {
   margin: 0 auto;
@@ -88,3 +148,4 @@
   background-color: transparent;
   text-decoration: underline;
 }
+/* end HubSpot Blog post boilerplate  */

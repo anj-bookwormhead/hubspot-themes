@@ -1,0 +1,136 @@
+[ {
+  "id" : "db47d9da-6584-6345-4ce2-4d05fadd3e91",
+  "name" : "headline_choice",
+  "display_width" : null,
+  "label" : "Headline Choice",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "a5ce8dec-a7d9-f269-a621-6dc992a05c4d",
+    "name" : "choice_headline",
+    "display_width" : null,
+    "label" : "Choice",
+    "required" : false,
+    "locked" : false,
+    "display" : "radio",
+    "choices" : [ [ "image", "Image" ], [ "text", "Text" ] ],
+    "multiple" : false,
+    "reordering_enabled" : true,
+    "preset" : null,
+    "type" : "choice",
+    "default" : "image"
+  }, {
+    "id" : "8e09a52c-fd29-343b-af48-d0e5f0c0d2f5",
+    "name" : "headline_image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "visibility" : {
+      "controlling_field" : null,
+      "controlling_field_path" : "headline_choice.choice_headline",
+      "controlling_value_regex" : "image",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://blog.hollywoodbranded.com/hubfs/Hollywood%20Branded%20logo%20(2).png",
+      "alt" : "Hollywood Branded logo ",
+      "loading" : "lazy",
+      "width" : 540,
+      "height" : 100,
+      "max_width" : 540,
+      "max_height" : 100
+    }
+  }, {
+    "id" : "9ca5cff5-7e06-1074-6913-aaffd03c38df",
+    "name" : "headline",
+    "display_width" : null,
+    "label" : "Headline",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "visibility" : {
+      "controlling_field" : null,
+      "controlling_field_path" : "headline_choice.choice_headline",
+      "controlling_value_regex" : "text",
+      "property" : null,
+      "operator" : "EQUAL",
+      "access" : null
+    },
+    "placeholder" : "Type your headline here..",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Pop Culture Brand Partnership News And Insights"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "choice_headline" : "image",
+    "headline_image" : {
+      "size_type" : "auto",
+      "src" : "https://blog.hollywoodbranded.com/hubfs/Hollywood%20Branded%20logo%20(2).png",
+      "alt" : "Hollywood Branded logo ",
+      "loading" : "lazy",
+      "width" : 540,
+      "height" : 100,
+      "max_width" : 540,
+      "max_height" : 100
+    },
+    "headline" : "Pop Culture Brand Partnership News And Insights"
+  }
+}, {
+  "id" : "48d35b10-3531-51ad-1de7-03c0cd7c3ee6",
+  "name" : "background_image",
+  "display_width" : null,
+  "label" : "Background Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://blog.hollywoodbranded.com/hubfs/Team%20Axe%20Throwing.png",
+    "alt" : "Team Axe Throwing",
+    "loading" : "lazy",
+    "width" : 1080,
+    "height" : 1080,
+    "max_width" : 1080,
+    "max_height" : 1080
+  }
+}, {
+  "id" : "c153006c-31c0-4dc0-4169-ce6c20c3cc58",
+  "name" : "sub_headline",
+  "display_width" : null,
+  "label" : "Sub Headline",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "Type your headline here..",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "We Bring The Latest Trends"
+}, {
+  "id" : "89528e6d-947b-0c92-5a6b-f0493380d33e",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Celebrate with us as we mark our 16th anniversary alongside Hollywood Branded. Join our journey through the dynamic realms of brand integration and marketing strategies. Explore the influence of product placement, celebrity endorsements, influencer marketing, event activations, celebrity seeding, and strategic planning, as we showcase the keys to our enduring success. "
+} ]

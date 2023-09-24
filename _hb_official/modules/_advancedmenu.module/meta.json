@@ -4,8 +4,8 @@
   "module_id" : 121587869812,
   "css_assets" : [ {
     "autoload" : true,
-    "path" : "../../../Child Theme 2022/HB Theme 2022/css/blog-style-minified.css",
-    "name" : "blog-style.css"
+    "path" : "../../../_official_themes/theme_v2/dist/output.css",
+    "name" : "output.css"
   } ],
   "label" : "Menu",
   "is_available_for_new_content" : true

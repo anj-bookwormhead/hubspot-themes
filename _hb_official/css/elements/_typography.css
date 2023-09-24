@@ -1,6 +1,7 @@
 body {
   line-height: 1.4;
   overflow-wrap: break-word;
+  font-family: {{ theme.global_fonts.secondary.font }};
 }
 
 html[lang^="ja"] body,
@@ -32,7 +33,25 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 1.4rem;
+  margin: 0;
+  font-family: {{ theme.global_fonts.primary.font }};
+  line-height:1;
+}
+
+/* To edit 6-26-23 */
+h1 {
+  font-size: 3rem;
+
+}
+
+h2,h2 span  {
+    font-size: 2.6rem;
+   
+}
+
+h3 {
+  font-size: 2rem;
+
 }
 
 /* Lists */
@@ -45,7 +64,8 @@ ol {
 ul ul,
 ol ul,
 ul ol,
-ol ol {
+ol ol,
+li span {
   margin: 0;
 }
 
@@ -54,6 +74,8 @@ ul.no-list {
   margin: 0;
   padding-left: 0;
 }
+
+
 
 /* Code blocks */
 
@@ -85,4 +107,29 @@ hr {
 img {
   font-size: 0.583rem;
   word-break: normal;
+}
+
+
+@media(max-width:767px) {
+
+h1 {
+    font-size: 2.6rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p {font-size:0.8rem; }
+
+}
+
+/*Footer */
+footer ul h3 {
+    font-size: 1.4rem;
 }

@@ -1,0 +1,79 @@
+[ {
+  "id" : "592477b1-6698-a9aa-f47f-e5747e933a2b",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "9fb8ce9f-b116-4f8c-51ce-9cc88772bd60",
+    "name" : "spacing",
+    "display_width" : null,
+    "label" : "Spacing",
+    "required" : false,
+    "locked" : false,
+    "type" : "spacing",
+    "default" : {
+      "padding" : {
+        "top" : {
+          "value" : 22,
+          "units" : "px"
+        },
+        "bottom" : {
+          "value" : 22,
+          "units" : "px"
+        },
+        "left" : {
+          "value" : 22,
+          "units" : "px"
+        },
+        "right" : {
+          "value" : 22,
+          "units" : "px"
+        }
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "spacing" : {
+      "padding" : {
+        "top" : {
+          "value" : 22,
+          "units" : "px"
+        },
+        "bottom" : {
+          "value" : 22,
+          "units" : "px"
+        },
+        "left" : {
+          "value" : 22,
+          "units" : "px"
+        },
+        "right" : {
+          "value" : 22,
+          "units" : "px"
+        }
+      }
+    }
+  }
+}, {
+  "id" : "4c4a2745-1028-f8a3-3742-a1221e2ce450",
+  "name" : "hb_image",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+} ]

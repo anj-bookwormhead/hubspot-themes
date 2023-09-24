@@ -1,0 +1,24 @@
+
+<div class="bar-colors{{ name }}"> </div>
+
+
+
+{% require_css %}
+<style>
+{% scope_css %}
+
+.bar-colors{{ name }} {
+{{ module.styles.spacing.css }};
+  background-image: linear-gradient(90deg,#f72110,#f72110 14.2857%,#ff007f 0,#ff007f 28.5714%,#ff5f1f 0,#ff5f1f 42.8571%,#eb18ef 0,#eb18ef 57.1429%,#59c2f0 0,#59c2f0 71.4286%,#6cf600 0,#6cf600 85.7143%,#fff239 0,#fff239);
+    background-size: 400px 60px;
+    height: 60px;
+    position: relative;
+    width: 100vw;
+    background-repeat: repeat-x;
+}
+{% end_scope_css %}
+</style>
+{% end_require_css %}
+
+
+

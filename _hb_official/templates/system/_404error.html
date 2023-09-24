@@ -1,0 +1,40 @@
+<!--
+  templateType: error_page
+  isAvailableForNewContent: true
+  label: HB 404 Page
+-->
+
+
+{% set pageTitle = "Error 404 | Page not found" %}
+{% extends "./layouts/base.html" %}
+{{ require_css(get_asset_url('../css/output.css')) }}
+
+
+{% block header %}
+{% global_partial  path="./partials/_hb-header.html" %} 
+{% endblock header %}
+
+{% block body %}
+
+
+<div class="system_wrapper">
+ <div align="center" style="margin:2rem auto;">
+  <img src=" {{ get_asset_url('../images/error_page.gif') }}"></div>
+ <h1 style="text-align: center;"><span style="color: #f72110;">OPPS! </span><span style="color: #ff007f;">PAGE NOT FOUND</span></h1>
+ <p style="text-align:center;">  Sorry, but the page you are looking for is not found. Please, make sure you have type the current URL</p> 
+  <div class="hbform w-full" align="center" style="margin-bottom:8rem;">
+       <form action="/{{ site_settings.content_search_results_page_path }}">
+        <input id="searchbox" type="search" class="hs-search-field__input" name="term" autocomplete="off" placeholder="Search here...">   </form>
+    </div>
+</div>
+
+  
+
+
+<div class="bar-colors"> </div>
+{% endblock body %}
+
+{% block footer %}
+{% global_partial path="./partials/footer.html" %}
+{% endblock footer %}
+  

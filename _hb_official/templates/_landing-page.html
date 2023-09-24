@@ -7,26 +7,25 @@
 {% extends "./layouts/base.html" %}
 {{ require_css(get_asset_url('../css/output.css')) }}
 
-{% block header %}
-  {% global_partial  path="./partials/_hb-header.html" %}
 
-  <div class="hero-banner" background-url>
-    <div class="bar-colors"> </div>
-     <img src="_hb_official/images/email.png" alt="">
-   </div>
-    <div style="padding-bottom:180px;"> </div>
-   
-
-    
-{% endblock header %}
+ {% block header %}
+ {% endblock header %}
 
 {% block body %}
-  {% dnd_area "dnd_area"
+{% dnd_section %}
+{% include_dnd_partial path='../sections/hero-banner.html'%}
+{% end_dnd_section %}
+
+{% dnd_area "dnd_area"
     label="Body Section",
-    class="hbpage-container"
-  %}
-  {% module "linked_image" path="@hubspot/linked_image" %}
-    {% dnd_section %}
+   
+%}
+
+    {% dnd_section "section_area"
+        full_width=false,
+         max_width=1200,
+         vertical_alignment="TOP"
+      %}
       {% dnd_column %}
         {% dnd_row %}
           {% module "linked_image" path="@hubspot/linked_image" %}
@@ -36,6 +35,8 @@
   {% end_dnd_area %}
 {% endblock body %}
 
-{% block footer %}
-{% module "module_16873568709411" path="/_hb_official/modules/_hbfooter", label="_hbfooter" %}
-{% endblock footer %}
+  {% block footer %}
+    {% global_partial path="./partials/footer.html" %}
+   {% endblock footer %}
+  
+

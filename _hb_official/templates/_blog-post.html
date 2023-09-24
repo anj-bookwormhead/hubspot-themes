@@ -1,0 +1,58 @@
+<!--
+  templateType: blog_post
+  isAvailableForNewContent: true
+  label: Hollywood Branded Inner Blog 2023
+  screenshotPath: ../images/template-previews/blog-post.png
+-->
+
+{% extends "./layouts/base.html" %}
+{{ require_css(get_asset_url('./css/child.css')) }}
+
+{% block header %}
+ {% global_partial  path="./partials/_hb-header.html" %} 
+{% endblock header %}
+
+
+{% block body %}
+
+
+
+<div class="body-container body-container--blog-post">
+  {# Blog post #}
+  <div class="content-wrapper">
+    <article class="blog-post">
+      <h1>{{ content.name }} </h1>
+      <div class="blog-post__meta">
+        <a href="{{ blog_author_url(group.id, content.blog_post_author.slug) }}" rel="author">
+          {{ content.blog_post_author.display_name }} | 
+        </a>
+        <time datetime="{{ content.publish_date }}" class="blog-post__timestamp">
+          {{ content.publish_date_localized }}
+        </time>
+      </div>
+     {% module "module_169115191122023" path="/_hb_official/modules/_tableofcontent", label="_tableofcontent" %}
+      <div class="blog-post__body">
+        {% if is_in_editor  %}  
+               {{ content.post_body }}  
+                {% else %}
+                <div id="contents"> {{ content.post_body }}    </div>
+              {% endif %} 
+      </div>
+      
+    </article>
+
+    <div class="blog-sidebar">
+
+      {% module_block module "module_16911331249774" path="/_hb_official/modules/_blogsidebar", label="_blogsidebar" %} {% end_module_block %}
+    </div>
+    </div>
+
+
+  </div>
+{% endblock body %}
+
+{% block footer %}
+  {% global_partial path="./partials/footer.html" %}
+{% endblock footer %}
+
+

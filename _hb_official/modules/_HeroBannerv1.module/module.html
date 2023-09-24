@@ -1,0 +1,20 @@
+<div class="hero-wrapper">
+<div class="hero-banner-double">
+
+ <div class="bar-colors-top"> </div>
+
+{% if module.hb_image.src %}
+	{% set sizeAttrs = 'width="{{ module.hb_image.width }}" height="{{ module.hb_image.height }}"' %}
+	{% if module.hb_image.size_type == 'auto' %}
+		{% set sizeAttrs = 'width="{{ module.hb_image.width }}" height="{{ module.hb_image.height }}" style="max-width: 100%; height: auto;"' %}
+	{% elif module.hb_image.size_type == 'auto_custom_max' %}
+		{% set sizeAttrs = 'width="{{ module.hb_image.max_width }}" height="{{ module.hb_image.max_height }}" style="max-width: 100%; height: auto;"' %}
+	{% endif %}
+	 {% set loadingAttr = module.hb_image.loading != 'disabled' ? 'loading="{{ module.hb_image.loading }}"' : '' %}
+	<img src="{{ module.hb_image.src }}" alt="{{ module.hb_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+{% endif %}
+</div>
+ <div class="bar-colors-bottom"></div>
+
+ <div style="padding-bottom:430px;"> </div>
+</div>

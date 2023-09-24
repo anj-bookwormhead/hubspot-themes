@@ -2,42 +2,47 @@
   templateType: global_partial
   label: Footer
 -->
-<footer class="footer">
-  {% dnd_area "footer"
-    label="Footer",
-    class="footer__container content-wrapper"
-  %}
 
-    {# Social follow and copyright #}
+{{ require_css (get_asset_url('/_hb_official/css/output.css')) }}
 
-    {% dnd_section %}
-      {% dnd_column %}
-        {% dnd_row %}
-          {% dnd_module path="../../modules/social-follow" %}
-            {% module_attribute "social_link" is_json=True %}
-              [
-                {"social_account": "facebook-f"},
-                {"social_account": "linkedin-in"},
-                {"social_account": "twitter"},
-                {"social_account": "instagram"}
-              ]
-            {% end_module_attribute %}
-          {% end_dnd_module %}
-        {% end_dnd_row %}
-        {% dnd_row
-          margin={
-            "top": 12,
-            "bottom": 12
-          }
-        %}
-          {% dnd_module
-            path="@hubspot/rich_text",
-            html='<div style="text-align: center; font-size: 0.7rem;"><span>© {{ year }} All rights reserved.</span></div>'
-          %}
-          {% end_dnd_module %}
-        {% end_dnd_row %}
-      {% end_dnd_column %}
-    {% end_dnd_section %}
 
-  {% end_dnd_area %}
-</footer>
+
+ <footer class="footer-bg" aria-labelledby="footer-heading">
+        <h2 id="footer-heading" class="sr-only">Footer</h2>
+        <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+          <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+            {% module "company_logo" path="@hubspot/linked_image", label="Company Logo", class="h-7" %}
+            <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+              <div class="md:grid md:grid-cols-2 md:gap-8">
+                <div>
+            
+                  {% module "menu1" path="/_hb_official/modules/_menulist", label="Menu 1" %}
+                </div> 
+                <div class="mt-10 md:mt-0">
+                 {% module "menu2" path="/_hb_official/modules/_menulist", label="Menu 2" %}
+                </div>
+              </div>
+              <div class="md:grid md:grid-cols-2 md:gap-8">
+                <div>  
+                 {% module "menu3" path="/_hb_official/modules/_menulist", label="Menu 3" %}
+                </div>
+                <div class="mt-10 md:mt-0">
+                  {% module "menu4" path="/_hb_official/modules/_menulist", label="Menu 4" %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+
+
+
+
+      
+
+
+
+
+    
+

@@ -4,8 +4,8 @@
   <style>
     {% scope_css %}
 
+  
       {# Menu items - top level #}
-
       {% if module.styles.text.color.color %}
         .menu__link {
           color: {{ module.styles.text.color.color }};
@@ -99,8 +99,8 @@
       {% if link.children %}
         {% if depth and depth < module.max_levels %}
           <button class="menu__child-toggle no-button" aria-expanded="false">
-            <span class="show-for-sr">Show submenu for {{ link.label }}</span>
-            <span class="menu__child-toggle-icon"></span>
+         {#   <span class="show-for-sr">Show submenu for {{ link.label }}</span> #}
+           <span class="menu__child-toggle-icon"></span>
           </button>
           <ul class="menu__submenu menu__submenu--level-{{ depth + 1 }} no-list">
             {% set depth = depth + 1 %}
@@ -128,9 +128,18 @@
 </nav>
 
 {# Mobile menu #}
+<button class="menu__hamburger-btn" aria-label="Toggle Menu">
+  <span class="menu__hamburger-icon"></span>
+</button>
 
 <nav class="menu menu--mobile" aria-label="Main menu">
   <ul class="menu__wrapper no-list">
+<button class="x-icon">
+  <svg fill="#000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+    <path d="M15.707 8.293c-.391-.391-1.023-.391-1.414 0l-3.293 3.293-3.293-3.293c-.391-.391-1.023-.391-1.414 0s-.391 1.023 0 1.414l3.293 3.293-3.293 3.293c-.391.391-.391 1.023 0 1.414s1.023.391 1.414 0l3.293-3.293 3.293 3.293c.391.391 1.023.391 1.414 0s.391-1.023 0-1.414l-3.293-3.293 3.293-3.293c.391-.391.391-1.023 0-1.414z"/>
+  </svg>
+</button>
+
     {{ menu_items() }}
   </ul>
 </nav>

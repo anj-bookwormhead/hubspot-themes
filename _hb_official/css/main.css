@@ -16,6 +16,7 @@ This is where reset, normalize & box-sizing styles go.
 Non-cosmetic design patterns including grid and layout classes)
 */
 
+
 {% include './objects/_layout.css' %}
 {% include './objects/_containers-dnd.css' %}
 
@@ -28,6 +29,7 @@ Base HMTL elements are styled in this section (<body>, <h1>, <a>, <p>, <button> 
 {% include './elements/_forms.css' %}
 {% include './elements/_tables.css' %}
 {% include './elements/_herobanner.css' %}
+{% include './elements/_searchbar.css' %}
 
 
 /* Components
@@ -42,3 +44,11 @@ Helper classes with ability to override anything that comes before it
 */
 
 {% include './utilities/_helper.css' %}
+
+
+/* Templates
+Templates for blog
+*/
+
+{% include './templates/blog.css' %}
+{% include './templates/system.css' %}

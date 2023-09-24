@@ -1,0 +1,18 @@
+<div class="sidebar-container"> {% cta guid="{{ module.cta_1 }}" %} </div>
+
+<div class="sidebar-container"> {% cta guid="{{ module.cta_field }}" %} </div>
+<div class="sidebar-container">
+{% form
+	form_to_use="{{ module.form_field.form_id }}"
+	response_response_type="{{ module.form_field.response_type }}"
+	response_message="{{ module.form_field.message }}"
+	response_redirect_id="{{ module.form_field.redirect_id }}"
+	response_redirect_url="{{module.form_field.redirect_url}}"
+	gotowebinar_webinar_key="{{ module.form_field.gotowebinar_webinar_key }}"
+%}</div>
+
+<div class="sidebar-container"> {% cta guid="{{ module.cta_3 }}" %} </div>
+<div class="sidebar-container"> {% cta guid="{{ module.cta_4 }}" %} </div>
+<div class="sidebar-container"> {% cta guid="{{ module.cta_5 }}" %} </div>
+<div class="sidebar-container"> {% cta guid="{{ module.cta_6 }}" %} </div>
+
